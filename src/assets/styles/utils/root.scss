@@ -11,10 +11,13 @@ body,
 html {
   width: 100%;
   min-height: 100%;
+  background-color: map-get($brands-primary, "beige");
 }
 
 body {
-  h1{
-    text-align: center;
+  h1 {
+    font-size: 120px;
+    line-height: 182px;
+    font-family: "Kudryashev-Display";
   }
 }

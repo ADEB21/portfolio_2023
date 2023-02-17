@@ -1,0 +1,79 @@
+{
+  "colorMapGet": {
+    "prefix": "mapgetcolor",
+    "body": [
+      "${1|color,background-color,border-top-color,border-bottom-color,border-left-color,border-right-color,margin-top,margin-right,margin-bottom,margin-left,padding-top,padding-right,padding-bottom,padding-left|}: map-get(${2|$brands-primary|} , ${3|\"black\",\"gray\",\"lightGray\",\"lightGray-\"|} );"
+    ],
+    "scope": "scss"
+  },
+  "spacingMapGet": {
+    "prefix": "mapgetspacing",
+    "body": [
+      "${1|margin-top,margin-right,margin-bottom,margin-left,padding-top,padding-right,padding-bottom,padding-left|}: map-get(${2|$spacing-desktop,$spacing-mobile|} , ${3|\"xxxl\",\"xxl\",\"xl\",\"l\",\"m\",\"s\",\"xs\",\"xxs\"|} );"
+    ],
+    "scope": "scss"
+  },
+  "shortSpacingMapGet": {
+    "prefix": "mapgetshortspacing",
+    "body": [
+      "${1|margin-top,margin-right,margin-bottom,margin-left,padding-top,padding-right,padding-bottom,padding-left|}: map-get(${2|$spacing-short|} , ${3|\"xxxl\",\"xxl\",\"xl\",\"l\",\"m\",\"s\",\"xs\",\"xxs\"|} );"
+    ],
+    "scope": "scss"
+  },
+  "mixinMq": {
+    "prefix": "includemq",
+    "body": [
+      "@include mq(${1|\"phone-small\",\"tablet\",\"tablet-wide\",\"desktop\",\"desktop-wide\"|}, ${2|max,min|}) {",
+      " ${0}",
+      "}"
+    ],
+    "scope": "scss"
+  },
+
+  "mixinGrid": {
+    "prefix": "includegrid",
+    "body": [
+      "@include grid(",
+      "  map-get(${1|$layout-desktop,$layout-mobile|}, column-number),",
+      "  map-get(${2|$layout-desktop,$layout-mobile|}, column-spacing),",
+      "  map-get(${3|$layout-desktop,$layout-mobile|}, margin)",
+      ");"
+    ],
+    "scope": "scss"
+  },
+
+  "fontFace": {
+	"prefix": "fontface",
+	"body": [
+	  "@font-face {",
+	  "    font-family: \"\";",
+	  "    src: url(\"\");",
+	  "    font-weight: normal;",
+	  "    font-style: normal;",
+	  "    font-display: block;",
+	  "}"
+	],
+  "scope": "scss"
+  },
+
+  "storybook": {
+    "prefix": "storybook",
+    "body": [
+      "import React from \"react\";",
+      "import ${1:component} from \"${2:path}\";",
+      "",
+      "export default {",
+      "  title: \"${3|Introduction,Primitives,Atomes,Molécules,Organismes,Templates|}/${4:name}\",",
+      "  component: ${1:component},",
+      "};",
+      "",
+      "const Template = (args) => <${1:component} {...args} />;",
+      "",
+      "export const ${5:Primary} = Template.bind({});",
+      "${5:Primary}.args = {",
+      "  ${0}",
+      "};"
+    ],
+    "description": "storybook",
+  }
+}

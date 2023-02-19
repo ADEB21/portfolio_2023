@@ -14,10 +14,29 @@ html {
   background-color: map-get($brands-primary, "beige");
 }
 
+main {
+}
+
 body {
   h1 {
     font-size: 120px;
     line-height: 182px;
     font-family: "Kudryashev-Display";
+  }
+  .card-title {
+    font-family: "Kudryashev-Display";
+    font-size: 32px;
+    line-height: 43px;
+  }
+  .date {
+    font-family: "AcuminPro-Light";
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+  }
+  .header {
+    font-family: "Kudryashev-Display";
+    font-size: 20px;
+    line-height: 30px;
   }
 }

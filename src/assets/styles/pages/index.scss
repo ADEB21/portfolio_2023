@@ -1,0 +1,46 @@
+@import "../utils/variables.scss";
+@import "../utils/mixins.scss";
+
+.ad_procjects {
+  @include grid(
+    map-get($layout-desktop, column-number),
+    map-get($layout-desktop, column-spacing),
+    map-get($layout-desktop, margin)
+  );
+  margin-top: 140px;
+  &-list {
+    display: flex;
+    gap: 65px;
+    grid-column: 1/13;
+    width: 100%;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    li {
+      height: fit-content;
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+      @include mq("tablet", max) {
+        scroll-snap-align: center;
+      }
+    }
+    li:nth-child(odd) {
+    }
+    li:nth-child(even) {
+      margin-top: 100px;
+      @include mq("tablet", max) {
+       margin-top: 0px
+      }
+    }
+  }
+  @include mq("tablet", max) {
+   @include grid(
+     map-get($layout-mobile, column-number),
+     map-get($layout-mobile, column-spacing),
+     map-get($layout-mobile, margin)
+   );
+   margin-top: 40px;
+  }
+}

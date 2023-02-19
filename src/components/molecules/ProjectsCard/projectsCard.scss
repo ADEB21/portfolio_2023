@@ -1,0 +1,14 @@
+.ad_projectCard-item {
+    max-width: 280px;
+  .ad_projectCard_text {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  .ad_projectCard_picture{
+    width: 280px;
+    height: 380px;
+    background-color: gray;
+  }
+}

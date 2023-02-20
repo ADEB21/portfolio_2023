@@ -14,6 +14,11 @@ html {
   background-color: map-get($brands-primary, "beige");
 }
 
+a{
+  color: map-get($brands-primary , "black" );
+  text-decoration: none;
+}
+
 main {
 }
 
@@ -38,5 +43,10 @@ body {
     font-family: "Kudryashev-Display";
     font-size: 20px;
     line-height: 30px;
+  }
+  .nav-btn {
+    font-family: "AcuminPro-Light";
+    font-size: 12px;
+    line-height: 14px;
   }
 }

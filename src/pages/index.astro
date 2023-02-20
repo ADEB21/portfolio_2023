@@ -3,7 +3,20 @@ import Icons from "../components/atoms/Icons/Icons";
 import Layout from "../layouts/Layout.astro";
 import SEO from "../layouts/utils/SEO.astro";
 import ProjectsCard from "../components/molecules/ProjectsCard/ProjectsCard";
-import "../assets/styles/pages/index.scss"
+import "../assets/styles/pages/index.scss";
+import Nav from "../components/molecules/Nav/Nav";
+
+import SCCRetina from "../assets/images/projects/scc-img@retina.png"
+import SCC from "../assets/images/projects/scc-img.jpg"
+
+import HeliopolisRetina from "../assets/images/projects/heliopolis-img@retina.png"
+import Heliopolis from "../assets/images/projects/heliopolis-img.jpg"
+
+import ExperienceRetina from "../assets/images/projects/exp-img@retina.png"
+import Experience from "../assets/images/projects/exp-img.jpg"
+
+import CambiumRetina from "../assets/images/projects/cambium-img@retina.png"
+import Cambium from "../assets/images/projects/cambium-img.jpg"
 ---
 
 <SEO
@@ -14,11 +27,12 @@ import "../assets/styles/pages/index.scss"
   <Layout>
     <section class="ad_procjects">
       <ul class="ad_procjects-list">
-		<ProjectsCard title="SCC France" date="2023"/>
-		<ProjectsCard title="Heliopolis" date="2023"/>
-		<ProjectsCard title="Experience" date="2022"/>
-		<ProjectsCard title="Cambium" date="2022"/>
-	  </ul>
+        <ProjectsCard title="SCC France" date="2023" img={[SCCRetina, SCC]} />
+        <ProjectsCard title="Heliopolis" date="2023" img={[HeliopolisRetina, Heliopolis]}/>
+        <ProjectsCard title="Experience" date="2022" img={[ExperienceRetina, Experience]}/>
+        <ProjectsCard title="Cambium" date="2022" img={[CambiumRetina, Cambium]}/>
+      </ul>
     </section>
+    <Nav />
   </Layout>
 </SEO>

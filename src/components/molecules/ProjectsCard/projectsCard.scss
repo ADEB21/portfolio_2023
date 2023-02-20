@@ -1,5 +1,8 @@
+@import "../../../assets/styles/utils/variables.scss";
+@import "../../../assets/styles/utils/mixins.scss";
+
 .ad_projectCard-item {
-    max-width: 280px;
+    max-width: 288px;
   .ad_projectCard_text {
     display: flex;
     align-items: baseline;
@@ -10,5 +13,8 @@
     width: 280px;
     height: 380px;
     background-color: gray;
+    @include mq("tablet", max) {
+     width: 288px;
+    }
   }
 }

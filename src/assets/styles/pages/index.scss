@@ -16,6 +16,7 @@
     grid-column: 1/13;
     width: 100%;
     overflow: scroll;
+    overflow-y: hidden;
     scroll-snap-type: x mandatory;
     &::-webkit-scrollbar {
       display: none;
@@ -43,7 +44,7 @@
       map-get($layout-mobile, column-spacing),
       map-get($layout-mobile, margin)
     );
-    &-list{
+    &-list {
       grid-column: 1/9;
     }
   }

@@ -4,7 +4,6 @@ import Picture from "../../atoms/Picture/Picture";
 
 
 function ProjectsCard({ title, date, img }) {
-  console.log("Anton arrête de regarder mon portfolio !");
   return (
     <li className="ad_projectCard-item">
       <div className="ad_projectCard_text">

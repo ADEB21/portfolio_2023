@@ -27,10 +27,10 @@ import Cambium from "../assets/images/projects/cambium-img.jpg"
   <Layout>
     <section class="ad_procjects">
       <ul class="ad_procjects-list">
-        <ProjectsCard title="SCC France" date="2023" img={[SCCRetina, SCC]} />
-        <ProjectsCard title="Heliopolis" date="2023" img={[HeliopolisRetina, Heliopolis]}/>
-        <ProjectsCard title="Experience" date="2022" img={[ExperienceRetina, Experience]}/>
-        <ProjectsCard title="Cambium" date="2022" img={[CambiumRetina, Cambium]}/>
+        <ProjectsCard title="SCC France" date="2023" img={[SCCRetina, SCC]} client:load/>
+        <ProjectsCard title="Heliopolis" date="2023" img={[HeliopolisRetina, Heliopolis]} client:load/>
+        <ProjectsCard title="Experience" date="2022" img={[ExperienceRetina, Experience]}client:load/>
+        <ProjectsCard title="Cambium" date="2022" img={[CambiumRetina, Cambium]}client:load/>
       </ul>
     </section>
     <Nav />

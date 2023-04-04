@@ -10,6 +10,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  width: 100%;
   &-list {
     display: flex;
     gap: 65px;
@@ -18,6 +19,7 @@
     overflow: scroll;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
+    justify-content: space-between;
     &::-webkit-scrollbar {
       display: none;
     }

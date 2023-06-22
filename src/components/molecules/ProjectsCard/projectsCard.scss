@@ -2,19 +2,44 @@
 @import "../../../assets/styles/utils/mixins.scss";
 
 .ad_projectCard-item {
-    max-width: 288px;
+  max-width: 288px;
+  &:hover {
+    .ad_projectCard_text {
+      p {
+        span {
+          transform: translateY(-100%);
+          filter: blur(2px);
+        }
+      }
+    }
+    .ad_projectCard_picture img {
+      transform: scale(1.05);
+    }
+  }
   .ad_projectCard_text {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
     margin-bottom: 8px;
+    transition: 300ms;
+    p {
+      overflow: hidden;
+      span {
+        transition: 200ms ease-out;
+        display: block;
+
+      }
+    }
   }
-  .ad_projectCard_picture{
+  .ad_projectCard_picture {
     width: 280px;
     height: 380px;
     background-color: gray;
+    img {
+      transition: 300ms;
+    }
     @include mq("tablet", max) {
-     width: 288px;
+      width: 288px;
     }
   }
 }

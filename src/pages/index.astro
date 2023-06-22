@@ -6,17 +6,17 @@ import ProjectsCard from "../components/molecules/ProjectsCard/ProjectsCard";
 import "../assets/styles/pages/index.scss";
 import Nav from "../components/molecules/Nav/Nav";
 
-import SCCRetina from "../assets/images/projects/scc-img@retina.png"
-import SCC from "../assets/images/projects/scc-img.jpg"
+import SCCRetina from "../assets/images/projects/scc/cover/scc-desktop-retina.jpg";
+import SCC from "../assets/images/projects/scc/cover/scc-desktop-base.jpg";
 
-import HeliopolisRetina from "../assets/images/projects/heliopolis-img@retina.png"
-import Heliopolis from "../assets/images/projects/heliopolis-img.jpg"
+import HeliopolisRetina from "../assets/images/projects/heliopolis-img@retina.png";
+import Heliopolis from "../assets/images/projects/heliopolis-img.jpg";
 
-import ExperienceRetina from "../assets/images/projects/exp-img@retina.png"
-import Experience from "../assets/images/projects/exp-img.jpg"
+import ExperienceRetina from "../assets/images/projects/exp-img@retina.png";
+import Experience from "../assets/images/projects/exp-img.jpg";
 
-import CambiumRetina from "../assets/images/projects/cambium-img@retina.png"
-import Cambium from "../assets/images/projects/cambium-img.jpg"
+import CambiumRetina from "../assets/images/projects/cambium-img@retina.png";
+import Cambium from "../assets/images/projects/cambium-img.jpg";
 ---
 
 <SEO
@@ -27,10 +27,31 @@ import Cambium from "../assets/images/projects/cambium-img.jpg"
   <Layout>
     <section class="ad_procjects">
       <ul class="ad_procjects-list">
-        <ProjectsCard title="SCC France" date="2023" img={[SCCRetina, SCC]} client:load/>
-        <ProjectsCard title="Heliopolis" date="2023" img={[HeliopolisRetina, Heliopolis]} client:load/>
-        <ProjectsCard title="Experience" date="2022" img={[ExperienceRetina, Experience]}client:load/>
-        <ProjectsCard title="Cambium" date="2022" img={[CambiumRetina, Cambium]}client:load/>
+        <ProjectsCard
+          title="SCC France"
+          date="2023"
+          img={[SCCRetina, SCC]}
+          to="/scc"
+          client:load
+        />
+        <ProjectsCard
+          title="Heliopolis"
+          date="2023"
+          img={[HeliopolisRetina, Heliopolis]}
+          client:load
+        />
+        <ProjectsCard
+          title="Experience"
+          date="2022"
+          img={[ExperienceRetina, Experience]}
+          client:load
+        />
+        <ProjectsCard
+          title="Cambium"
+          date="2022"
+          img={[CambiumRetina, Cambium]}
+          client:load
+        />
       </ul>
     </section>
     <Nav />

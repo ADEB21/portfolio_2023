@@ -1,5 +1,5 @@
-@import "./src/assets/styles/utils/variables.scss";
-@import "./src/assets/styles/utils/mixins.scss";
+@import "../utils/variables.scss";
+@import "../utils/mixins.scss";
 
 .ad_procjects {
   @include grid(

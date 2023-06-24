@@ -9,6 +9,10 @@ const myRoutes = [
     name: "index",
   },
   {
+    path: "/scc",
+    name: "scc",
+  },
+  {
     path: "/about",
     name: "shop",
   },
@@ -22,7 +26,6 @@ const myRoutes = [
 barba.use(barbaRouter, {
   routes: myRoutes,
 });
-
 
 const tl = gsap.timeline();
 
@@ -38,12 +41,22 @@ barba.init({
   sync: true,
   transitions: [
     {
-      name: "default-transition",
-      leave() {
-        gsap.fromTo("main", { opacity: 1 }, {opacity: 0, duration: 10});
+      name: "fade",
+      from: {
+        route: ["index"],
+      },
+      to: {
+        route: ["scc"],
+      },
+      async leave() {
+        const done = this.async();
+        gsap.to("main", { opacity: 0 });
+
+        await delay(500);
+        done();
       },
       enter() {
-        gsap.fromTo("main", {opacity: 0}, { opacity: 1 });
+        gsap.fromTo("main", { opacity: 0 }, { opacity: 1 });
       },
     },
   ],

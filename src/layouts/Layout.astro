@@ -1,27 +1,24 @@
 ---
 import Header from "../components/molecules/Header/Header";
 import Footer from "../components/molecules/Footer/Footer";
-import "../assets/styles/utils/root.scss"
+import "../assets/styles/utils/root.scss";
+import "../assets/styles/pages/style.scss";
 ---
-
-
-
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="../../style.scss">
     <meta name="generator" content={Astro.generator} />
   </head>
   <body data-barba="wrapper">
-	<Header client:load/>
+    <Header client:load />
     <main data-barba="container">
       <slot />
     </main>
     <!-- <Footer /> -->
-
-    <script type="module" src="../../app.js"></script>
+    <script is:inline type="module" src="/app.js"/></script>
   </body>
 </html>
+

@@ -18,7 +18,57 @@ import "../assets/styles/pages/style.scss";
       <slot />
     </main>
     <!-- <Footer /> -->
-    <script is:inline type="module" src="/app.js"/></script>
+    <!-- <script type="module" src="../../app.js"></script> -->
   </body>
 </html>
 
+<script type="">
+  import barba from "@barba/core";
+  import barbaRouter from "@barba/router";
+  import { gsap } from "gsap";
+
+  const myRoutes = [
+    {
+      path: "/",
+      name: "index",
+    },
+    {
+      path: "/scc",
+      name: "scc",
+    },
+  ];
+
+  barba.use(barbaRouter, {
+    routes: myRoutes,
+  });
+
+  function delay(n) {
+    return new Promise((done) => {
+      setTimeout(() => {
+        done();
+      }, n);
+    });
+  }
+
+  barba.init({
+  sync: true,
+  transitions: [
+    {
+      name: "fade",
+      async leave() {
+        const done = this.async();
+        gsap.to("main", { opacity: 0 });
+
+        await delay(500);
+        done();
+      },
+      enter() {
+        gsap.fromTo("main", { opacity: 0 }, { opacity: 1 });
+      },
+    },
+  ],
+});
+
+
+  
+</script>

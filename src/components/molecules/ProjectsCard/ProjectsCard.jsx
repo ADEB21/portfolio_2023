@@ -8,8 +8,8 @@ function ProjectsCard(props) {
     <li className="ad_projectCard-item">
       <a href={to}>
         <div className="ad_projectCard_text">
-          <p className="ad_projectCard_text-title card-title"><span>{title}</span></p>
-          <p className="ad_projectCard_text-date date"><span>{date}</span></p>
+          <p className="ad_projectCard_text-title card-title"><span>{title}</span><span>{title}</span></p>
+          <p className="ad_projectCard_text-date date"><span>{date}</span><span>{date}</span></p>
         </div>
         <div className="ad_projectCard_picture">
           <Picture img={img} />

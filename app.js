@@ -42,12 +42,6 @@ barba.init({
   transitions: [
     {
       name: "fade",
-      from: {
-        route: ["index"],
-      },
-      to: {
-        route: ["scc"],
-      },
       async leave() {
         const done = this.async();
         gsap.to("main", { opacity: 0 });

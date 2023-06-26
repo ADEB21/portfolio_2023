@@ -8,7 +8,6 @@
       p {
         span {
           transform: translateY(-100%);
-          filter: blur(2px);
         }
       }
     }
@@ -21,9 +20,15 @@
     align-items: baseline;
     justify-content: space-between;
     margin-bottom: 8px;
-    transition: 300ms;
     p {
       overflow: hidden;
+
+      &:nth-child(1){
+        height: 43px;
+      }
+      &:nth-child(2){
+        height: 14px;
+      }
       span {
         transition: 200ms ease-out;
         display: block;

@@ -2,7 +2,26 @@ export default {
     projects: [
       {
         title: "Experience",
-        cover : {
+        outCover : {
+          picture : {
+            images : {
+              desktop: {
+                jpeg: ["",""],
+                webp: ["",""],
+              },
+              mobile: {
+                jpeg: ["",""],
+                webp: ["",""],
+              }
+            },
+            lazy: {
+              desktop : "",
+              mobile: ""
+            },
+            alternativeText : "Image de couverture du projet"
+          }
+        },
+        inCover : {
           picture : {
             images : {
               desktop: {

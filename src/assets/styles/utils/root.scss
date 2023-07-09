@@ -201,6 +201,7 @@ li,
   }
 }
 
+a,
 input,
 button,
 .bi-small-body {
@@ -230,5 +231,35 @@ button,
       map-get($breakpoints, "desktop-wide"),
       map-get($body-fonts-sizes-desktop, "Small"),
       calc(map-get($body-fonts-sizes-desktop, "Small") * 1.2));
+  }
+}
+
+.bi-bold-body {
+  font-family: "Oxygen-Bold";
+  font-size: map-get($body-fonts-sizes-desktop, "Large");
+  line-height: map-get($body-fonts-sizes-desktop, "Large-line");
+  @include interpolate(font-size,
+    map-get($breakpoints, "tablet"),
+    map-get($breakpoints, "desktop"),
+    map-get($body-fonts-sizes-mobile, "Large"),
+    map-get($body-fonts-sizes-desktop, "Large"));
+  @include interpolate(line-height,
+    map-get($breakpoints, "tablet"),
+    map-get($breakpoints, "desktop"),
+    map-get($body-fonts-sizes-mobile, "Large-line"),
+    map-get($body-fonts-sizes-desktop, "Large-line"));
+
+  @include mq("tablet", max) {
+    font-size: map-get($body-fonts-sizes-mobile, "Large");
+    line-height: map-get($body-fonts-sizes-mobile, "Large-line");
+  }
+
+  @include mq('desktop', min) {
+    line-height: initial;
+    @include interpolate(font-size,
+      map-get($breakpoints, "desktop"),
+      map-get($breakpoints, "desktop-wide"),
+      map-get($body-fonts-sizes-desktop, "Large"),
+      calc(map-get($body-fonts-sizes-desktop, "Large") * 1.2));
   }
 }

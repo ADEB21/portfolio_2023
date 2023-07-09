@@ -43,9 +43,42 @@ a {
   text-decoration: none;
 }
 
+
+
 h1,
+.bi-large-heading {
+  font-family: "DelaGothicOne-Regular";
+  font-size: map-get($heading-fonts-sizes-desktop, "Large");
+  line-height: map-get($heading-fonts-sizes-desktop, "Large-line");
+  @include interpolate(font-size,
+    map-get($breakpoints, "tablet"),
+    map-get($breakpoints, "desktop"),
+    map-get($heading-fonts-sizes-mobile, "Large"),
+    map-get($heading-fonts-sizes-desktop, "Large"));
+  @include interpolate(line-height,
+    map-get($breakpoints, "tablet"),
+    map-get($breakpoints, "desktop"),
+    map-get($heading-fonts-sizes-mobile, "Large-line"),
+    map-get($heading-fonts-sizes-desktop, "Large-line"));
+
+  @include mq("tablet", max) {
+    font-size: map-get($heading-fonts-sizes-mobile, "Large");
+    line-height: map-get($heading-fonts-sizes-mobile, "Large-line");
+  }
+
+  @include mq('desktop', min) {
+    line-height: initial;
+    @include interpolate(font-size,
+      map-get($breakpoints, "desktop"),
+      map-get($breakpoints, "desktop-wide"),
+      map-get($heading-fonts-sizes-desktop, "Large"),
+      calc(map-get($heading-fonts-sizes-desktop, "Large") * 1.33));
+  }
+}
+
+h2,
 .bi-mid-heading {
-  font-family: "Kudryashev-Display";
+  font-family: "DelaGothicOne-Regular";
   font-size: map-get($heading-fonts-sizes-desktop, "Mid");
   line-height: map-get($heading-fonts-sizes-desktop, "Mid-line");
   @include interpolate(font-size,
@@ -74,11 +107,9 @@ h1,
   }
 }
 
-h2,
 h3,
-h4,
 .bi-small-heading {
-  font-family: "Kudryashev-Display";
+  font-family: "DelaGothicOne-Regular";
   font-size: map-get($heading-fonts-sizes-desktop, "Small");
   line-height: map-get($heading-fonts-sizes-desktop, "Small-line");
   @include interpolate(font-size,
@@ -102,14 +133,46 @@ h4,
     @include interpolate(font-size,
       map-get($breakpoints, "desktop"),
       map-get($breakpoints, "desktop-wide"),
-      map-get($heading-fonts-sizes-desktop, "Small"),
-      calc(map-get($heading-fonts-sizes-desktop, "Small") * 1.33));
+      map-get($body-fonts-sizes-desktop, "Small"),
+      calc(map-get($body-fonts-sizes-desktop, "Small") * 1.33));
+  }
+}
+
+
+.bi-large-body {
+  font-family: "Oxygen-Regular";
+  font-size: map-get($body-fonts-sizes-desktop, "Large");
+  line-height: map-get($body-fonts-sizes-desktop, "Large-line");
+  @include interpolate(font-size,
+    map-get($breakpoints, "tablet"),
+    map-get($breakpoints, "desktop"),
+    map-get($body-fonts-sizes-mobile, "Large"),
+    map-get($body-fonts-sizes-desktop, "Large"));
+  @include interpolate(line-height,
+    map-get($breakpoints, "tablet"),
+    map-get($breakpoints, "desktop"),
+    map-get($body-fonts-sizes-mobile, "Large-line"),
+    map-get($body-fonts-sizes-desktop, "Large-line"));
+
+  @include mq("tablet", max) {
+    font-size: map-get($body-fonts-sizes-mobile, "Large");
+    line-height: map-get($body-fonts-sizes-mobile, "Large-line");
+  }
+
+  @include mq('desktop', min) {
+    line-height: initial;
+    @include interpolate(font-size,
+      map-get($breakpoints, "desktop"),
+      map-get($breakpoints, "desktop-wide"),
+      map-get($body-fonts-sizes-desktop, "Large"),
+      calc(map-get($body-fonts-sizes-desktop, "Large") * 1.2));
   }
 }
 
 p,
+li,
 .bi-mid-body {
-  font-family: "AcuminPro-Light";
+  font-family: "Oxygen-Regular";
   font-size: map-get($body-fonts-sizes-desktop, "Mid");
   line-height: map-get($body-fonts-sizes-desktop, "Mid-line");
   @include interpolate(font-size,
@@ -140,8 +203,8 @@ p,
 
 input,
 button,
-a.bi-small-body {
-  font-family: "AcuminPro-Light";
+.bi-small-body {
+  font-family: "Oxygen-Regular";
   font-size: map-get($body-fonts-sizes-desktop, "Small");
   line-height: map-get($body-fonts-sizes-desktop, "Small-line");
   @include interpolate(font-size,
@@ -169,35 +232,3 @@ a.bi-small-body {
       calc(map-get($body-fonts-sizes-desktop, "Small") * 1.2));
   }
 }
-
-
-.bi-mid-regular-body {
-    font-family: "AcuminPro-Regular";
-    font-size: map-get($body-fonts-sizes-desktop, "Mid");
-    line-height: map-get($body-fonts-sizes-desktop, "Mid-line");
-    @include interpolate(font-size,
-      map-get($breakpoints, "tablet"),
-      map-get($breakpoints, "desktop"),
-      map-get($body-fonts-sizes-mobile, "Mid"),
-      map-get($body-fonts-sizes-desktop, "Mid"));
-    @include interpolate(line-height,
-      map-get($breakpoints, "tablet"),
-      map-get($breakpoints, "desktop"),
-      map-get($body-fonts-sizes-mobile, "Mid-line"),
-      map-get($body-fonts-sizes-desktop, "Mid-line"));
-  
-    @include mq("tablet", max) {
-      font-size: map-get($body-fonts-sizes-mobile, "Mid");
-      line-height: map-get($body-fonts-sizes-mobile, "Mid-line");
-    }
-  
-    @include mq('desktop', min) {
-      line-height: initial;
-      @include interpolate(font-size,
-        map-get($breakpoints, "desktop"),
-        map-get($breakpoints, "desktop-wide"),
-        map-get($body-fonts-sizes-desktop, "Mid"),
-        calc(map-get($body-fonts-sizes-desktop, "Mid") * 1.2));
-    }
-  }
-  

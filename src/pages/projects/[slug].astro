@@ -26,6 +26,9 @@ const {slug} = Astro.params
 >
   <Layout>
     <h1>{p.title}</h1>
+    <p>{p.date}</p>
+    <h1>{p.projectDescription.title}</h1>
+    <p>{p.projectDescription.goal}</p>
     <a href="/">Back to home</a>
   </Layout>
 </SEO>

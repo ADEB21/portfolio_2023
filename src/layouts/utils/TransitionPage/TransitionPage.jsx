@@ -1,68 +1,100 @@
-import React from 'react'
+import React from "react";
 import barba from "@barba/core";
 import gsap from "gsap";
-import TransitionPageStyle from "./transitionPage.module.scss"
-import TertiaviaData from '../../../../assets/data/tertiavia';
+import TransitionPageStyle from "./transitionPage.module.scss";
+import projectsData from "../../../assets/data/projects";
 
-const fromLambdaToHero = {
-  name: 'lambda-to-hero',
-  sync: true,
+const projectTransition = {
+  name: "fade",
+  from: {
+    custom: (data) => {
+      return [
+        "/",
+      ].includes(data.current.url.path);
+    },
+  },
   to: {
-   custom: (data) => {
-    return ['/', '/parcours', ...TertiaviaData.parcours.map(el => '/parcours/'+el.slug)].includes(data.current.url.path);
-   }
-  }, 
-  leave(data) {
-    console.log("Transition Lambda To Hero", data);
+    custom: (data) => {
+      return [
+        ...projectsData.projects.map((el) => "/projects/" + el.slug),
+      ].includes(data.next.url.path);
+    },
+    
+  },
+  async leave() {
     const done = this.async();
-    setTimeout(()=>{
+    gsap.fromTo(".transition-page", { x: "-100%", y: 0 }, { x: 0 });
+    setTimeout(() => {
       done();
-    }, 500)
-  }, 
-  enter(data) {
-  }
-}
+    }, 500);
+  },
+  enter() {
+    gsap.fromTo(".transition-page", { x: 0 }, { x: "100%" });
+  },
+};
 
-const fromLambdaToLambda = {
-  name: 'lambda-to-lambda',
-  sync: true,
-  leave(data) {
-    console.log("Transition Lambda To Lambda");
+const defaultTransition = {
+  name: "pan",
+  from: {
+    custom: (data) => {
+      return [
+        "/",
+        "/about",
+        "/contact",
+        ...projectsData.projects.map((el) => "/projects/" + el.slug),
+      ].includes(data.current.url.path);
+    },
+  },
+  to: {
+    custom: (data) => {
+      return [
+        "/",
+        "/about",
+        "/contact",
+      ].includes(data.next.url.path);
+    },
+    
+  },
+  async leave() {
     const done = this.async();
-    setTimeout(()=>{
+    gsap.fromTo(".transition-page", { y: "-100%", x: 0 }, { y: 0 });
+    setTimeout(() => {
       done();
-    }, 500)
-  }, 
-  enter(data) {
-  }
-}
+    }, 500);
+  },
+  enter() {
+    gsap.fromTo(".transition-page", { y: 0 }, { y: "100%" });
+  },
+};
+
 
 const TransitionPage = () => {
-
-  const  delay = (n) => {
+  const delay = (n) => {
     return new Promise((done) => {
       setTimeout(() => {
         done();
       }, n);
     });
-  }
+  };
 
-  React.useEffect(()=>{
+  React.useEffect(() => {
+    console.log("HELLO");
     barba.init({
       sync: true,
-      transitions: [
-        fromLambdaToLambda,
-        fromLambdaToHero
-      ],
+      transitions: [defaultTransition, projectTransition],
     });
 
-
-    console.log("Routes", TertiaviaData.parcours.map(el => el.slug));
+    console.log(
+      "Routes",
+      projectsData.projects.map((el) => el.slug)
+    );
   }, []);
 
   return (
-    <div className={`${TransitionPageStyle.transition_page} transition-page`}></div>
-  )
-}
+    <div
+      className={`${TransitionPageStyle.transition_page} transition-page`}
+    ></div>
+  );
+};
 
-export default TransitionPage
+export default TransitionPage;

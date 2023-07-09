@@ -3,6 +3,30 @@
 @import "./mixins.scss";
 @import "./reset.scss";
 
+
+
+// lenis
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+//
+
 .font-size-test {
   text-align: center;
 }
@@ -19,5 +43,161 @@ a {
   text-decoration: none;
 }
 
+h1,
+.bi-mid-heading {
+  font-family: "Kudryashev-Display";
+  font-size: map-get($heading-fonts-sizes-desktop, "Mid");
+  line-height: map-get($heading-fonts-sizes-desktop, "Mid-line");
+  @include interpolate(font-size,
+    map-get($breakpoints, "tablet"),
+    map-get($breakpoints, "desktop"),
+    map-get($heading-fonts-sizes-mobile, "Mid"),
+    map-get($heading-fonts-sizes-desktop, "Mid"));
+  @include interpolate(line-height,
+    map-get($breakpoints, "tablet"),
+    map-get($breakpoints, "desktop"),
+    map-get($heading-fonts-sizes-mobile, "Mid-line"),
+    map-get($heading-fonts-sizes-desktop, "Mid-line"));
+
+  @include mq("tablet", max) {
+    font-size: map-get($heading-fonts-sizes-mobile, "Mid");
+    line-height: map-get($heading-fonts-sizes-mobile, "Mid-line");
+  }
+
+  @include mq('desktop', min) {
+    line-height: initial;
+    @include interpolate(font-size,
+      map-get($breakpoints, "desktop"),
+      map-get($breakpoints, "desktop-wide"),
+      map-get($heading-fonts-sizes-desktop, "Mid"),
+      calc(map-get($heading-fonts-sizes-desktop, "Mid") * 1.33));
+  }
+}
+
+h2,
+h3,
+h4,
+.bi-small-heading {
+  font-family: "Kudryashev-Display";
+  font-size: map-get($heading-fonts-sizes-desktop, "Small");
+  line-height: map-get($heading-fonts-sizes-desktop, "Small-line");
+  @include interpolate(font-size,
+    map-get($breakpoints, "tablet"),
+    map-get($breakpoints, "desktop"),
+    map-get($heading-fonts-sizes-mobile, "Small"),
+    map-get($heading-fonts-sizes-desktop, "Small"));
+  @include interpolate(line-height,
+    map-get($breakpoints, "tablet"),
+    map-get($breakpoints, "desktop"),
+    map-get($heading-fonts-sizes-mobile, "Small-line"),
+    map-get($heading-fonts-sizes-desktop, "Small-line"));
+
+  @include mq("tablet", max) {
+    font-size: map-get($heading-fonts-sizes-mobile, "Small");
+    line-height: map-get($heading-fonts-sizes-mobile, "Small-line");
+  }
+
+  @include mq('desktop', min) {
+    line-height: initial;
+    @include interpolate(font-size,
+      map-get($breakpoints, "desktop"),
+      map-get($breakpoints, "desktop-wide"),
+      map-get($heading-fonts-sizes-desktop, "Small"),
+      calc(map-get($heading-fonts-sizes-desktop, "Small") * 1.33));
+  }
+}
+
+p,
+.bi-mid-body {
+  font-family: "AcuminPro-Light";
+  font-size: map-get($body-fonts-sizes-desktop, "Mid");
+  line-height: map-get($body-fonts-sizes-desktop, "Mid-line");
+  @include interpolate(font-size,
+    map-get($breakpoints, "tablet"),
+    map-get($breakpoints, "desktop"),
+    map-get($body-fonts-sizes-mobile, "Mid"),
+    map-get($body-fonts-sizes-desktop, "Mid"));
+  @include interpolate(line-height,
+    map-get($breakpoints, "tablet"),
+    map-get($breakpoints, "desktop"),
+    map-get($body-fonts-sizes-mobile, "Mid-line"),
+    map-get($body-fonts-sizes-desktop, "Mid-line"));
+
+  @include mq("tablet", max) {
+    font-size: map-get($body-fonts-sizes-mobile, "Mid");
+    line-height: map-get($body-fonts-sizes-mobile, "Mid-line");
+  }
+
+  @include mq('desktop', min) {
+    line-height: initial;
+    @include interpolate(font-size,
+      map-get($breakpoints, "desktop"),
+      map-get($breakpoints, "desktop-wide"),
+      map-get($body-fonts-sizes-desktop, "Mid"),
+      calc(map-get($body-fonts-sizes-desktop, "Mid") * 1.2));
+  }
+}
+
+input,
+button,
+a.bi-small-body {
+  font-family: "AcuminPro-Light";
+  font-size: map-get($body-fonts-sizes-desktop, "Small");
+  line-height: map-get($body-fonts-sizes-desktop, "Small-line");
+  @include interpolate(font-size,
+    map-get($breakpoints, "tablet"),
+    map-get($breakpoints, "desktop"),
+    map-get($body-fonts-sizes-mobile, "Small"),
+    map-get($body-fonts-sizes-desktop, "Small"));
+  @include interpolate(line-height,
+    map-get($breakpoints, "tablet"),
+    map-get($breakpoints, "desktop"),
+    map-get($body-fonts-sizes-mobile, "Small-line"),
+    map-get($body-fonts-sizes-desktop, "Small-line"));
+
+  @include mq("tablet", max) {
+    font-size: map-get($body-fonts-sizes-mobile, "Small");
+    line-height: map-get($body-fonts-sizes-mobile, "Small-line");
+  }
+
+  @include mq('desktop', min) {
+    line-height: initial;
+    @include interpolate(font-size,
+      map-get($breakpoints, "desktop"),
+      map-get($breakpoints, "desktop-wide"),
+      map-get($body-fonts-sizes-desktop, "Small"),
+      calc(map-get($body-fonts-sizes-desktop, "Small") * 1.2));
+  }
+}
 
 
+.bi-mid-regular-body {
+    font-family: "AcuminPro-Regular";
+    font-size: map-get($body-fonts-sizes-desktop, "Mid");
+    line-height: map-get($body-fonts-sizes-desktop, "Mid-line");
+    @include interpolate(font-size,
+      map-get($breakpoints, "tablet"),
+      map-get($breakpoints, "desktop"),
+      map-get($body-fonts-sizes-mobile, "Mid"),
+      map-get($body-fonts-sizes-desktop, "Mid"));
+    @include interpolate(line-height,
+      map-get($breakpoints, "tablet"),
+      map-get($breakpoints, "desktop"),
+      map-get($body-fonts-sizes-mobile, "Mid-line"),
+      map-get($body-fonts-sizes-desktop, "Mid-line"));
+  
+    @include mq("tablet", max) {
+      font-size: map-get($body-fonts-sizes-mobile, "Mid");
+      line-height: map-get($body-fonts-sizes-mobile, "Mid-line");
+    }
+  
+    @include mq('desktop', min) {
+      line-height: initial;
+      @include interpolate(font-size,
+        map-get($breakpoints, "desktop"),
+        map-get($breakpoints, "desktop-wide"),
+        map-get($body-fonts-sizes-desktop, "Mid"),
+        calc(map-get($body-fonts-sizes-desktop, "Mid") * 1.2));
+    }
+  }
+  

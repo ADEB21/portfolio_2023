@@ -336,9 +336,9 @@ function $197ccff77f9a03b9$var$useSmoothScroll() {
         const l = new (0, $747425b437e121da$import$b4d109667193a62e$2e2bcd8739ae039)({
             duration: 1.2,
             easing: (t)=>Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-            direction: "vertical",
-            gestureDirection: "vertical",
-            smooth: true,
+            orientation: "vertical",
+            gestureOrientation: "vertical",
+            smoothWheel: true,
             smoothTouch: false,
             touchMultiplier: 2
         });

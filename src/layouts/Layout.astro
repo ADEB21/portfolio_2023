@@ -1,11 +1,13 @@
 ---
 import "../assets/styles/utils/root.scss"
+import SmoothScroll from "./utils/SmoothScroll";
+import TransitionPage from "./utils/TransitionPage/TransitionPage";
 ---
 
 <body data-barba="wrapper">
-	<!-- <TransitionPage client:only/>
 	<SmoothScroll client:load />
-	<Header client:load/> -->
+	<TransitionPage client:only/>
+	<!-- <Header client:load/> -->
 	<header><h1>Header</h1></header>
 	<main data-barba="container"><slot /></main>
 	<footer><h1>Footer</h1></footer>

@@ -1,0 +1,30 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import SEO from "../../layouts/utils/SEO.astro";
+import data from "../../assets/data/projects"
+
+
+export function getStaticPaths() {
+    return data.projects.map((p) => {
+        console.log(p);
+        return {
+            params: {slug: p.slug},
+            props: {p}
+        }
+    })
+}
+
+const {p} = Astro.props
+const {slug} = Astro.params
+
+---
+
+<SEO
+  lang="fr"
+  title="Arthur Debruille Portfolio"
+  description="Portfolio de Arthur Debruille | Dev"
+>
+  <Layout>
+    <h1>{p.title}</h1>
+  </Layout>
+</SEO>

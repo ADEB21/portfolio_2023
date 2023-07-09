@@ -2,7 +2,7 @@
   "colorMapGet": {
     "prefix": "mapgetcolor",
     "body": [
-      "${1|color,background-color,border-top-color,border-bottom-color,border-left-color,border-right-color,margin-top,margin-right,margin-bottom,margin-left,padding-top,padding-right,padding-bottom,padding-left|}: map-get(${2|$brands-primary|} , ${3|\"black\",\"white\",\"beige\",\"brown\"|} );"
+      "${1|color,background-color,border-top-color,border-bottom-color,border-left-color,border-right-color,margin-top,margin-right,margin-bottom,margin-left,padding-top,padding-right,padding-bottom,padding-left|}: map-get(${2|$colors|} , ${3|\"black\",\"white\",\"beige\",\"brown\"|} );"
     ],
     "scope": "scss"
   },

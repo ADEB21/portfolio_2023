@@ -1,73 +1,12 @@
 ---
-import Header from "../components/molecules/Header/Header";
-import Footer from "../components/molecules/Footer/Footer";
-import "../assets/styles/utils/root.scss";
-import "../assets/styles/pages/style.scss";
+import "../assets/styles/utils/root.scss"
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-  </head>
-  <body data-barba="wrapper">
-    <Header/>
-    <main data-barba="container">
-      <slot />
-    </main>
-    <!-- <Footer /> -->
-  </body>
-</html>
-
-<script type="">
-  import barba from "@barba/core";
-  import barbaRouter from "@barba/router";
-  import { gsap } from "gsap";
-
-  const myRoutes = [
-    {
-      path: "/",
-      name: "index",
-    },
-    {
-      path: "/scc",
-      name: "scc",
-    },
-  ];
-
-  barba.use(barbaRouter, {
-    routes: myRoutes,
-  });
-
-  function delay(n) {
-    return new Promise((done) => {
-      setTimeout(() => {
-        done();
-      }, n);
-    });
-  }
-
-  barba.init({
-  sync: true,
-  transitions: [
-    {
-      name: "fade",
-      async leave() {
-        const done = this.async();
-        gsap.to("main", { opacity: 0 });
-
-        await delay(500);
-        done();
-      },
-      enter() {
-        gsap.fromTo("main", { opacity: 0 }, { opacity: 1 });
-      },
-    },
-  ],
-});
-
-
-  
-</script>
+<body data-barba="wrapper">
+	<!-- <TransitionPage client:only/>
+	<SmoothScroll client:load />
+	<Header client:load/> -->
+	<header><h1>Header</h1></header>
+	<main data-barba="container"><slot /></main>
+	<footer><h1>Footer</h1></footer>
+</body>

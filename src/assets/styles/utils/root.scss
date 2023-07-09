@@ -11,88 +11,13 @@ body,
 html {
   width: 100%;
   min-height: 100%;
-  background-color: map-get($brands-primary, "beige");
+  background-color: map-get($colors, "beige");
 }
 
 a {
-  color: map-get($brands-primary, "black");
+  color: map-get($colors, "black");
   text-decoration: none;
 }
 
-main {
-}
 
-body {
-  h1 {
-    font-size: 120px;
-    line-height: 182px;
-    font-family: "Kudryashev-Display";
-    color: map-get($brands-primary , "brown" );
-    @include mq("tablet", max) {
-      font-size: 50px;
-      line-height: 76px;
-    }
-  }
-  h2 {
-    font-size: 64px;
-    line-height: 97px;
-    font-family: "Kudryashev-Display";
-    text-transform: uppercase;
-    color: map-get($brands-primary , "brown" );
-    @include mq("tablet", max) {
-      font-size: 24px;
-      line-height: 36px;
-    }
-  }
-  h3 {
-    font-size: 32px;
-    line-height: 38px;
-    font-family: "AcuminPro-Regular";
-    text-transform: uppercase;
-    color: map-get($brands-primary , "brown" );
-    @include mq("tablet", max) {
-      font-size: 24px;
-      line-height: 36px;
-    }
-  }
-  .card-title {
-    font-family: "Kudryashev-Display";
-    font-size: 32px;
-    line-height: 43px;
-  }
-  .date {
-    font-family: "AcuminPro-Light";
-    font-size: 12px;
-    line-height: 14px;
-    text-transform: uppercase;
-  }
-  .header {
-    font-family: "Kudryashev-Display";
-    font-size: 20px;
-    line-height: 30px;
-  }
-  .nav-btn {
-    font-family: "AcuminPro-Light";
-    font-size: 12px;
-    line-height: 14px;
-  }
-  .project-date {
-    font-family: "AcuminPro-Light";
-    font-size: 32px;
-    line-height: 38px;
-    @include mq("tablet", max) {
-      font-size: 16px;
-      line-height: 19px;
-    }
-  }
-  p.paragraph{
-    font-family: "AcuminPro-Light";
-    font-size: 20px;
-    line-height: 24px;
-    text-transform: uppercase;
-    @include mq("tablet", max) {
-      font-size: 16px;
-      line-height: 19px;
-    }
-  }
-}
+

@@ -1,6 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import SEO from "../layouts/utils/SEO.astro";
+import Button from "../components/atoms/Button/"
+import Icons from "../components/atoms/Icons"
 ---
 
 <SEO
@@ -9,6 +11,11 @@ import SEO from "../layouts/utils/SEO.astro";
   description="Portfolio de Arthur Debruille | Dev"
 >
   <Layout>
+    <Button type="link" to="/contact">Contact</Button><br>
+    <Icons white={false} type="logo-desktop"/><br>
+    <Icons white={false} type="logo-mobile"/><br>
+    <Icons white={false} type="linkedin"/><br>
+    <Icons white={false} type="twitter"/><br>
     <div style="height: 1000vh"></div>
     <a href="/projects/experience">Go to project</a>
   </Layout>

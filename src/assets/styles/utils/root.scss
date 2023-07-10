@@ -1,5 +1,5 @@
 @import "./fonts.scss";
-@import "./variables.scss";
+@import "./variables";
 @import "./mixins.scss";
 @import "./reset.scss";
 
@@ -65,15 +65,6 @@ h1,
     font-size: map-get($heading-fonts-sizes-mobile, "Large");
     line-height: map-get($heading-fonts-sizes-mobile, "Large-line");
   }
-
-  @include mq('desktop', min) {
-    line-height: initial;
-    @include interpolate(font-size,
-      map-get($breakpoints, "desktop"),
-      map-get($breakpoints, "desktop-wide"),
-      map-get($heading-fonts-sizes-desktop, "Large"),
-      calc(map-get($heading-fonts-sizes-desktop, "Large") * 1.33));
-  }
 }
 
 h2,
@@ -95,15 +86,6 @@ h2,
   @include mq("tablet", max) {
     font-size: map-get($heading-fonts-sizes-mobile, "Mid");
     line-height: map-get($heading-fonts-sizes-mobile, "Mid-line");
-  }
-
-  @include mq('desktop', min) {
-    line-height: initial;
-    @include interpolate(font-size,
-      map-get($breakpoints, "desktop"),
-      map-get($breakpoints, "desktop-wide"),
-      map-get($heading-fonts-sizes-desktop, "Mid"),
-      calc(map-get($heading-fonts-sizes-desktop, "Mid") * 1.33));
   }
 }
 
@@ -127,15 +109,6 @@ h3,
     font-size: map-get($heading-fonts-sizes-mobile, "Small");
     line-height: map-get($heading-fonts-sizes-mobile, "Small-line");
   }
-
-  @include mq('desktop', min) {
-    line-height: initial;
-    @include interpolate(font-size,
-      map-get($breakpoints, "desktop"),
-      map-get($breakpoints, "desktop-wide"),
-      map-get($body-fonts-sizes-desktop, "Small"),
-      calc(map-get($body-fonts-sizes-desktop, "Small") * 1.33));
-  }
 }
 
 
@@ -157,15 +130,6 @@ h3,
   @include mq("tablet", max) {
     font-size: map-get($body-fonts-sizes-mobile, "Large");
     line-height: map-get($body-fonts-sizes-mobile, "Large-line");
-  }
-
-  @include mq('desktop', min) {
-    line-height: initial;
-    @include interpolate(font-size,
-      map-get($breakpoints, "desktop"),
-      map-get($breakpoints, "desktop-wide"),
-      map-get($body-fonts-sizes-desktop, "Large"),
-      calc(map-get($body-fonts-sizes-desktop, "Large") * 1.2));
   }
 }
 
@@ -189,15 +153,6 @@ li,
   @include mq("tablet", max) {
     font-size: map-get($body-fonts-sizes-mobile, "Mid");
     line-height: map-get($body-fonts-sizes-mobile, "Mid-line");
-  }
-
-  @include mq('desktop', min) {
-    line-height: initial;
-    @include interpolate(font-size,
-      map-get($breakpoints, "desktop"),
-      map-get($breakpoints, "desktop-wide"),
-      map-get($body-fonts-sizes-desktop, "Mid"),
-      calc(map-get($body-fonts-sizes-desktop, "Mid") * 1.2));
   }
 }
 
@@ -223,15 +178,6 @@ button,
     font-size: map-get($body-fonts-sizes-mobile, "Small");
     line-height: map-get($body-fonts-sizes-mobile, "Small-line");
   }
-
-  @include mq('desktop', min) {
-    line-height: initial;
-    @include interpolate(font-size,
-      map-get($breakpoints, "desktop"),
-      map-get($breakpoints, "desktop-wide"),
-      map-get($body-fonts-sizes-desktop, "Small"),
-      calc(map-get($body-fonts-sizes-desktop, "Small") * 1.2));
-  }
 }
 
 .bi-bold-body {
@@ -252,14 +198,5 @@ button,
   @include mq("tablet", max) {
     font-size: map-get($body-fonts-sizes-mobile, "Large");
     line-height: map-get($body-fonts-sizes-mobile, "Large-line");
-  }
-
-  @include mq('desktop', min) {
-    line-height: initial;
-    @include interpolate(font-size,
-      map-get($breakpoints, "desktop"),
-      map-get($breakpoints, "desktop-wide"),
-      map-get($body-fonts-sizes-desktop, "Large"),
-      calc(map-get($body-fonts-sizes-desktop, "Large") * 1.2));
   }
 }

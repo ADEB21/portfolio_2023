@@ -78,7 +78,6 @@ const TransitionPage = () => {
   };
 
   React.useEffect(() => {
-    console.log("HELLO");
     barba.init({
       sync: true,
       transitions: [defaultTransition, projectTransition],

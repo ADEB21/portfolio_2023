@@ -35,11 +35,11 @@ class Picture extends HTMLElement {
     const posterDesktop = this.getAttribute("poster-desktop");
     const widthDesktop = this.getAttribute("width-desktop");
     const heightDesktop = this.getAttribute("height-desktop");
-    const isLazy = this.getAttribute("isLazy");
-    const isParallax = this.getAttribute("isParallax");
+    const isLazy = this.getAttribute("is-lazy");
+    const isParallax = this.getAttribute("is-parallax");
     const parallaxDirection = this.getAttribute("parallax-direction");
-    const isLeftToRight = this.getAttribute("isLeftToRight");
     const isMobile = window.innerWidth < 769;
+
 
     // SetIntersect function
     const setIntersect = () => {
@@ -83,7 +83,6 @@ class Picture extends HTMLElement {
           (window.innerHeight - pictureRect.top) /
           (window.innerHeight + pictureRect.height);
         progress = Math.max(0, Math.min(1, progress));
-        console.log(progress);
 
         switch (parallaxDirection) {
           case "top":
@@ -132,6 +131,7 @@ class Picture extends HTMLElement {
          width: 100%;
          height: 100%;
          transform: scale(1.05);
+         filter: blur(5px)
         }
       </style>
       <picture part="picture">
@@ -145,16 +145,6 @@ class Picture extends HTMLElement {
           media="(max-width: 767px)"
           data-src-set="${images.mobile.jpeg[0]} 1x, ${images.mobile.jpeg[1]} 2x"
         />
-        <source
-          type="image/webp"
-          media="(min-width: 1441px)"
-          data-src-set="${images.desktop.webp[1]} 1x, ${images.desktop.webp[2]} 2x"
-        />
-        <source
-          type="image/jpeg"
-          media="(min-width: 1441px)"
-          data-src-set="${images.desktop.jpeg[1]} 1x, ${images.desktop.jpeg[2]} 2x"
-        />  
         <source
           type="image/webp"
           media="(min-width: 768px)"
@@ -191,16 +181,6 @@ class Picture extends HTMLElement {
             media="(max-width: 767px)"
             srcset="${images.mobile.jpeg[0]} 1x, ${images.mobile.jpeg[1]} 2x"
           />
-          <source
-            type="image/webp"
-            media="(min-width: 1441px)"
-            data-src-set="${images.desktop.webp[1]} 1x, ${images.desktop.webp[2]} 2x"
-          />
-          <source
-            type="image/jpeg"
-            media="(min-width: 1441px)"
-            data-src-set="${images.desktop.jpeg[1]} 1x, ${images.desktop.jpeg[2]} 2x"
-          />  
           <source
             type="image/webp"
             media="(min-width: 768px)"
@@ -256,16 +236,6 @@ class Picture extends HTMLElement {
         />
         <source
           type="image/webp"
-          media="(min-width: 1441px)"
-          srcset="${images.desktop.webp[1]} 1x, ${images.desktop.webp[2]} 2x"
-        />
-        <source
-          type="image/jpeg"
-          media="(min-width: 1441px)"
-          srcset="${images.desktop.jpeg[1]} 1x, ${images.desktop.jpeg[2]} 2x"
-        />  
-        <source
-          type="image/webp"
           media="(min-width: 768px)"
           srcset="${images.desktop.webp[0]} 1x, ${images.desktop.webp[1]} 2x"
         />
@@ -293,16 +263,6 @@ class Picture extends HTMLElement {
           />
           <source
             type="image/webp"
-            media="(min-width: 1441px)"
-            srcset="${images.desktop.webp[1]} 1x, ${images.desktop.webp[2]} 2x"
-          />
-          <source
-            type="image/jpeg"
-            media="(min-width: 1441px)"
-            srcset="${images.desktop.jpeg[1]} 1x, ${images.desktop.jpeg[2]} 2x"
-          />  
-          <source
-            type="image/webp"
             media="(min-width: 768px)"
             srcset="${images.desktop.webp[0]} 1x, ${images.desktop.webp[1]} 2x"
           />
@@ -323,31 +283,14 @@ class Picture extends HTMLElement {
     }
 
     const picture = this.shadowRoot.querySelector("picture");
-    console.log(picture);
 
     if (isLazy === "true") {
       customIntersect();
     }
 
-    if (isParallax === "true") {
+    if (isParallax && isParallax === "true") {
       document.addEventListener("scroll", parallax);
     }
-
-    // if (isLeftToRight === "true") {
-    //   console.log(isLeftToRight);
-    //   let img = picture.querySelector("img");
-    //   console.log(img);
-    //   document.addEventListener('scroll', () => {
-    //     let elementTop = img.getBoundingClientRect().top;
-    //     let windowHeight = (window.innerHeight);
-    //     let scrollPercentage = 1 - (elementTop / windowHeight);
-    //     scrollPercentage = Math.max(0, Math.min(1, scrollPercentage));
-    //     console.log(scrollPercentage);
-    //     img.style = `--smooth-progress: ${scrollPercentage}`
-    //     img.style.clipPath = `inset(0 calc((1 - var(--smooth-progress, 1)) * 60%) 0 0 round 8px)`
-    //     img.style.transform = `scale()`
-    //   })
-    // }
   }
   disconnectedCallback() {
     document.removeEventListener("scroll", parallax);
@@ -355,6 +298,8 @@ class Picture extends HTMLElement {
 }
 
 customElements.define("custom-picture", Picture);
+
+
 
 /* How to use it
 
@@ -383,5 +328,7 @@ const images = {
   width-mobile="value"
   height-mobile="value"
   lazy={true} or false
+  isParallax={true} or false
+  parallax-direction="top" or bottom
 ></custom-picture>
 */

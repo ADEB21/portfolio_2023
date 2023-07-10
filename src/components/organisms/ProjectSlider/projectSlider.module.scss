@@ -1,0 +1,45 @@
+@import "../../../assets/styles/utils/variables";
+@import "../../../assets/styles/utils/mixins.scss";
+
+.ad_projectSlider {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  @include grid(
+    map-get($layout-desktop, column-number),
+    map-get($layout-desktop, column-spacing),
+    map-get($layout-desktop, margin)
+  );
+  ul {
+    grid-column: 1/13;
+    display: flex;
+    justify-content: space-between;
+    gap: 65px;
+    overflow: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    li {
+      flex: 0 0 288px;
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+      &:nth-child(even){
+        margin-top: map-get($spacing , "10" )
+      }
+    }
+  }
+  @include mq("tablet", max) {
+    @include grid(
+      map-get($layout-mobile, column-number),
+      map-get($layout-mobile, column-spacing),
+      map-get($layout-mobile, margin)
+    );
+    ul{
+      grid-column: 1/9;
+      li{
+        &:nth-child(even){
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,8 +1,30 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import SEO from "../layouts/utils/SEO.astro";
-import Button from "../components/atoms/Button/"
-import Icons from "../components/atoms/Icons"
+import Button from "../components/atoms/Button/";
+import Icons from "../components/atoms/Icons";
+import "../components/atoms/Picture/index.js";
+import ProjectCard from "../components/molecules/ProjectCard"
+
+import projectsData from "../assets/data/projects";
+
+import ExperienceOutCoverRetina from "../assets/images/projects/experience/outCover/experience-outCover-retina.jpg";
+import ExperienceOutCoverBase from "../assets/images/projects/experience/outCover/experience-outCover-base.jpg";
+import ExperienceOutCoverRetinaWebp from "../assets/images/projects/experience/outCover/experience-outCover-retina.webp";
+import ExperienceOutCoverBaseWebp from "../assets/images/projects/experience/outCover/experience-outCover-base.webp";
+import ExperienceOutCoverLazy from "../assets/images/projects/experience/outCover/experience-outCover-lazy.jpg";
+import ProjectSlider from "../components/organisms/ProjectSlider"
+
+const images = {
+  mobile: {
+    jpeg: [ExperienceOutCoverBase, ExperienceOutCoverRetina],
+    webp: [ExperienceOutCoverBaseWebp, ExperienceOutCoverRetinaWebp],
+  },
+  desktop: {
+    jpeg: [ExperienceOutCoverBase, ExperienceOutCoverRetina],
+    webp: [ExperienceOutCoverBaseWebp, ExperienceOutCoverRetinaWebp],
+  },
+};
 ---
 
 <SEO
@@ -11,12 +33,31 @@ import Icons from "../components/atoms/Icons"
   description="Portfolio de Arthur Debruille | Dev"
 >
   <Layout>
-    <Button type="link" to="/contact">Contact</Button><br>
-    <Icons white={false} type="logo-desktop"/><br>
-    <Icons white={false} type="logo-mobile"/><br>
-    <Icons white={false} type="linkedin"/><br>
-    <Icons white={false} type="twitter"/><br>
-    <div style="height: 1000vh"></div>
-    <a href="/projects/experience">Go to project</a>
+    <ProjectSlider client:load/>
+    <div style="width: 500px;">
+      <!-- <custom-picture
+        images={JSON.stringify(images)}
+        poster-desktop={ExperienceOutCoverLazy}
+        poster-mobile={ExperienceOutCoverLazy}
+        alt={"alt"}
+        width-desktop="288"
+        height-desktop="380"
+        width-mobile="288"
+        height-mobile="380"
+        is-lazy={true}
+        is-parallax={false}
+        parallax-direction="top"></custom-picture>
+    </div>
+
+    
+    <Button type="link" to="/contact">Contact</Button><br />
+    <Icons white={false} type="logo-desktop" /><br />
+    <Icons white={false} type="logo-mobile" /><br />
+    <Icons white={false} type="linkedin" /><br />
+    <Icons white={false} type="twitter" /><br />
+    <div style="height: 250vh"></div> -->
+     <!-- <a href="/projects/experience">Go to project</a> -->
   </Layout>
 </SEO>
+
+<script src="../components/atoms/Picture/index.js"></script>

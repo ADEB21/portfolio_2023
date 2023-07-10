@@ -6,7 +6,6 @@ import data from "../../assets/data/projects"
 
 export function getStaticPaths() {
     return data.projects.map((p) => {
-        console.log(p);
         return {
             params: {slug: p.slug},
             props: {p}

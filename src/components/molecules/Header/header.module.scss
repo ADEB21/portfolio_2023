@@ -1,0 +1,30 @@
+@import "../../../assets/styles/utils/variables";
+@import "../../../assets/styles/utils/mixins.scss";
+
+.ad_header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: map-get($spacing , "4" ) map-get($spacing , "7" );
+    align-items: baseline;
+    margin-bottom:  map-get($spacing , "9" );
+    nav{
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            li{
+
+            }
+        }
+    }
+    @include mq("tablet", max) {
+        flex-direction: column;
+        align-items: center;
+        padding: map-get($spacing , "2" ) map-get($spacing , "2" );
+        &>:nth-child(1){
+            margin-bottom: map-get($spacing , "2" );
+        }
+        
+    }
+}

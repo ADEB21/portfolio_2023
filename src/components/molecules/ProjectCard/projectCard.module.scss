@@ -1,0 +1,32 @@
+@import "../../../assets/styles/utils/variables";
+@import "../../../assets/styles/utils/mixins.scss";
+
+.ad_projectCard_container {
+  background-color: red;
+  .ad_projectCard {
+    width: fit-content;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    &_infos {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: map-get($spacing, "2");
+    }
+    &_picture {
+      width: 100%;
+      height: 380px;
+    }
+  }
+  &:hover {
+    .ad_projectCard_picture {
+      custom-picture::part(picture) {
+        background-color: red;
+        img {
+          background-color: red;
+        }
+      }
+    }
+  }
+}

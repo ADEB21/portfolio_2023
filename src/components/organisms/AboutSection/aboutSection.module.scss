@@ -1,0 +1,66 @@
+@import "../../../assets/styles/utils/variables";
+@import "../../../assets/styles/utils/mixins.scss";
+
+.ad_aboutSection {
+  @include grid(
+    map-get($layout-desktop, column-number),
+    map-get($layout-desktop, column-spacing),
+    map-get($layout-desktop, margin)
+  );
+  margin-top: map-get($spacing, "5");
+  &_container {
+    grid-column: 1/13;
+    @include grid(
+      map-get($layout-desktop, column-number),
+      map-get($layout-desktop, column-spacing),
+      0
+    );
+    &_picture {
+      grid-column: 1/5;
+    }
+    &_content {
+      grid-column: 5/13;
+      p {
+        margin-bottom: 20px;
+        a {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  @include mq("tablet", max) {
+    @include grid(
+      map-get($layout-mobile, column-number),
+      map-get($layout-mobile, column-spacing),
+      map-get($layout-mobile, margin)
+    );
+    margin-top: map-get($spacing, "9");
+    &_container {
+      grid-column: 1/9;
+      display: flex;
+      flex-direction: column;
+      &_picture {
+        grid-column: 1/5;
+        height: 368px;
+        width: 100vw;
+        margin-left: -16px;
+        margin-right: -16px;
+        margin-bottom: map-get($spacing, "8");
+      }
+      &_content {
+        grid-column: 5/13;
+        p {
+          margin-bottom: 20px;
+          a {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  @include mq("desktop", min) {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

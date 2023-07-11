@@ -1,12 +1,19 @@
 @import "../../../assets/styles/utils/variables";
 @import "../../../assets/styles/utils/mixins";
 
+.ad_submit_btn {
+  border: none;
+  background-color: map-get($colors, "brown");
+  padding: map-get($spacing, "3") map-get($spacing, "5");
 
-.ad_link_btn{
-    border: none;
-    background-color: map-get($colors , "brown" );
-    padding: map-get($spacing , "3" ) map-get($spacing , "5" ) ;
-    a{
-        color: map-get($colors , "white" );
-    }
+  color: map-get($colors, "white");
+}
+
+.ad_link_btn {
+  border: none;
+  background-color: map-get($colors, "brown");
+  padding: map-get($spacing, "3") map-get($spacing, "5");
+  a {
+    color: map-get($colors, "white");
+  }
 }

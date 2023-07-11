@@ -1,0 +1,30 @@
+@import "../../../assets/styles/utils/variables";
+@import "../../../assets/styles/utils/mixins.scss";
+
+
+.ad_form {
+    width: 50%;
+    input {
+      outline: none;
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid;
+      padding-bottom: 4px;
+      background: none;
+      display: block;
+      margin-bottom: 20px;
+    }
+    textarea {
+      display: block;
+      width: 100%;
+      background: none;
+      resize: none;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid;
+      margin-bottom: 40px;
+    }
+    @include mq("tablet", max) {
+     width: 100%
+    }
+  }

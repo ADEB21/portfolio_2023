@@ -56,9 +56,13 @@
     justify-content: flex-end;
     gap: map-get($spacing , "5" );
     button{
+      padding: 0;
       background: none;
       border: none;
       cursor: pointer;
+      svg{
+        transition: 300ms;
+      }
       .previous{
         &.left{
           opacity: 0.5;

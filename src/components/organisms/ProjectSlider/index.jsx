@@ -38,23 +38,52 @@ const index = () => {
     let scroller = slider.current.querySelector(".bi_home-slider-content");
     const items = scroller.querySelectorAll("li");
     const firstItem = items[0];
-    const itemWidth = firstItem.offsetWidth + 20;
-    
-
-    console.log(
-      itemWidth
+    const lastItem = items.length - 1;
+    const previousSvg = slider.current.querySelector(".previousBtn");
+    const previousBtn = slider.current.querySelector(
+      '[aria-label="Precedent"]'
     );
-    if (currentScroll < itemWidth / 2) {
-      slider.current.querySelector(".previousBtn").classList.add(ProjectSliderStyle["left"]);
-    } else {
-      slider.current.querySelector(".previousBtn").classList.remove(ProjectSliderStyle["left"]);
-    }
+    const nextSvg = slider.current.querySelector(".nextBtn");
+    const nextBtn = slider.current.querySelector('[aria-label="Suivant"]');
 
-    if (currentScroll > scroller.offsetWidth + itemWidth / 2 + 1000) {
-      slider.current.querySelector(".nextBtn").classList.add(ProjectSliderStyle["right"]);
-    } else {
-      slider.current.querySelector(".nextBtn").classList.remove(ProjectSliderStyle["right"]);
-    }
+    const observer = new IntersectionObserver(
+      (entries, index) => {
+        console.log(entries);
+        entries.forEach((entry, index) => {
+          const intersectingIndex = [...items].indexOf(entry.target);
+          const isFirstItem = intersectingIndex === 0;
+          const isLastItem = intersectingIndex === lastItem;
+          if (entry.isIntersecting) {
+            console.log(entry);
+            if (isFirstItem) {
+              console.log(intersectingIndex);
+              previousSvg.classList.add(ProjectSliderStyle["left"]);
+              previousBtn.style.pointerEvents = "none";
+            }
+            if (isLastItem) {
+              nextSvg.classList.add(ProjectSliderStyle["right"]);
+              nextBtn.style.pointerEvents = "none";
+            }
+          }else{
+            if (isFirstItem) {
+              previousSvg.classList.remove(ProjectSliderStyle["left"]);
+              previousBtn.style.pointerEvents = "";
+            }
+            if (isLastItem) {
+              nextSvg.classList.remove(ProjectSliderStyle["right"]);
+              nextBtn.style.pointerEvents = "";
+            }
+          }
+        });
+      },
+      {
+        rootMargin: "0px",
+        threshold: 1,
+      }
+    );
+    items.forEach((i) => {
+      observer.observe(i);
+    });
   }, [currentScroll]);
 
   return (
@@ -110,7 +139,6 @@ const index = () => {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               className={`nextBtn ${ProjectSliderStyle.next}`}
-              
             >
               <path
                 fillRule="evenodd"
@@ -136,32 +164,6 @@ export default index;
 //   const getElements = (slider) => {
 //     return [...slider.querySelectorAll(".bi_home-slider-content li")];
 //   };
-
-//   const nextItem = () => {
-//     let scroller = slider.current.querySelector('.bi_home-slider-content');
-//     const items = scroller.querySelectorAll('li');
-//     const firstItem = items[0];
-//     const itemWidth = firstItem.offsetWidth + 20; // inclut la largeur de l'élément et de l'espace
-//     const scrollAmount = scroller.scrollLeft + itemWidth;
-//     setCurrentScroll(scrollAmount);
-//     scroller.scrollTo({
-//       left: scrollAmount,
-//       behavior: "smooth"
-//     });
-//   }
-
-//   const previousItem = () => {
-//     let scroller = slider.current.querySelector('.bi_home-slider-content');
-//     const items = scroller.querySelectorAll('li');
-//     const firstItem = items[0];
-//     const itemWidth = firstItem.offsetWidth + 20; // inclut la largeur de l'élément et de l'espace
-//     const scrollAmount = scroller.scrollLeft - itemWidth;
-//     setCurrentScroll(scrollAmount);
-//     scroller.scrollTo({
-//       left: scrollAmount,
-//       behavior: "smooth"
-//     });
-//   }
 
 //   React.useEffect(() => {
 //     const guides = [

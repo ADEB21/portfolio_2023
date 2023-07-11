@@ -2,7 +2,7 @@
 @import "../../../assets/styles/utils/mixins.scss";
 
 .ad_projectCard_container {
-  background-color: red;
+
   .ad_projectCard {
     width: fit-content;
     height: 435px;
@@ -22,9 +22,9 @@
   &:hover {
     .ad_projectCard_picture {
       custom-picture::part(picture) {
-        background-color: red;
+        
         img {
-          background-color: red;
+          
         }
       }
     }

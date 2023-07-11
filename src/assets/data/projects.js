@@ -1709,7 +1709,7 @@ export default {
     {
       title: "Gongju",
       slug: "gongju",
-      date: "2022",
+      date: "2023",
       outCover: {
         picture: {
           images: {

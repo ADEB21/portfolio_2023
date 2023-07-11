@@ -9,7 +9,7 @@ const index = () => {
         <nav>
             <ul>
                 <a href="/">
-                    <li>Projets</li>
+                    <li>Accueil</li>
                 </a><a href="/about">
                     <li>A propos</li>
                 </a><a href="/contact">

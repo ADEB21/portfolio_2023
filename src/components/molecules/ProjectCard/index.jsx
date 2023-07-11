@@ -5,13 +5,20 @@ import "../../atoms/Picture/index";
 const index = (props) => {
   const { title, date, images, poster, slug, alt } = props;
   return (
-    <a className={ProjectCardStyle.ad_projectCard_container} href={`/projects/${slug}`}>
+    <a
+      className={ProjectCardStyle.ad_projectCard_container}
+      href={`/projects/${slug}`}
+    >
       <article className={ProjectCardStyle.ad_projectCard}>
         <div className={ProjectCardStyle.ad_projectCard_infos}>
-          <h2 className={ProjectCardStyle.ad_projectCard_infos_title}>
-            {title}
-          </h2>
-          <p className={ProjectCardStyle.ad_projectCard_infos_date}>{date}</p>
+          <span>
+            <h2>{title}</h2>
+            <p>{date}</p>
+          </span>
+          <span>
+            <h2>{title}</h2>
+            <p>{date}</p>
+          </span>
         </div>
         <div className={ProjectCardStyle.ad_projectCard_picture}>
           <custom-picture

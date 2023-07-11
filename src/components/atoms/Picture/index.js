@@ -156,6 +156,7 @@ class Picture extends HTMLElement {
           data-src-set="${images.desktop.jpeg[0]} 1x, ${images.desktop.jpeg[1]} 2x"
         />
         <img
+           part="img"
            alt="${alt}"
            src="${null}"
            data-src="${images.desktop.jpeg[0]}"
@@ -192,6 +193,7 @@ class Picture extends HTMLElement {
             srcset="${images.desktop.jpeg[0]} 1x, ${images.desktop.jpeg[1]} 2x"
           />
           <img
+            part="img"
             src="${images.desktop.jpeg[0]}"
             alt="${alt}"
             width="${widthDesktop}"
@@ -245,6 +247,7 @@ class Picture extends HTMLElement {
           srcset="${images.desktop.jpeg[0]} 1x, ${images.desktop.jpeg[1]} 2x"
         />
         <img
+           part="img"
            alt="${alt}"
            src="${images.desktop.jpeg[0]}"
            width="${widthDesktop}"
@@ -272,6 +275,7 @@ class Picture extends HTMLElement {
             srcset="${images.desktop.jpeg[0]} 1x, ${images.desktop.jpeg[1]} 2x"
           />
           <img
+            part="img"
             src="${images.desktop.jpeg[0]}"
             alt="${alt}"
             width="${widthDesktop}"

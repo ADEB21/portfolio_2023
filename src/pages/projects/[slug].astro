@@ -20,8 +20,8 @@ const {slug} = Astro.params
 
 <SEO
   lang="fr"
-  title="Arthur Debruille Portfolio"
-  description="Portfolio de Arthur Debruille | Dev"
+  title={`Arthur Debruille | ${p.title}`}
+  description={`Découvrez comment j'ai contribué à créer une expérience en ligne exceptionnelle pour ${p.title}. Explorez mes réalisations et plongez dans les détails de ce projet captivant.`}
 >
   <Layout>
     <h1>{p.title}</h1>

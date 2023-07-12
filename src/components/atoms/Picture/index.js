@@ -292,7 +292,7 @@ class Picture extends HTMLElement {
       customIntersect();
     }
 
-    if (isParallax && isParallax === "true") {
+    if (isParallax === "true") {
       document.addEventListener("scroll", parallax);
     }
   }

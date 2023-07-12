@@ -5,7 +5,7 @@ import Icons from "../../atoms/Icons"
 const index = () => {
   return (
     <header className={headerStyle.ad_header}>
-        <a href=""><p className='bi-small-heading'>Arthur Debruille</p></a>
+        <a href="/"><p className='bi-small-heading'>Arthur Debruille</p></a>
         <nav>
             <ul>
                 <a href="/">

@@ -1,0 +1,50 @@
+@import "../../../assets/styles/utils/variables";
+@import "../../../assets/styles/utils/mixins.scss";
+
+.ad_projectHero {
+  @include grid(
+    map-get($layout-desktop, column-number),
+    map-get($layout-desktop, column-spacing),
+    map-get($layout-desktop, margin)
+  );
+  height: 80vh;
+  margin-top: 5%;
+  margin-bottom: map-get($spacing, "15" );
+  &_container{
+    grid-column: 1/13;
+    position: relative;
+    width: 100%;
+    height: inherit;
+    &_picture{
+      width: 626px;
+      margin: 0 auto;
+      height: 100%;
+      mix-blend-mode: luminosity;
+      opacity: 0.3;
+    }
+    &_text{
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  @include mq("tablet", max) {
+   @include grid(
+     map-get($layout-mobile, column-number),
+     map-get($layout-mobile, column-spacing),
+     map-get($layout-mobile, margin)
+   );
+   margin-bottom: map-get($spacing, "9" );
+   &_container{
+    grid-column: 1/9;
+    &_picture{
+      width: 100%;
+      margin: 0;
+    }
+  }
+  }
+}

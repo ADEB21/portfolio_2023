@@ -46,7 +46,7 @@ a {
 
 
 h1,
-.bi-large-heading {
+.ad-large-heading {
   font-family: "DelaGothicOne-Regular";
   font-size: map-get($heading-fonts-sizes-desktop, "Large");
   line-height: map-get($heading-fonts-sizes-desktop, "Large-line");
@@ -68,7 +68,7 @@ h1,
 }
 
 h2,
-.bi-mid-heading {
+.ad-mid-heading {
   font-family: "DelaGothicOne-Regular";
   font-size: map-get($heading-fonts-sizes-desktop, "Mid");
   line-height: map-get($heading-fonts-sizes-desktop, "Mid-line");
@@ -90,7 +90,7 @@ h2,
 }
 
 h3,
-.bi-small-heading {
+.ad-small-heading {
   font-family: "DelaGothicOne-Regular";
   font-size: map-get($heading-fonts-sizes-desktop, "Small");
   line-height: map-get($heading-fonts-sizes-desktop, "Small-line");
@@ -112,7 +112,7 @@ h3,
 }
 
 
-.bi-large-body {
+.ad-large-body {
   font-family: "Oxygen-Regular";
   font-size: map-get($body-fonts-sizes-desktop, "Large");
   line-height: map-get($body-fonts-sizes-desktop, "Large-line");
@@ -135,7 +135,7 @@ h3,
 
 p,
 li,
-.bi-mid-body {
+.ad-mid-body {
   font-family: "Oxygen-Regular";
   font-size: map-get($body-fonts-sizes-desktop, "Mid");
   line-height: map-get($body-fonts-sizes-desktop, "Mid-line");
@@ -161,7 +161,7 @@ input,
 button,
 textarea,
 label,
-.bi-small-body {
+.ad-small-body {
   font-family: "Oxygen-Regular";
   font-size: map-get($body-fonts-sizes-desktop, "Small");
   line-height: map-get($body-fonts-sizes-desktop, "Small-line");
@@ -182,7 +182,7 @@ label,
   }
 }
 
-.bi-bold-body {
+.ad-bold-body {
   font-family: "Oxygen-Bold";
   font-size: map-get($body-fonts-sizes-desktop, "Large");
   line-height: map-get($body-fonts-sizes-desktop, "Large-line");

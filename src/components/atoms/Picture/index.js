@@ -40,6 +40,8 @@ class Picture extends HTMLElement {
     const parallaxDirection = this.getAttribute("parallax-direction");
     const isMobile = window.innerWidth < 769;
 
+    console.log(isLazy, isParallax);
+
 
     // SetIntersect function
     const setIntersect = () => {
@@ -105,9 +107,6 @@ class Picture extends HTMLElement {
       document.addEventListener("scroll", setIntersect);
     };
 
-    if (isParallax === "true") {
-      document.addEventListener("scroll", parallax);
-    }
 
     // HTML
     if (isLazy === "true") {
@@ -293,6 +292,8 @@ class Picture extends HTMLElement {
     }
 
     if (isParallax && isParallax === "true") {
+      let img = picture.querySelector("img");
+      img.style.transform = "scale(1.5)"
       document.addEventListener("scroll", parallax);
     }
   }
@@ -328,8 +329,8 @@ const images = {
   height-desktop="value"
   width-mobile="value"
   height-mobile="value"
-  lazy={true} or false
-  isParallax={true} or false
+  is-lazy={true} or false
+  is-parallax={true} or false
   parallax-direction="top" or bottom
 ></custom-picture>
 */

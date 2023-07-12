@@ -2,6 +2,9 @@
 import Layout from "../../layouts/Layout.astro";
 import SEO from "../../layouts/utils/SEO.astro";
 import data from "../../assets/data/projects"
+import ProjectHero from "../../components/organisms/ProjectHero/Index"
+import ProjectDescription from "../../components/organisms/ProjectDescription"
+import MarqueePicture from "../../components/organisms/MarqueePicture"
 
 
 export function getStaticPaths() {
@@ -13,8 +16,10 @@ export function getStaticPaths() {
     })
 }
 
+
 const {p} = Astro.props
 const {slug} = Astro.params
+console.log(p);
 
 ---
 
@@ -24,11 +29,9 @@ const {slug} = Astro.params
   description={`Découvrez comment j'ai contribué à créer une expérience en ligne exceptionnelle pour ${p.title}. Explorez mes réalisations et plongez dans les détails de ce projet captivant.`}
 >
   <Layout>
-    <h1>{p.title}</h1>
-    <p>{p.date}</p>
-    <h1>{p.projectDescription.title}</h1>
-    <p class="bi-bold-body">Objectfif</p>
-    <p>{p.projectDescription.goal}</p>
-    <a href="/">Back to home</a>
+    <ProjectHero title={p.title} date={p.date} inCover={p.inCover.picture} client:load/>
+    <ProjectDescription title={p.projectDescription.title} goal={p.projectDescription.goal}/>
+    <MarqueePicture client:load/>
+    <div style="height: 1000px "></div>
   </Layout>
 </SEO>

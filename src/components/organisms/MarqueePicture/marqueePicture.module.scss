@@ -1,0 +1,195 @@
+@import "../../../assets/styles/utils/variables";
+@import "../../../assets/styles/utils/mixins.scss";
+
+.ad_marqueePicture {
+  display: flex;
+  flex-direction: column;
+  gap: map-get($spacing, "5");
+  mix-blend-mode: luminosity;
+  opacity: 0.6;
+  margin-bottom: map-get($spacing , "15" );
+  &_top {
+    display: flex;
+    justify-content: center;
+    ul {
+      width: fit-content;
+      display: flex;
+      gap: map-get($spacing, "5");
+      li {
+        &:nth-child(1) {
+          width: 429px;
+          height: 300px;
+        }
+        &:nth-child(2) {
+          width: 207px;
+          height: 300px;
+        }
+        &:nth-child(3) {
+          width: 692px;
+          height: 300px;
+        }
+        &:nth-child(4) {
+          width: 231px;
+          height: 300px;
+        }
+        &:nth-child(5) {
+          width: 504px;
+          height: 300px;
+        }
+        &:nth-child(6) {
+          width: 429px;
+          height: 300px;
+        }
+        &:nth-child(7) {
+          width: 207px;
+          height: 300px;
+        }
+        &:nth-child(8) {
+          width: 692px;
+          height: 300px;
+        }
+        &:nth-child(9) {
+          width: 231px;
+          height: 300px;
+        }
+        &:nth-child(10) {
+          width: 504px;
+          height: 300px;
+        }
+      }
+    }
+  }
+  &_bottom {
+    display: flex;
+    justify-content: center;
+    ul {
+      width: fit-content;
+      display: flex;
+      gap: map-get($spacing, "5");
+      li {
+        &:nth-child(1) {
+          width: 721px;
+          height: 300px;
+        }
+        &:nth-child(2) {
+          width: 461px;
+          height: 300px;
+        }
+        &:nth-child(3) {
+          width: 323px;
+          height: 300px;
+        }
+        &:nth-child(4) {
+          width: 509px;
+          height: 300px;
+        }
+        &:nth-child(5) {
+          width: 721px;
+          height: 300px;
+        }
+        &:nth-child(6) {
+          width: 461px;
+          height: 300px;
+        }
+        &:nth-child(7) {
+          width: 323px;
+          height: 300px;
+        }
+        &:nth-child(8) {
+          width: 509px;
+          height: 300px;
+        }
+      }
+    }
+  }
+  @include mq("tablet", max) {
+    gap: map-get($spacing, "3");
+    margin-bottom: map-get($spacing , "9" );
+    &_top {
+      ul {
+        gap: map-get($spacing, "3");
+        li {
+          &:nth-child(1) {
+            width: 200px;
+            height: 134px;
+          }
+          &:nth-child(2) {
+            width: 97px;
+            height: 134px;
+          }
+          &:nth-child(3) {
+            width: 324px;
+            height: 134px;
+          }
+          &:nth-child(4) {
+            width: 108px;
+            height: 134px;
+          }
+          &:nth-child(5) {
+            width: 236px;
+            height: 134px;
+          }
+          &:nth-child(6) {
+            width: 200px;
+            height: 134px;
+          }
+          &:nth-child(7) {
+            width: 97px;
+            height: 134px;
+          }
+          &:nth-child(8) {
+            width: 324px;
+            height: 134px;
+          }
+          &:nth-child(9) {
+            width: 108px;
+            height: 134px;
+          }
+          &:nth-child(10) {
+            width: 236px;
+            height: 134px;
+          }
+        }
+      }
+    }
+    &_bottom {
+      ul {
+        gap: map-get($spacing, "3");
+        li {
+          &:nth-child(1) {
+            width: 337px;
+            height: 134px;
+          }
+          &:nth-child(2) {
+            width: 216px;
+            height: 134px;
+          }
+          &:nth-child(3) {
+            width: 151px;
+            height: 134px;
+          }
+          &:nth-child(4) {
+            width: 238px;
+            height: 134px;
+          }
+          &:nth-child(5) {
+            width: 337px;
+            height: 134px;
+          }
+          &:nth-child(6) {
+            width: 216px;
+            height: 134px;
+          }
+          &:nth-child(7) {
+            width: 151px;
+            height: 134px;
+          }
+          &:nth-child(8) {
+            width: 238px;
+            height: 134px;
+          }
+        }
+      }
+    }
+  }
+}

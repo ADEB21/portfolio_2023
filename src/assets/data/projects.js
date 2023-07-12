@@ -52,6 +52,107 @@ import GongjuOutCoverRetinaWebp from "../images/projects/gongju/outCover/gongju-
 import GongjuOutCoverBaseWebp from "../images/projects/gongju/outCover/gongju-outCover-base.webp";
 import GongjuOutCoverLazy from "../images/projects/gongju/outCover/gongju-outCover-lazy.jpg";
 
+import ExperienceInCoverDesktopRetina from "../images/projects/experience/inCover/experience-inCover-desktop-retina.jpg";
+import ExperienceInCoverDesktopBase from "../images/projects/experience/inCover/experience-inCover-desktop-base.jpg";
+import ExperienceInCoverDesktopRetinaWebp from "../images/projects/experience/inCover/experience-inCover-desktop-retina.webp";
+import ExperienceInCoverDesktopBaseWebp from "../images/projects/experience/inCover/experience-inCover-desktop-base.webp";
+import ExperienceInCoverDesktopLazy from "../images/projects/experience/inCover/experience-inCover-desktop-lazy.jpg";
+import ExperienceInCoverMobileRetina from "../images/projects/experience/inCover/experience-inCover-mobile-retina.jpg";
+import ExperienceInCoverMobileBase from "../images/projects/experience/inCover/experience-inCover-mobile-base.jpg";
+import ExperienceInCoverMobileRetinaWebp from "../images/projects/experience/inCover/experience-inCover-mobile-retina.webp";
+import ExperienceInCoverMobileBaseWebp from "../images/projects/experience/inCover/experience-inCover-mobile-base.webp";
+import ExperienceInCoverMobileLazy from "../images/projects/experience/inCover/experience-inCover-mobile-lazy.jpg";
+
+import SccInCoverDesktopRetina from "../images/projects/scc/inCover/scc-inCover-desktop-retina.jpg";
+import SccInCoverDesktopBase from "../images/projects/scc/inCover/scc-inCover-desktop-base.jpg";
+import SccInCoverDesktopRetinaWebp from "../images/projects/scc/inCover/scc-inCover-desktop-retina.webp";
+import SccInCoverDesktopBaseWebp from "../images/projects/scc/inCover/scc-inCover-desktop-base.webp";
+import SccInCoverDesktopLazy from "../images/projects/scc/inCover/scc-inCover-desktop-lazy.jpg";
+import SccInCoverMobileRetina from "../images/projects/scc/inCover/scc-inCover-mobile-retina.jpg";
+import SccInCoverMobileBase from "../images/projects/scc/inCover/scc-inCover-mobile-base.jpg";
+import SccInCoverMobileRetinaWebp from "../images/projects/scc/inCover/scc-inCover-mobile-retina.webp";
+import SccInCoverMobileBaseWebp from "../images/projects/scc/inCover/scc-inCover-mobile-base.webp";
+import SccInCoverMobileLazy from "../images/projects/scc/inCover/scc-inCover-mobile-lazy.jpg";
+
+import LBQInCoverDesktopRetina from "../images/projects/lbq/inCover/lbq-inCover-desktop-retina.jpg";
+import LBQInCoverDesktopBase from "../images/projects/lbq/inCover/lbq-inCover-desktop-base.jpg";
+import LBQInCoverDesktopRetinaWebp from "../images/projects/lbq/inCover/lbq-inCover-desktop-retina.webp";
+import LBQInCoverDesktopBaseWebp from "../images/projects/lbq/inCover/lbq-inCover-desktop-base.webp";
+import LBQInCoverDesktopLazy from "../images/projects/lbq/inCover/lbq-inCover-desktop-lazy.jpg";
+import LBQInCoverMobileRetina from "../images/projects/lbq/inCover/lbq-inCover-mobile-retina.jpg";
+import LBQInCoverMobileBase from "../images/projects/lbq/inCover/lbq-inCover-mobile-base.jpg";
+import LBQInCoverMobileRetinaWebp from "../images/projects/lbq/inCover/lbq-inCover-mobile-retina.webp";
+import LBQInCoverMobileBaseWebp from "../images/projects/lbq/inCover/lbq-inCover-mobile-base.webp";
+import LBQInCoverMobileLazy from "../images/projects/lbq/inCover/lbq-inCover-mobile-lazy.jpg";
+
+import CambiumInCoverDesktopRetina from "../images/projects/cambium/inCover/cambium-inCover-desktop-retina.jpg";
+import CambiumInCoverDesktopBase from "../images/projects/cambium/inCover/cambium-inCover-desktop-base.jpg";
+import CambiumInCoverDesktopRetinaWebp from "../images/projects/cambium/inCover/cambium-inCover-desktop-retina.webp";
+import CambiumInCoverDesktopBaseWebp from "../images/projects/cambium/inCover/cambium-inCover-desktop-base.webp";
+import CambiumInCoverDesktopLazy from "../images/projects/cambium/inCover/cambium-inCover-desktop-lazy.jpg";
+import CambiumInCoverMobileRetina from "../images/projects/cambium/inCover/cambium-inCover-mobile-retina.jpg";
+import CambiumInCoverMobileBase from "../images/projects/cambium/inCover/cambium-inCover-mobile-base.jpg";
+import CambiumInCoverMobileRetinaWebp from "../images/projects/cambium/inCover/cambium-inCover-mobile-retina.webp";
+import CambiumInCoverMobileBaseWebp from "../images/projects/cambium/inCover/cambium-inCover-mobile-base.webp";
+import CambiumInCoverMobileLazy from "../images/projects/cambium/inCover/cambium-inCover-mobile-lazy.jpg";
+
+import HeliopolisInCoverDesktopRetina from "../images/projects/heliopolis/inCover/heliopolis-inCover-desktop-retina.jpg";
+import HeliopolisInCoverDesktopBase from "../images/projects/heliopolis/inCover/heliopolis-inCover-desktop-base.jpg";
+import HeliopolisInCoverDesktopRetinaWebp from "../images/projects/heliopolis/inCover/heliopolis-inCover-desktop-retina.webp";
+import HeliopolisInCoverDesktopBaseWebp from "../images/projects/heliopolis/inCover/heliopolis-inCover-desktop-base.webp";
+import HeliopolisInCoverDesktopLazy from "../images/projects/heliopolis/inCover/heliopolis-inCover-desktop-lazy.jpg";
+import HeliopolisInCoverMobileRetina from "../images/projects/heliopolis/inCover/heliopolis-inCover-mobile-retina.jpg";
+import HeliopolisInCoverMobileBase from "../images/projects/heliopolis/inCover/heliopolis-inCover-mobile-base.jpg";
+import HeliopolisInCoverMobileRetinaWebp from "../images/projects/heliopolis/inCover/heliopolis-inCover-mobile-retina.webp";
+import HeliopolisInCoverMobileBaseWebp from "../images/projects/heliopolis/inCover/heliopolis-inCover-mobile-base.webp";
+import HeliopolisInCoverMobileLazy from "../images/projects/heliopolis/inCover/heliopolis-inCover-mobile-lazy.jpg";
+
+import InceptoInCoverDesktopRetina from "../images/projects/incepto/inCover/incepto-inCover-desktop-retina.jpg";
+import InceptoInCoverDesktopBase from "../images/projects/incepto/inCover/incepto-inCover-desktop-base.jpg";
+import InceptoInCoverDesktopRetinaWebp from "../images/projects/incepto/inCover/incepto-inCover-desktop-retina.webp";
+import InceptoInCoverDesktopBaseWebp from "../images/projects/incepto/inCover/incepto-inCover-desktop-base.webp";
+import InceptoInCoverDesktopLazy from "../images/projects/incepto/inCover/incepto-inCover-desktop-lazy.jpg";
+import InceptoInCoverMobileRetina from "../images/projects/incepto/inCover/incepto-inCover-mobile-retina.jpg";
+import InceptoInCoverMobileBase from "../images/projects/incepto/inCover/incepto-inCover-mobile-base.jpg";
+import InceptoInCoverMobileRetinaWebp from "../images/projects/incepto/inCover/incepto-inCover-mobile-retina.webp";
+import InceptoInCoverMobileBaseWebp from "../images/projects/incepto/inCover/incepto-inCover-mobile-base.webp";
+import InceptoInCoverMobileLazy from "../images/projects/incepto/inCover/incepto-inCover-mobile-lazy.jpg";
+
+import TertiaviaInCoverDesktopRetina from "../images/projects/tertiavia/inCover/tertiavia-inCover-desktop-retina.jpg";
+import TertiaviaInCoverDesktopBase from "../images/projects/tertiavia/inCover/tertiavia-inCover-desktop-base.jpg";
+import TertiaviaInCoverDesktopRetinaWebp from "../images/projects/tertiavia/inCover/tertiavia-inCover-desktop-retina.webp";
+import TertiaviaInCoverDesktopBaseWebp from "../images/projects/tertiavia/inCover/tertiavia-inCover-desktop-base.webp";
+import TertiaviaInCoverDesktopLazy from "../images/projects/tertiavia/inCover/tertiavia-inCover-desktop-lazy.jpg";
+import TertiaviaInCoverMobileRetina from "../images/projects/tertiavia/inCover/tertiavia-inCover-mobile-retina.jpg";
+import TertiaviaInCoverMobileBase from "../images/projects/tertiavia/inCover/tertiavia-inCover-mobile-base.jpg";
+import TertiaviaInCoverMobileRetinaWebp from "../images/projects/tertiavia/inCover/tertiavia-inCover-mobile-retina.webp";
+import TertiaviaInCoverMobileBaseWebp from "../images/projects/tertiavia/inCover/tertiavia-inCover-mobile-base.webp";
+import TertiaviaInCoverMobileLazy from "../images/projects/tertiavia/inCover/tertiavia-inCover-mobile-lazy.jpg";
+
+import WebcomponentInCoverDesktopRetina from "../images/projects/webc/inCover/webc-inCover-desktop-retina.jpg";
+import WebcomponentInCoverDesktopBase from "../images/projects/webc/inCover/webc-inCover-desktop-base.jpg";
+import WebcomponentInCoverDesktopRetinaWebp from "../images/projects/webc/inCover/webc-inCover-desktop-retina.webp";
+import WebcomponentInCoverDesktopBaseWebp from "../images/projects/webc/inCover/webc-inCover-desktop-base.webp";
+import WebcomponentInCoverDesktopLazy from "../images/projects/webc/inCover/webc-inCover-desktop-lazy.jpg";
+import WebcomponentInCoverMobileRetina from "../images/projects/webc/inCover/webc-inCover-mobile-retina.jpg";
+import WebcomponentInCoverMobileBase from "../images/projects/webc/inCover/webc-inCover-mobile-base.jpg";
+import WebcomponentInCoverMobileRetinaWebp from "../images/projects/webc/inCover/webc-inCover-mobile-retina.webp";
+import WebcomponentInCoverMobileBaseWebp from "../images/projects/webc/inCover/webc-inCover-mobile-base.webp";
+import WebcomponentInCoverMobileLazy from "../images/projects/webc/inCover/webc-inCover-mobile-lazy.jpg";
+
+import GongjuInCoverDesktopRetina from "../images/projects/gongju/inCover/gongju-inCover-desktop-retina.jpg";
+import GongjuInCoverDesktopBase from "../images/projects/gongju/inCover/gongju-inCover-desktop-base.jpg";
+import GongjuInCoverDesktopRetinaWebp from "../images/projects/gongju/inCover/gongju-inCover-desktop-retina.webp";
+import GongjuInCoverDesktopBaseWebp from "../images/projects/gongju/inCover/gongju-inCover-desktop-base.webp";
+import GongjuInCoverDesktopLazy from "../images/projects/gongju/inCover/gongju-inCover-desktop-lazy.jpg";
+import GongjuInCoverMobileRetina from "../images/projects/gongju/inCover/gongju-inCover-mobile-retina.jpg";
+import GongjuInCoverMobileBase from "../images/projects/gongju/inCover/gongju-inCover-mobile-base.jpg";
+import GongjuInCoverMobileRetinaWebp from "../images/projects/gongju/inCover/gongju-inCover-mobile-retina.webp";
+import GongjuInCoverMobileBaseWebp from "../images/projects/gongju/inCover/gongju-inCover-mobile-base.webp";
+import GongjuInCoverMobileLazy from "../images/projects/gongju/inCover/gongju-inCover-mobile-lazy.jpg";
+
+
+
 
 export default {
   projects: [
@@ -82,18 +183,18 @@ export default {
       inCover: {
         picture: {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [SccInCoverMobileBase, SccInCoverMobileRetina],
+              webp: [SccInCoverMobileBaseWebp, SccInCoverMobileRetinaWebp],
+            },
+            desktop: {
+              jpeg: [SccInCoverDesktopBase, SccInCoverDesktopRetina],
+              webp: [SccInCoverDesktopBaseWebp, SccInCoverDesktopRetinaWebp],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: SccInCoverDesktopLazy,
+            mobile: SccInCoverMobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
@@ -317,18 +418,18 @@ export default {
       inCover: {
         picture: {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [LBQInCoverMobileBase, LBQInCoverMobileRetina],
+              webp: [LBQInCoverMobileBaseWebp, LBQInCoverMobileRetinaWebp],
+            },
+            desktop: {
+              jpeg: [LBQInCoverDesktopBase, LBQInCoverDesktopRetina],
+              webp: [LBQInCoverDesktopBaseWebp, LBQInCoverDesktopRetinaWebp],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: LBQInCoverDesktopLazy,
+            mobile: LBQInCoverMobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
@@ -552,18 +653,18 @@ export default {
       inCover: {
         picture: {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [ExperienceInCoverMobileBase, ExperienceInCoverMobileRetina],
+              webp: [ExperienceInCoverMobileBaseWebp, ExperienceInCoverMobileRetinaWebp],
+            },
+            desktop: {
+              jpeg: [ExperienceInCoverDesktopBase, ExperienceInCoverDesktopRetina],
+              webp: [ExperienceInCoverDesktopBaseWebp, ExperienceInCoverDesktopRetinaWebp],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: ExperienceInCoverDesktopLazy,
+            mobile: ExperienceInCoverMobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },

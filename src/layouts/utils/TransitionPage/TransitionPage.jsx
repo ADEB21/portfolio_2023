@@ -64,7 +64,6 @@ const handleTransitionCompleted = (data) => {
   const nextHtml = data.next.html
   const nextHead = new DOMParser().parseFromString(nextHtml, "text/html").head;
   const currentHead = document.head
-  console.log(currentHead);
   currentHead.innerHTML = nextHead.innerHTML
 };
 
@@ -83,8 +82,9 @@ const TransitionPage = () => {
       transitions: [defaultTransition, projectTransition],
     });
 
-    barba.hooks.afterEnter((data) => {
-      handleTransitionCompleted(data);
+    barba.hooks.after((data) => {
+      console.log("coucou");
+      //handleTransitionCompleted(data);
     });
 
     console.log(

@@ -1,0 +1,33 @@
+@import "../../../assets/styles/utils/variables";
+@import "../../../assets/styles/utils/mixins.scss";
+
+.ad_projectDescription {
+  @include grid(
+    map-get($layout-desktop, column-number),
+    map-get($layout-desktop, column-spacing),
+    map-get($layout-desktop, margin)
+  );
+  margin-bottom: map-get($spacing, "15");
+  h2 {
+    grid-column: 2/13;
+    margin-bottom: map-get($spacing, "10");
+  }
+  div {
+    grid-column: 2/13;
+  }
+  @include mq("tablet", max) {
+    @include grid(
+      map-get($layout-mobile, column-number),
+      map-get($layout-mobile, column-spacing),
+      map-get($layout-mobile, margin)
+    );
+    margin-bottom: map-get($spacing, "9");
+    h2 {
+        grid-column: 1/9;
+        margin-bottom: map-get($spacing, "9");
+      }
+      div {
+        grid-column: 1/9;
+      }
+  }
+}

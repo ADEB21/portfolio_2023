@@ -288,16 +288,13 @@ class Picture extends HTMLElement {
 
     const picture = this.shadowRoot.querySelector("picture");
 
-    if (isLazy === "true") {
+    if (isLazy && isLazy === "true") {
       customIntersect();
     }
 
-    if (isParallax === "true") {
+    if (isParallax && isParallax === "true") {
       document.addEventListener("scroll", parallax);
     }
-  }
-  disconnectedCallback() {
-    document.removeEventListener("scroll", parallax);
   }
 }
 

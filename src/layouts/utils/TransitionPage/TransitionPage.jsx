@@ -28,7 +28,7 @@ const projectTransition = {
       done();
     }, 500);
   },
-  enter() {
+  async enter() {
     gsap.fromTo(".transition-page", { x: 0 }, { x: "100%" });
   },
 };
@@ -62,7 +62,7 @@ const defaultTransition = {
       done();
     }, 500);
   },
-  enter() {
+  async enter() {
     gsap.fromTo(".transition-page", { y: 0 }, { y: "100%" });
   },
 };

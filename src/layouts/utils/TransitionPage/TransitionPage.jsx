@@ -26,7 +26,7 @@ const projectTransition = {
       done();
     }, 500);
   },
-  async enter() {
+  enter() {
     gsap.fromTo(".transition-page", { x: 0 }, { x: "100%" });
   },
 };
@@ -55,38 +55,17 @@ const defaultTransition = {
       done();
     }, 500);
   },
-  async enter() {
+  enter() {
     gsap.fromTo(".transition-page", { y: 0 }, { y: "100%" });
   },
 };
 
-const handleTransitionCompleted = async (data) => {
-  // const htmlPage =  data.next.html;
-  // const parser = new DOMParser();
-  // const html = parser.parseFromString(htmlPage, "text/html");
-  // const newHead = html.head;
-  // const oldHead = document.querySelector("head");
-  // console.log(oldHead);
-  // document.documentElement.replaceChild(newHead, oldHead);
-  try {
-    // Récupérer le contenu HTML de la page suivante
-    const response = await data.next.html;
-    console.log(response);
-    const parser = new DOMParser();
-    const html = parser.parseFromString(response, "text/html");
-
-    // Mettre à jour le <head> de la page actuelle avec le contenu du <head> de la page suivante
-    const currentHead = document.querySelector("head");
-    console.log(currentHead);
-    currentHead.innerHTML = html.head.innerHTML;
-
-    // Détruire l'élément DOM temporaire
-  } catch (error) {
-    console.error(
-      "Une erreur s'est produite lors de la mise à jour du <head>",
-      error
-    );
-  }
+const handleTransitionCompleted = (data) => {
+  const nextHtml = data.next.html
+  const nextHead = new DOMParser().parseFromString(nextHtml, "text/html").head;
+  const currentHead = document.head
+  console.log(currentHead);
+  currentHead.innerHTML = nextHead.innerHTML
 };
 
 const TransitionPage = () => {
@@ -104,7 +83,7 @@ const TransitionPage = () => {
       transitions: [defaultTransition, projectTransition],
     });
 
-    barba.hooks.after((data) => {
+    barba.hooks.afterEnter((data) => {
       handleTransitionCompleted(data);
     });
 

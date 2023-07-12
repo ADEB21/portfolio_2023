@@ -7,9 +7,7 @@ const Index = (props) => {
   return (
     <section className={ProjectDescriptionStyle.ad_projectDescription}>
       <h2 className="ad-large-heading">{title}</h2>
-      <div>
-        <TitleParagraph title="Objectifs" subTitle={goal} />
-      </div>
+      <TitleParagraph title="Objectifs" subTitle={goal} />
     </section>
   );
 };

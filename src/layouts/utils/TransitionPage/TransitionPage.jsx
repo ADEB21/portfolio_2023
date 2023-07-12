@@ -84,7 +84,7 @@ const TransitionPage = () => {
 
     barba.hooks.after((data) => {
       console.log("coucou");
-      //handleTransitionCompleted(data);
+      handleTransitionCompleted(data);
     });
 
     console.log(

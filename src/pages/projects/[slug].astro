@@ -5,7 +5,8 @@ import data from "../../assets/data/projects"
 import ProjectHero from "../../components/organisms/ProjectHero/Index"
 import ProjectDescription from "../../components/organisms/ProjectDescription/Index"
 import MarqueePicture from "../../components/organisms/MarqueePicture/Index"
-
+import ColorStory from "../../components/organisms/ColorStory/Index"
+import LastImage from "../../components/molecules/LastImage/Index"
 
 export function getStaticPaths() {
     return data.projects.map((p) => {
@@ -32,6 +33,8 @@ console.log(p);
     <ProjectHero title={p.title} date={p.date} inCover={p.inCover.picture} client:load/>
     <ProjectDescription title={p.projectDescription.title} goal={p.projectDescription.goal}/>
     <MarqueePicture client:load/>
+    <ColorStory paragraph={p.colorStory.paragraph} colors={p.colorStory.colors} client:load/>
+    <LastImage/>
     <div style="height: 1000px "></div>
   </Layout>
 </SEO>

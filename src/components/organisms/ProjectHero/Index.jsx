@@ -4,7 +4,6 @@ import "../../atoms/Picture/";
 
 const index = (props) => {
   const { title, date, inCover } = props;
-  console.log(props);
   return (
     <section className={ProjectHeroStyle.ad_projectHero}>
       <div className={ProjectHeroStyle.ad_projectHero_container}>

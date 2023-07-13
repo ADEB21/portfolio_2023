@@ -1,0 +1,37 @@
+@import "../../../assets/styles/utils/variables";
+@import "../../../assets/styles/utils/mixins.scss";
+
+.ad_nextProject {
+  @include grid(
+    map-get($layout-desktop, column-number),
+    map-get($layout-desktop, column-spacing),
+    map-get($layout-desktop, margin)
+  );
+  margin: 80px 0px;
+  height: 80vh;
+  &_link {
+    height: inherit;
+    grid-column: 2/12;
+    @include grid(10, map-get($layout-desktop, column-spacing), 0);
+    &_picture {
+      height: inherit;
+      grid-column: 1/11;
+      position: relative;
+      custom-picture::part(picture) {
+        mix-blend-mode: luminosity;
+        opacity: 0.6;
+        filter: blur(3px);
+      }
+      &_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: map-get($spacing, "5");
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}

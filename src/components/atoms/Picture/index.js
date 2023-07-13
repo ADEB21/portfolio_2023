@@ -40,8 +40,6 @@ class Picture extends HTMLElement {
     const parallaxDirection = this.getAttribute("parallax-direction");
     const isMobile = window.innerWidth < 769;
 
-    console.log(isLazy, isParallax);
-
 
     // SetIntersect function
     const setIntersect = () => {
@@ -89,15 +87,15 @@ class Picture extends HTMLElement {
         switch (parallaxDirection) {
           case "top":
             img.style = `--smooth-progress: ${progress};`;
-            img.style.transform = `translateY(calc(var(--smooth-progress) * ${isMobile ? "50px" : "100px"})) scale(1.5)`;
+            img.style.transform = `translateY(calc(var(--smooth-progress) * ${isMobile ? "50px" : "200px"})) scale(1.5)`;
             break;
           case "bottom":
             img.style = `--smooth-progress: ${progress};`;
-            img.style.transform = `translateY(calc(var(--smooth-progress) * ${isMobile ? "-50px" : "-100px"})) scale(1.5)`;
+            img.style.transform = `translateY(calc(var(--smooth-progress) * ${isMobile ? "-50px" : "-200px"})) scale(1.5)`;
             break;
           default:
             img.style = `--smooth-progress: ${progress};`;
-            img.style.transform = `translateY(calc(var(--smooth-progress) * ${isMobile ? "50px" : "100px"})) scale(1.5)`;
+            img.style.transform = `translateY(calc(var(--smooth-progress) * ${isMobile ? "50px" : "200px"})) scale(1.5)`;
             break;
         }
       }

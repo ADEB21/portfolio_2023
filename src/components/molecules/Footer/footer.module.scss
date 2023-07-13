@@ -1,0 +1,52 @@
+@import "../../../assets/styles/utils/variables";
+@import "../../../assets/styles/utils/mixins.scss";
+
+.ad_footer {
+  background-color: map-get($colors, "brown");
+  padding: map-get($spacing, "4") map-get($spacing, "7");
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  p {
+    color: map-get($colors, "white");
+  }
+  nav {
+    
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: map-get($spacing, "5");
+      
+      li {
+        a{
+            color: map-get($colors, "white");
+        }
+        &:nth-child(4) {
+          a {
+            display: block;
+            height: 24px;
+          }
+        }
+        &:nth-child(5) {
+          a {
+            display: block;
+            height: 20px;
+          }
+        }
+      }
+    }
+  }
+  @include mq("tablet", max) {
+    padding: map-get($spacing, "2") map-get($spacing, "4"); 
+    flex-direction: column;
+    gap: map-get($spacing, "4");
+    nav{
+        ul{
+            flex-wrap: wrap;
+            gap: map-get($spacing, "4");
+            justify-content: left;
+        }
+    }
+  }
+}

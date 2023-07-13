@@ -1,0 +1,14 @@
+@import "../../../assets/styles/utils/variables";
+@import "../../../assets/styles/utils/mixins.scss";
+
+
+.ad_lastImageStyle{
+    @include grid(
+      map-get($layout-desktop, column-number),
+      map-get($layout-desktop, column-spacing),
+      map-get($layout-desktop, margin)
+    );
+    custom-picture{
+        grid-column: 1/13;
+    }
+}

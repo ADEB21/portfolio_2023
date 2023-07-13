@@ -1,27 +1,29 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import SEO from "../../layouts/utils/SEO.astro";
-import data from "../../assets/data/projects"
-import ProjectHero from "../../components/organisms/ProjectHero/Index"
-import ProjectDescription from "../../components/organisms/ProjectDescription/Index"
-import MarqueePicture from "../../components/organisms/MarqueePicture/Index"
-import ColorStory from "../../components/organisms/ColorStory/Index"
-import LastImage from "../../components/molecules/LastImage/Index"
+import data from "../../assets/data/projects";
+import ProjectHero from "../../components/organisms/ProjectHero/Index";
+import ProjectDescription from "../../components/organisms/ProjectDescription/Index";
+import MarqueePicture from "../../components/organisms/MarqueePicture/Index";
+import ColorStory from "../../components/organisms/ColorStory/Index";
+import LastImage from "../../components/molecules/LastImage/Index";
+import NextProject from "../../components/organisms/NextProject/Index";
+import Footer from "../../components/molecules/Footer/Index";
 
 export function getStaticPaths() {
-    return data.projects.map((p) => {
-        return {
-            params: {slug: p.slug},
-            props: {p}
-        }
-    })
+  return data.projects.map((p, index) => {
+    const nextProject = data.projects[index + 1];
+    return {
+      params: { slug: p.slug },
+      props: { p, nextProject },
+    };
+  });
 }
 
-
-const {p} = Astro.props
-const {slug} = Astro.params
-console.log(p);
-
+const { p } = Astro.props;
+const { nextProject } = Astro.props;
+const { slug } = Astro.params;
+console.log("HELLO", nextProject);
 ---
 
 <SEO
@@ -30,11 +32,33 @@ console.log(p);
   description={`Découvrez comment j'ai contribué à créer une expérience en ligne exceptionnelle pour ${p.title}. Explorez mes réalisations et plongez dans les détails de ce projet captivant.`}
 >
   <Layout>
-    <ProjectHero title={p.title} date={p.date} inCover={p.inCover.picture} client:load/>
-    <ProjectDescription title={p.projectDescription.title} goal={p.projectDescription.goal}/>
-    <MarqueePicture client:load/>
-    <ColorStory paragraph={p.colorStory.paragraph} colors={p.colorStory.colors} client:load/>
-    <LastImage/>
-    <div style="height: 1000px "></div>
+    <ProjectHero
+      title={p.title}
+      date={p.date}
+      inCover={p.inCover.picture}
+      client:load
+    />
+    <ProjectDescription
+      title={p.projectDescription.title}
+      goal={p.projectDescription.goal}
+    />
+    <MarqueePicture client:load />
+    {
+      p.colorStory && (
+        <ColorStory
+          paragraph={p.colorStory.paragraph}
+          colors={p.colorStory.colors}
+          client:load
+        />
+      )
+    }
+    <LastImage
+      images={p.lastImage.picture.images}
+      posterDesktop={p.lastImage.picture.lazy.desktop}
+      posterMobile={p.lastImage.picture.lazy.mobile}
+      alt={p.lastImage.picture.alternativeText}
+    />
+    <NextProject nextProject={nextProject} client:load />
+    <Footer />
   </Layout>
 </SEO>

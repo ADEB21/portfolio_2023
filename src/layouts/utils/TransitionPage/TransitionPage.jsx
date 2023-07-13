@@ -27,7 +27,6 @@ const projectTransition = {
     }, 500);
   },
   beforeEnter(data) {
-    console.log("beforeEnter", data);
 
     // Get the existing styles in the current document head
     var existingStyles = Array.from(
@@ -86,7 +85,6 @@ const defaultTransition = {
     }, 500);
   },
   beforeEnter(data) {
-    console.log("beforeEnter", data);
 
     // Get the existing styles in the current document head
     var existingStyles = Array.from(
@@ -119,13 +117,6 @@ const defaultTransition = {
   },
 };
 
-const handleTransitionCompleted = (data) => {
-  const nextHtml = data.next.html;
-  const nextHead = new DOMParser().parseFromString(nextHtml, "text/html").head;
-  const currentHead = document.head;
-  currentHead.innerHTML = nextHead.innerHTML;
-};
-
 const TransitionPage = () => {
   const delay = (n) => {
     return new Promise((done) => {
@@ -141,15 +132,11 @@ const TransitionPage = () => {
       transitions: [defaultTransition, projectTransition],
     });
 
-    // barba.hooks.beforeEnter((data) => {
-    //   console.log("coucou");
-    //   handleTransitionCompleted(data);
-    // });
-
     console.log(
       "Routes",
       projectsData.projects.map((el) => el.slug)
     );
+
   }, []);
 
   return (

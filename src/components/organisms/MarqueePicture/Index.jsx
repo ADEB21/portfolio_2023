@@ -48,8 +48,10 @@ const Index = () => {
   };
 
   React.useEffect(() => {
-    console.log(marquee);
     document.addEventListener("scroll", animation);
+    return () => {
+      document.removeEventListener("scroll", animation);
+    }
   }, []);
 
   return (

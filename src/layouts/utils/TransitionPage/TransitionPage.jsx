@@ -82,7 +82,7 @@ const TransitionPage = () => {
       transitions: [defaultTransition, projectTransition],
     });
 
-    barba.hooks.after((data) => {
+    barba.hooks.beforeEnter((data) => {
       console.log("coucou");
       handleTransitionCompleted(data);
     });

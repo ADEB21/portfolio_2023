@@ -257,6 +257,911 @@ import GongjuLastMobileRetinaWebp from "../images/projects/gongju/last/gongju-la
 import GongjuLastMobileBaseWebp from "../images/projects/gongju/last/gongju-last-mobile-base.webp";
 import GongjuLastMobileLazy from "../images/projects/gongju/last/gongju-last-mobile-retina.jpg";
 
+/**
+ * Nine
+ */
+
+
+//Experience
+import ExperienceMarquee01DesktopRetina from "../images/projects/experience/marquee/01/01-marquee-dekstop-retina.jpg";
+import ExperienceMarquee01DesktopBase from "../images/projects/experience/marquee/01/01-marquee-dekstop-base.jpg";
+import ExperienceMarquee01DesktopRetinaWebp from "../images/projects/experience/marquee/01/01-marquee-dekstop-retina.webp";
+import ExperienceMarquee01DesktopBaseWebp from "../images/projects/experience/marquee/01/01-marquee-dekstop-base.webp";
+import ExperienceMarquee01DesktopLazy from "../images/projects/experience/marquee/01/01-marquee-dekstop-lazy.jpg";
+import ExperienceMarquee01MobileRetina from "../images/projects/experience/marquee/01/01-marquee-mobile-retina.jpg";
+import ExperienceMarquee01MobileBase from "../images/projects/experience/marquee/01/01-marquee-mobile-base.jpg";
+import ExperienceMarquee01MobileRetinaWebp from "../images/projects/experience/marquee/01/01-marquee-mobile-retina.webp";
+import ExperienceMarquee01MobileBaseWebp from "../images/projects/experience/marquee/01/01-marquee-mobile-base.webp";
+import ExperienceMarquee01MobileLazy from "../images/projects/experience/marquee/01/01-marquee-mobile-lazy.jpg";
+
+import ExperienceMarquee02DesktopRetina from "../images/projects/experience/marquee/02/02-marquee-dekstop-retina.jpg";
+import ExperienceMarquee02DesktopBase from "../images/projects/experience/marquee/02/02-marquee-dekstop-base.jpg";
+import ExperienceMarquee02DesktopRetinaWebp from "../images/projects/experience/marquee/02/02-marquee-dekstop-retina.webp";
+import ExperienceMarquee02DesktopBaseWebp from "../images/projects/experience/marquee/02/02-marquee-dekstop-base.webp";
+import ExperienceMarquee02DesktopLazy from "../images/projects/experience/marquee/02/02-marquee-dekstop-lazy.jpg";
+import ExperienceMarquee02MobileRetina from "../images/projects/experience/marquee/02/02-marquee-mobile-retina.jpg";
+import ExperienceMarquee02MobileBase from "../images/projects/experience/marquee/02/02-marquee-mobile-base.jpg";
+import ExperienceMarquee02MobileRetinaWebp from "../images/projects/experience/marquee/02/02-marquee-mobile-retina.webp";
+import ExperienceMarquee02MobileBaseWebp from "../images/projects/experience/marquee/02/02-marquee-mobile-base.webp";
+import ExperienceMarquee02MobileLazy from "../images/projects/experience/marquee/02/02-marquee-mobile-lazy.jpg";
+
+import ExperienceMarquee03DesktopRetina from "../images/projects/experience/marquee/03/03-marquee-dekstop-retina.jpg";
+import ExperienceMarquee03DesktopBase from "../images/projects/experience/marquee/03/03-marquee-dekstop-base.jpg";
+import ExperienceMarquee03DesktopRetinaWebp from "../images/projects/experience/marquee/03/03-marquee-dekstop-retina.webp";
+import ExperienceMarquee03DesktopBaseWebp from "../images/projects/experience/marquee/03/03-marquee-dekstop-base.webp";
+import ExperienceMarquee03DesktopLazy from "../images/projects/experience/marquee/03/03-marquee-dekstop-lazy.jpg";
+import ExperienceMarquee03MobileRetina from "../images/projects/experience/marquee/03/03-marquee-mobile-retina.jpg";
+import ExperienceMarquee03MobileBase from "../images/projects/experience/marquee/03/03-marquee-mobile-base.jpg";
+import ExperienceMarquee03MobileRetinaWebp from "../images/projects/experience/marquee/03/03-marquee-mobile-retina.webp";
+import ExperienceMarquee03MobileBaseWebp from "../images/projects/experience/marquee/03/03-marquee-mobile-base.webp";
+import ExperienceMarquee03MobileLazy from "../images/projects/experience/marquee/03/03-marquee-mobile-lazy.jpg";
+
+import ExperienceMarquee04DesktopRetina from "../images/projects/experience/marquee/04/04-marquee-dekstop-retina.jpg";
+import ExperienceMarquee04DesktopBase from "../images/projects/experience/marquee/04/04-marquee-dekstop-base.jpg";
+import ExperienceMarquee04DesktopRetinaWebp from "../images/projects/experience/marquee/04/04-marquee-dekstop-retina.webp";
+import ExperienceMarquee04DesktopBaseWebp from "../images/projects/experience/marquee/04/04-marquee-dekstop-base.webp";
+import ExperienceMarquee04DesktopLazy from "../images/projects/experience/marquee/04/04-marquee-dekstop-lazy.jpg";
+import ExperienceMarquee04MobileRetina from "../images/projects/experience/marquee/04/04-marquee-mobile-retina.jpg";
+import ExperienceMarquee04MobileBase from "../images/projects/experience/marquee/04/04-marquee-mobile-base.jpg";
+import ExperienceMarquee04MobileRetinaWebp from "../images/projects/experience/marquee/04/04-marquee-mobile-retina.webp";
+import ExperienceMarquee04MobileBaseWebp from "../images/projects/experience/marquee/04/04-marquee-mobile-base.webp";
+import ExperienceMarquee04MobileLazy from "../images/projects/experience/marquee/04/04-marquee-mobile-lazy.jpg";
+
+import ExperienceMarquee05DesktopRetina from "../images/projects/experience/marquee/05/05-marquee-dekstop-retina.jpg";
+import ExperienceMarquee05DesktopBase from "../images/projects/experience/marquee/05/05-marquee-dekstop-base.jpg";
+import ExperienceMarquee05DesktopRetinaWebp from "../images/projects/experience/marquee/05/05-marquee-dekstop-retina.webp";
+import ExperienceMarquee05DesktopBaseWebp from "../images/projects/experience/marquee/05/05-marquee-dekstop-base.webp";
+import ExperienceMarquee05DesktopLazy from "../images/projects/experience/marquee/05/05-marquee-dekstop-lazy.jpg";
+import ExperienceMarquee05MobileRetina from "../images/projects/experience/marquee/05/05-marquee-mobile-retina.jpg";
+import ExperienceMarquee05MobileBase from "../images/projects/experience/marquee/05/05-marquee-mobile-base.jpg";
+import ExperienceMarquee05MobileRetinaWebp from "../images/projects/experience/marquee/05/05-marquee-mobile-retina.webp";
+import ExperienceMarquee05MobileBaseWebp from "../images/projects/experience/marquee/05/05-marquee-mobile-base.webp";
+import ExperienceMarquee05MobileLazy from "../images/projects/experience/marquee/05/05-marquee-mobile-lazy.jpg";
+
+import ExperienceMarquee06DesktopRetina from "../images/projects/experience/marquee/06/06-marquee-dekstop-retina.jpg";
+import ExperienceMarquee06DesktopBase from "../images/projects/experience/marquee/06/06-marquee-dekstop-base.jpg";
+import ExperienceMarquee06DesktopRetinaWebp from "../images/projects/experience/marquee/06/06-marquee-dekstop-retina.webp";
+import ExperienceMarquee06DesktopBaseWebp from "../images/projects/experience/marquee/06/06-marquee-dekstop-base.webp";
+import ExperienceMarquee06DesktopLazy from "../images/projects/experience/marquee/06/06-marquee-dekstop-lazy.jpg";
+import ExperienceMarquee06MobileRetina from "../images/projects/experience/marquee/06/06-marquee-mobile-retina.jpg";
+import ExperienceMarquee06MobileBase from "../images/projects/experience/marquee/06/06-marquee-mobile-base.jpg";
+import ExperienceMarquee06MobileRetinaWebp from "../images/projects/experience/marquee/06/06-marquee-mobile-retina.webp";
+import ExperienceMarquee06MobileBaseWebp from "../images/projects/experience/marquee/06/06-marquee-mobile-base.webp";
+import ExperienceMarquee06MobileLazy from "../images/projects/experience/marquee/06/06-marquee-mobile-lazy.jpg";
+
+import ExperienceMarquee07DesktopRetina from "../images/projects/experience/marquee/07/07-marquee-dekstop-retina.jpg";
+import ExperienceMarquee07DesktopBase from "../images/projects/experience/marquee/07/07-marquee-dekstop-base.jpg";
+import ExperienceMarquee07DesktopRetinaWebp from "../images/projects/experience/marquee/07/07-marquee-dekstop-retina.webp";
+import ExperienceMarquee07DesktopBaseWebp from "../images/projects/experience/marquee/07/07-marquee-dekstop-base.webp";
+import ExperienceMarquee07DesktopLazy from "../images/projects/experience/marquee/07/07-marquee-dekstop-lazy.jpg";
+import ExperienceMarquee07MobileRetina from "../images/projects/experience/marquee/07/07-marquee-mobile-retina.jpg";
+import ExperienceMarquee07MobileBase from "../images/projects/experience/marquee/07/07-marquee-mobile-base.jpg";
+import ExperienceMarquee07MobileRetinaWebp from "../images/projects/experience/marquee/07/07-marquee-mobile-retina.webp";
+import ExperienceMarquee07MobileBaseWebp from "../images/projects/experience/marquee/07/07-marquee-mobile-base.webp";
+import ExperienceMarquee07MobileLazy from "../images/projects/experience/marquee/07/07-marquee-mobile-lazy.jpg";
+
+import ExperienceMarquee08DesktopRetina from "../images/projects/experience/marquee/08/08-marquee-dekstop-retina.jpg";
+import ExperienceMarquee08DesktopBase from "../images/projects/experience/marquee/08/08-marquee-dekstop-base.jpg";
+import ExperienceMarquee08DesktopRetinaWebp from "../images/projects/experience/marquee/08/08-marquee-dekstop-retina.webp";
+import ExperienceMarquee08DesktopBaseWebp from "../images/projects/experience/marquee/08/08-marquee-dekstop-base.webp";
+import ExperienceMarquee08DesktopLazy from "../images/projects/experience/marquee/08/08-marquee-dekstop-lazy.jpg";
+import ExperienceMarquee08MobileRetina from "../images/projects/experience/marquee/08/08-marquee-mobile-retina.jpg";
+import ExperienceMarquee08MobileBase from "../images/projects/experience/marquee/08/08-marquee-mobile-base.jpg";
+import ExperienceMarquee08MobileRetinaWebp from "../images/projects/experience/marquee/08/08-marquee-mobile-retina.webp";
+import ExperienceMarquee08MobileBaseWebp from "../images/projects/experience/marquee/08/08-marquee-mobile-base.webp";
+import ExperienceMarquee08MobileLazy from "../images/projects/experience/marquee/08/08-marquee-mobile-lazy.jpg";
+
+import ExperienceMarquee09DesktopRetina from "../images/projects/experience/marquee/09/09-marquee-dekstop-retina.jpg";
+import ExperienceMarquee09DesktopBase from "../images/projects/experience/marquee/09/09-marquee-dekstop-base.jpg";
+import ExperienceMarquee09DesktopRetinaWebp from "../images/projects/experience/marquee/09/09-marquee-dekstop-retina.webp";
+import ExperienceMarquee09DesktopBaseWebp from "../images/projects/experience/marquee/09/09-marquee-dekstop-base.webp";
+import ExperienceMarquee09DesktopLazy from "../images/projects/experience/marquee/09/09-marquee-dekstop-lazy.jpg";
+import ExperienceMarquee09MobileRetina from "../images/projects/experience/marquee/09/09-marquee-mobile-retina.jpg";
+import ExperienceMarquee09MobileBase from "../images/projects/experience/marquee/09/09-marquee-mobile-base.jpg";
+import ExperienceMarquee09MobileRetinaWebp from "../images/projects/experience/marquee/09/09-marquee-mobile-retina.webp";
+import ExperienceMarquee09MobileBaseWebp from "../images/projects/experience/marquee/09/09-marquee-mobile-base.webp";
+import ExperienceMarquee09MobileLazy from "../images/projects/experience/marquee/09/09-marquee-mobile-lazy.jpg";
+
+//Scc
+import SCCMarquee01DesktopRetina from "../images/projects/scc/marquee/01/01-marquee-dekstop-retina.jpg";
+import SCCMarquee01DesktopBase from "../images/projects/scc/marquee/01/01-marquee-dekstop-base.jpg";
+import SCCMarquee01DesktopRetinaWebp from "../images/projects/scc/marquee/01/01-marquee-dekstop-retina.webp";
+import SCCMarquee01DesktopBaseWebp from "../images/projects/scc/marquee/01/01-marquee-dekstop-base.webp";
+import SCCMarquee01DesktopLazy from "../images/projects/scc/marquee/01/01-marquee-dekstop-lazy.jpg";
+import SCCMarquee01MobileRetina from "../images/projects/scc/marquee/01/01-marquee-mobile-retina.jpg";
+import SCCMarquee01MobileBase from "../images/projects/scc/marquee/01/01-marquee-mobile-base.jpg";
+import SCCMarquee01MobileRetinaWebp from "../images/projects/scc/marquee/01/01-marquee-mobile-retina.webp";
+import SCCMarquee01MobileBaseWebp from "../images/projects/scc/marquee/01/01-marquee-mobile-base.webp";
+import SCCMarquee01MobileLazy from "../images/projects/scc/marquee/01/01-marquee-mobile-lazy.jpg";
+
+import SCCMarquee02DesktopRetina from "../images/projects/scc/marquee/02/02-marquee-dekstop-retina.jpg";
+import SCCMarquee02DesktopBase from "../images/projects/scc/marquee/02/02-marquee-dekstop-base.jpg";
+import SCCMarquee02DesktopRetinaWebp from "../images/projects/scc/marquee/02/02-marquee-dekstop-retina.webp";
+import SCCMarquee02DesktopBaseWebp from "../images/projects/scc/marquee/02/02-marquee-dekstop-base.webp";
+import SCCMarquee02DesktopLazy from "../images/projects/scc/marquee/02/02-marquee-dekstop-lazy.jpg";
+import SCCMarquee02MobileRetina from "../images/projects/scc/marquee/02/02-marquee-mobile-retina.jpg";
+import SCCMarquee02MobileBase from "../images/projects/scc/marquee/02/02-marquee-mobile-base.jpg";
+import SCCMarquee02MobileRetinaWebp from "../images/projects/scc/marquee/02/02-marquee-mobile-retina.webp";
+import SCCMarquee02MobileBaseWebp from "../images/projects/scc/marquee/02/02-marquee-mobile-base.webp";
+import SCCMarquee02MobileLazy from "../images/projects/scc/marquee/02/02-marquee-mobile-lazy.jpg";
+
+import SCCMarquee03DesktopRetina from "../images/projects/scc/marquee/03/03-marquee-dekstop-retina.jpg";
+import SCCMarquee03DesktopBase from "../images/projects/scc/marquee/03/03-marquee-dekstop-base.jpg";
+import SCCMarquee03DesktopRetinaWebp from "../images/projects/scc/marquee/03/03-marquee-dekstop-retina.webp";
+import SCCMarquee03DesktopBaseWebp from "../images/projects/scc/marquee/03/03-marquee-dekstop-base.webp";
+import SCCMarquee03DesktopLazy from "../images/projects/scc/marquee/03/03-marquee-dekstop-lazy.jpg";
+import SCCMarquee03MobileRetina from "../images/projects/scc/marquee/03/03-marquee-mobile-retina.jpg";
+import SCCMarquee03MobileBase from "../images/projects/scc/marquee/03/03-marquee-mobile-base.jpg";
+import SCCMarquee03MobileRetinaWebp from "../images/projects/scc/marquee/03/03-marquee-mobile-retina.webp";
+import SCCMarquee03MobileBaseWebp from "../images/projects/scc/marquee/03/03-marquee-mobile-base.webp";
+import SCCMarquee03MobileLazy from "../images/projects/scc/marquee/03/03-marquee-mobile-lazy.jpg";
+
+import SCCMarquee04DesktopRetina from "../images/projects/scc/marquee/04/04-marquee-dekstop-retina.jpg";
+import SCCMarquee04DesktopBase from "../images/projects/scc/marquee/04/04-marquee-dekstop-base.jpg";
+import SCCMarquee04DesktopRetinaWebp from "../images/projects/scc/marquee/04/04-marquee-dekstop-retina.webp";
+import SCCMarquee04DesktopBaseWebp from "../images/projects/scc/marquee/04/04-marquee-dekstop-base.webp";
+import SCCMarquee04DesktopLazy from "../images/projects/scc/marquee/04/04-marquee-dekstop-lazy.jpg";
+import SCCMarquee04MobileRetina from "../images/projects/scc/marquee/04/04-marquee-mobile-retina.jpg";
+import SCCMarquee04MobileBase from "../images/projects/scc/marquee/04/04-marquee-mobile-base.jpg";
+import SCCMarquee04MobileRetinaWebp from "../images/projects/scc/marquee/04/04-marquee-mobile-retina.webp";
+import SCCMarquee04MobileBaseWebp from "../images/projects/scc/marquee/04/04-marquee-mobile-base.webp";
+import SCCMarquee04MobileLazy from "../images/projects/scc/marquee/04/04-marquee-mobile-lazy.jpg";
+
+import SCCMarquee05DesktopRetina from "../images/projects/scc/marquee/05/05-marquee-dekstop-retina.jpg";
+import SCCMarquee05DesktopBase from "../images/projects/scc/marquee/05/05-marquee-dekstop-base.jpg";
+import SCCMarquee05DesktopRetinaWebp from "../images/projects/scc/marquee/05/05-marquee-dekstop-retina.webp";
+import SCCMarquee05DesktopBaseWebp from "../images/projects/scc/marquee/05/05-marquee-dekstop-base.webp";
+import SCCMarquee05DesktopLazy from "../images/projects/scc/marquee/05/05-marquee-dekstop-lazy.jpg";
+import SCCMarquee05MobileRetina from "../images/projects/scc/marquee/05/05-marquee-mobile-retina.jpg";
+import SCCMarquee05MobileBase from "../images/projects/scc/marquee/05/05-marquee-mobile-base.jpg";
+import SCCMarquee05MobileRetinaWebp from "../images/projects/scc/marquee/05/05-marquee-mobile-retina.webp";
+import SCCMarquee05MobileBaseWebp from "../images/projects/scc/marquee/05/05-marquee-mobile-base.webp";
+import SCCMarquee05MobileLazy from "../images/projects/scc/marquee/05/05-marquee-mobile-lazy.jpg";
+
+import SCCMarquee06DesktopRetina from "../images/projects/scc/marquee/06/06-marquee-dekstop-retina.jpg";
+import SCCMarquee06DesktopBase from "../images/projects/scc/marquee/06/06-marquee-dekstop-base.jpg";
+import SCCMarquee06DesktopRetinaWebp from "../images/projects/scc/marquee/06/06-marquee-dekstop-retina.webp";
+import SCCMarquee06DesktopBaseWebp from "../images/projects/scc/marquee/06/06-marquee-dekstop-base.webp";
+import SCCMarquee06DesktopLazy from "../images/projects/scc/marquee/06/06-marquee-dekstop-lazy.jpg";
+import SCCMarquee06MobileRetina from "../images/projects/scc/marquee/06/06-marquee-mobile-retina.jpg";
+import SCCMarquee06MobileBase from "../images/projects/scc/marquee/06/06-marquee-mobile-base.jpg";
+import SCCMarquee06MobileRetinaWebp from "../images/projects/scc/marquee/06/06-marquee-mobile-retina.webp";
+import SCCMarquee06MobileBaseWebp from "../images/projects/scc/marquee/06/06-marquee-mobile-base.webp";
+import SCCMarquee06MobileLazy from "../images/projects/scc/marquee/06/06-marquee-mobile-lazy.jpg";
+
+import SCCMarquee07DesktopRetina from "../images/projects/scc/marquee/07/07-marquee-dekstop-retina.jpg";
+import SCCMarquee07DesktopBase from "../images/projects/scc/marquee/07/07-marquee-dekstop-base.jpg";
+import SCCMarquee07DesktopRetinaWebp from "../images/projects/scc/marquee/07/07-marquee-dekstop-retina.webp";
+import SCCMarquee07DesktopBaseWebp from "../images/projects/scc/marquee/07/07-marquee-dekstop-base.webp";
+import SCCMarquee07DesktopLazy from "../images/projects/scc/marquee/07/07-marquee-dekstop-lazy.jpg";
+import SCCMarquee07MobileRetina from "../images/projects/scc/marquee/07/07-marquee-mobile-retina.jpg";
+import SCCMarquee07MobileBase from "../images/projects/scc/marquee/07/07-marquee-mobile-base.jpg";
+import SCCMarquee07MobileRetinaWebp from "../images/projects/scc/marquee/07/07-marquee-mobile-retina.webp";
+import SCCMarquee07MobileBaseWebp from "../images/projects/scc/marquee/07/07-marquee-mobile-base.webp";
+import SCCMarquee07MobileLazy from "../images/projects/scc/marquee/07/07-marquee-mobile-lazy.jpg";
+
+import SCCMarquee08DesktopRetina from "../images/projects/scc/marquee/08/08-marquee-dekstop-retina.jpg";
+import SCCMarquee08DesktopBase from "../images/projects/scc/marquee/08/08-marquee-dekstop-base.jpg";
+import SCCMarquee08DesktopRetinaWebp from "../images/projects/scc/marquee/08/08-marquee-dekstop-retina.webp";
+import SCCMarquee08DesktopBaseWebp from "../images/projects/scc/marquee/08/08-marquee-dekstop-base.webp";
+import SCCMarquee08DesktopLazy from "../images/projects/scc/marquee/08/08-marquee-dekstop-lazy.jpg";
+import SCCMarquee08MobileRetina from "../images/projects/scc/marquee/08/08-marquee-mobile-retina.jpg";
+import SCCMarquee08MobileBase from "../images/projects/scc/marquee/08/08-marquee-mobile-base.jpg";
+import SCCMarquee08MobileRetinaWebp from "../images/projects/scc/marquee/08/08-marquee-mobile-retina.webp";
+import SCCMarquee08MobileBaseWebp from "../images/projects/scc/marquee/08/08-marquee-mobile-base.webp";
+import SCCMarquee08MobileLazy from "../images/projects/scc/marquee/08/08-marquee-mobile-lazy.jpg";
+
+import SCCMarquee09DesktopRetina from "../images/projects/scc/marquee/09/09-marquee-dekstop-retina.jpg";
+import SCCMarquee09DesktopBase from "../images/projects/scc/marquee/09/09-marquee-dekstop-base.jpg";
+import SCCMarquee09DesktopRetinaWebp from "../images/projects/scc/marquee/09/09-marquee-dekstop-retina.webp";
+import SCCMarquee09DesktopBaseWebp from "../images/projects/scc/marquee/09/09-marquee-dekstop-base.webp";
+import SCCMarquee09DesktopLazy from "../images/projects/scc/marquee/09/09-marquee-dekstop-lazy.jpg";
+import SCCMarquee09MobileRetina from "../images/projects/scc/marquee/09/09-marquee-mobile-retina.jpg";
+import SCCMarquee09MobileBase from "../images/projects/scc/marquee/09/09-marquee-mobile-base.jpg";
+import SCCMarquee09MobileRetinaWebp from "../images/projects/scc/marquee/09/09-marquee-mobile-retina.webp";
+import SCCMarquee09MobileBaseWebp from "../images/projects/scc/marquee/09/09-marquee-mobile-base.webp";
+import SCCMarquee09MobileLazy from "../images/projects/scc/marquee/09/09-marquee-mobile-lazy.jpg";
+
+//Heliopolis
+import HeliopolisMarquee01DesktopRetina from "../images/projects/heliopolis/marquee/01/01-marquee-dekstop-retina.jpg";
+import HeliopolisMarquee01DesktopBase from "../images/projects/heliopolis/marquee/01/01-marquee-dekstop-base.jpg";
+import HeliopolisMarquee01DesktopRetinaWebp from "../images/projects/heliopolis/marquee/01/01-marquee-dekstop-retina.webp";
+import HeliopolisMarquee01DesktopBaseWebp from "../images/projects/heliopolis/marquee/01/01-marquee-dekstop-base.webp";
+import HeliopolisMarquee01DesktopLazy from "../images/projects/heliopolis/marquee/01/01-marquee-dekstop-lazy.jpg";
+import HeliopolisMarquee01MobileRetina from "../images/projects/heliopolis/marquee/01/01-marquee-mobile-retina.jpg";
+import HeliopolisMarquee01MobileBase from "../images/projects/heliopolis/marquee/01/01-marquee-mobile-base.jpg";
+import HeliopolisMarquee01MobileRetinaWebp from "../images/projects/heliopolis/marquee/01/01-marquee-mobile-retina.webp";
+import HeliopolisMarquee01MobileBaseWebp from "../images/projects/heliopolis/marquee/01/01-marquee-mobile-base.webp";
+import HeliopolisMarquee01MobileLazy from "../images/projects/heliopolis/marquee/01/01-marquee-mobile-lazy.jpg";
+
+import HeliopolisMarquee02DesktopRetina from "../images/projects/heliopolis/marquee/02/02-marquee-dekstop-retina.jpg";
+import HeliopolisMarquee02DesktopBase from "../images/projects/heliopolis/marquee/02/02-marquee-dekstop-base.jpg";
+import HeliopolisMarquee02DesktopRetinaWebp from "../images/projects/heliopolis/marquee/02/02-marquee-dekstop-retina.webp";
+import HeliopolisMarquee02DesktopBaseWebp from "../images/projects/heliopolis/marquee/02/02-marquee-dekstop-base.webp";
+import HeliopolisMarquee02DesktopLazy from "../images/projects/heliopolis/marquee/02/02-marquee-dekstop-lazy.jpg";
+import HeliopolisMarquee02MobileRetina from "../images/projects/heliopolis/marquee/02/02-marquee-mobile-retina.jpg";
+import HeliopolisMarquee02MobileBase from "../images/projects/heliopolis/marquee/02/02-marquee-mobile-base.jpg";
+import HeliopolisMarquee02MobileRetinaWebp from "../images/projects/heliopolis/marquee/02/02-marquee-mobile-retina.webp";
+import HeliopolisMarquee02MobileBaseWebp from "../images/projects/heliopolis/marquee/02/02-marquee-mobile-base.webp";
+import HeliopolisMarquee02MobileLazy from "../images/projects/heliopolis/marquee/02/02-marquee-mobile-lazy.jpg";
+
+import HeliopolisMarquee03DesktopRetina from "../images/projects/heliopolis/marquee/03/03-marquee-dekstop-retina.jpg";
+import HeliopolisMarquee03DesktopBase from "../images/projects/heliopolis/marquee/03/03-marquee-dekstop-base.jpg";
+import HeliopolisMarquee03DesktopRetinaWebp from "../images/projects/heliopolis/marquee/03/03-marquee-dekstop-retina.webp";
+import HeliopolisMarquee03DesktopBaseWebp from "../images/projects/heliopolis/marquee/03/03-marquee-dekstop-base.webp";
+import HeliopolisMarquee03DesktopLazy from "../images/projects/heliopolis/marquee/03/03-marquee-dekstop-lazy.jpg";
+import HeliopolisMarquee03MobileRetina from "../images/projects/heliopolis/marquee/03/03-marquee-mobile-retina.jpg";
+import HeliopolisMarquee03MobileBase from "../images/projects/heliopolis/marquee/03/03-marquee-mobile-base.jpg";
+import HeliopolisMarquee03MobileRetinaWebp from "../images/projects/heliopolis/marquee/03/03-marquee-mobile-retina.webp";
+import HeliopolisMarquee03MobileBaseWebp from "../images/projects/heliopolis/marquee/03/03-marquee-mobile-base.webp";
+import HeliopolisMarquee03MobileLazy from "../images/projects/heliopolis/marquee/03/03-marquee-mobile-lazy.jpg";
+
+import HeliopolisMarquee04DesktopRetina from "../images/projects/heliopolis/marquee/04/04-marquee-dekstop-retina.jpg";
+import HeliopolisMarquee04DesktopBase from "../images/projects/heliopolis/marquee/04/04-marquee-dekstop-base.jpg";
+import HeliopolisMarquee04DesktopRetinaWebp from "../images/projects/heliopolis/marquee/04/04-marquee-dekstop-retina.webp";
+import HeliopolisMarquee04DesktopBaseWebp from "../images/projects/heliopolis/marquee/04/04-marquee-dekstop-base.webp";
+import HeliopolisMarquee04DesktopLazy from "../images/projects/heliopolis/marquee/04/04-marquee-dekstop-lazy.jpg";
+import HeliopolisMarquee04MobileRetina from "../images/projects/heliopolis/marquee/04/04-marquee-mobile-retina.jpg";
+import HeliopolisMarquee04MobileBase from "../images/projects/heliopolis/marquee/04/04-marquee-mobile-base.jpg";
+import HeliopolisMarquee04MobileRetinaWebp from "../images/projects/heliopolis/marquee/04/04-marquee-mobile-retina.webp";
+import HeliopolisMarquee04MobileBaseWebp from "../images/projects/heliopolis/marquee/04/04-marquee-mobile-base.webp";
+import HeliopolisMarquee04MobileLazy from "../images/projects/heliopolis/marquee/04/04-marquee-mobile-lazy.jpg";
+
+import HeliopolisMarquee05DesktopRetina from "../images/projects/heliopolis/marquee/05/05-marquee-dekstop-retina.jpg";
+import HeliopolisMarquee05DesktopBase from "../images/projects/heliopolis/marquee/05/05-marquee-dekstop-base.jpg";
+import HeliopolisMarquee05DesktopRetinaWebp from "../images/projects/heliopolis/marquee/05/05-marquee-dekstop-retina.webp";
+import HeliopolisMarquee05DesktopBaseWebp from "../images/projects/heliopolis/marquee/05/05-marquee-dekstop-base.webp";
+import HeliopolisMarquee05DesktopLazy from "../images/projects/heliopolis/marquee/05/05-marquee-dekstop-lazy.jpg";
+import HeliopolisMarquee05MobileRetina from "../images/projects/heliopolis/marquee/05/05-marquee-mobile-retina.jpg";
+import HeliopolisMarquee05MobileBase from "../images/projects/heliopolis/marquee/05/05-marquee-mobile-base.jpg";
+import HeliopolisMarquee05MobileRetinaWebp from "../images/projects/heliopolis/marquee/05/05-marquee-mobile-retina.webp";
+import HeliopolisMarquee05MobileBaseWebp from "../images/projects/heliopolis/marquee/05/05-marquee-mobile-base.webp";
+import HeliopolisMarquee05MobileLazy from "../images/projects/heliopolis/marquee/05/05-marquee-mobile-lazy.jpg";
+
+import HeliopolisMarquee06DesktopRetina from "../images/projects/heliopolis/marquee/06/06-marquee-dekstop-retina.jpg";
+import HeliopolisMarquee06DesktopBase from "../images/projects/heliopolis/marquee/06/06-marquee-dekstop-base.jpg";
+import HeliopolisMarquee06DesktopRetinaWebp from "../images/projects/heliopolis/marquee/06/06-marquee-dekstop-retina.webp";
+import HeliopolisMarquee06DesktopBaseWebp from "../images/projects/heliopolis/marquee/06/06-marquee-dekstop-base.webp";
+import HeliopolisMarquee06DesktopLazy from "../images/projects/heliopolis/marquee/06/06-marquee-dekstop-lazy.jpg";
+import HeliopolisMarquee06MobileRetina from "../images/projects/heliopolis/marquee/06/06-marquee-mobile-retina.jpg";
+import HeliopolisMarquee06MobileBase from "../images/projects/heliopolis/marquee/06/06-marquee-mobile-base.jpg";
+import HeliopolisMarquee06MobileRetinaWebp from "../images/projects/heliopolis/marquee/06/06-marquee-mobile-retina.webp";
+import HeliopolisMarquee06MobileBaseWebp from "../images/projects/heliopolis/marquee/06/06-marquee-mobile-base.webp";
+import HeliopolisMarquee06MobileLazy from "../images/projects/heliopolis/marquee/06/06-marquee-mobile-lazy.jpg";
+
+import HeliopolisMarquee07DesktopRetina from "../images/projects/heliopolis/marquee/07/07-marquee-dekstop-retina.jpg";
+import HeliopolisMarquee07DesktopBase from "../images/projects/heliopolis/marquee/07/07-marquee-dekstop-base.jpg";
+import HeliopolisMarquee07DesktopRetinaWebp from "../images/projects/heliopolis/marquee/07/07-marquee-dekstop-retina.webp";
+import HeliopolisMarquee07DesktopBaseWebp from "../images/projects/heliopolis/marquee/07/07-marquee-dekstop-base.webp";
+import HeliopolisMarquee07DesktopLazy from "../images/projects/heliopolis/marquee/07/07-marquee-dekstop-lazy.jpg";
+import HeliopolisMarquee07MobileRetina from "../images/projects/heliopolis/marquee/07/07-marquee-mobile-retina.jpg";
+import HeliopolisMarquee07MobileBase from "../images/projects/heliopolis/marquee/07/07-marquee-mobile-base.jpg";
+import HeliopolisMarquee07MobileRetinaWebp from "../images/projects/heliopolis/marquee/07/07-marquee-mobile-retina.webp";
+import HeliopolisMarquee07MobileBaseWebp from "../images/projects/heliopolis/marquee/07/07-marquee-mobile-base.webp";
+import HeliopolisMarquee07MobileLazy from "../images/projects/heliopolis/marquee/07/07-marquee-mobile-lazy.jpg";
+
+import HeliopolisMarquee08DesktopRetina from "../images/projects/heliopolis/marquee/08/08-marquee-dekstop-retina.jpg";
+import HeliopolisMarquee08DesktopBase from "../images/projects/heliopolis/marquee/08/08-marquee-dekstop-base.jpg";
+import HeliopolisMarquee08DesktopRetinaWebp from "../images/projects/heliopolis/marquee/08/08-marquee-dekstop-retina.webp";
+import HeliopolisMarquee08DesktopBaseWebp from "../images/projects/heliopolis/marquee/08/08-marquee-dekstop-base.webp";
+import HeliopolisMarquee08DesktopLazy from "../images/projects/heliopolis/marquee/08/08-marquee-dekstop-lazy.jpg";
+import HeliopolisMarquee08MobileRetina from "../images/projects/heliopolis/marquee/08/08-marquee-mobile-retina.jpg";
+import HeliopolisMarquee08MobileBase from "../images/projects/heliopolis/marquee/08/08-marquee-mobile-base.jpg";
+import HeliopolisMarquee08MobileRetinaWebp from "../images/projects/heliopolis/marquee/08/08-marquee-mobile-retina.webp";
+import HeliopolisMarquee08MobileBaseWebp from "../images/projects/heliopolis/marquee/08/08-marquee-mobile-base.webp";
+import HeliopolisMarquee08MobileLazy from "../images/projects/heliopolis/marquee/08/08-marquee-mobile-lazy.jpg";
+
+import HeliopolisMarquee09DesktopRetina from "../images/projects/heliopolis/marquee/09/09-marquee-dekstop-retina.jpg";
+import HeliopolisMarquee09DesktopBase from "../images/projects/heliopolis/marquee/09/09-marquee-dekstop-base.jpg";
+import HeliopolisMarquee09DesktopRetinaWebp from "../images/projects/heliopolis/marquee/09/09-marquee-dekstop-retina.webp";
+import HeliopolisMarquee09DesktopBaseWebp from "../images/projects/heliopolis/marquee/09/09-marquee-dekstop-base.webp";
+import HeliopolisMarquee09DesktopLazy from "../images/projects/heliopolis/marquee/09/09-marquee-dekstop-lazy.jpg";
+import HeliopolisMarquee09MobileRetina from "../images/projects/heliopolis/marquee/09/09-marquee-mobile-retina.jpg";
+import HeliopolisMarquee09MobileBase from "../images/projects/heliopolis/marquee/09/09-marquee-mobile-base.jpg";
+import HeliopolisMarquee09MobileRetinaWebp from "../images/projects/heliopolis/marquee/09/09-marquee-mobile-retina.webp";
+import HeliopolisMarquee09MobileBaseWebp from "../images/projects/heliopolis/marquee/09/09-marquee-mobile-base.webp";
+import HeliopolisMarquee09MobileLazy from "../images/projects/heliopolis/marquee/09/09-marquee-mobile-lazy.jpg";
+
+//Cambium
+import CambiumMarquee01DesktopRetina from "../images/projects/cambium/marquee/01/01-marquee-dekstop-retina.jpg";
+import CambiumMarquee01DesktopBase from "../images/projects/cambium/marquee/01/01-marquee-dekstop-base.jpg";
+import CambiumMarquee01DesktopRetinaWebp from "../images/projects/cambium/marquee/01/01-marquee-dekstop-retina.webp";
+import CambiumMarquee01DesktopBaseWebp from "../images/projects/cambium/marquee/01/01-marquee-dekstop-base.webp";
+import CambiumMarquee01DesktopLazy from "../images/projects/cambium/marquee/01/01-marquee-dekstop-lazy.jpg";
+import CambiumMarquee01MobileRetina from "../images/projects/cambium/marquee/01/01-marquee-mobile-retina.jpg";
+import CambiumMarquee01MobileBase from "../images/projects/cambium/marquee/01/01-marquee-mobile-base.jpg";
+import CambiumMarquee01MobileRetinaWebp from "../images/projects/cambium/marquee/01/01-marquee-mobile-retina.webp";
+import CambiumMarquee01MobileBaseWebp from "../images/projects/cambium/marquee/01/01-marquee-mobile-base.webp";
+import CambiumMarquee01MobileLazy from "../images/projects/cambium/marquee/01/01-marquee-mobile-lazy.jpg";
+
+import CambiumMarquee02DesktopRetina from "../images/projects/cambium/marquee/02/02-marquee-dekstop-retina.jpg";
+import CambiumMarquee02DesktopBase from "../images/projects/cambium/marquee/02/02-marquee-dekstop-base.jpg";
+import CambiumMarquee02DesktopRetinaWebp from "../images/projects/cambium/marquee/02/02-marquee-dekstop-retina.webp";
+import CambiumMarquee02DesktopBaseWebp from "../images/projects/cambium/marquee/02/02-marquee-dekstop-base.webp";
+import CambiumMarquee02DesktopLazy from "../images/projects/cambium/marquee/02/02-marquee-dekstop-lazy.jpg";
+import CambiumMarquee02MobileRetina from "../images/projects/cambium/marquee/02/02-marquee-mobile-retina.jpg";
+import CambiumMarquee02MobileBase from "../images/projects/cambium/marquee/02/02-marquee-mobile-base.jpg";
+import CambiumMarquee02MobileRetinaWebp from "../images/projects/cambium/marquee/02/02-marquee-mobile-retina.webp";
+import CambiumMarquee02MobileBaseWebp from "../images/projects/cambium/marquee/02/02-marquee-mobile-base.webp";
+import CambiumMarquee02MobileLazy from "../images/projects/cambium/marquee/02/02-marquee-mobile-lazy.jpg";
+
+import CambiumMarquee03DesktopRetina from "../images/projects/cambium/marquee/03/03-marquee-dekstop-retina.jpg";
+import CambiumMarquee03DesktopBase from "../images/projects/cambium/marquee/03/03-marquee-dekstop-base.jpg";
+import CambiumMarquee03DesktopRetinaWebp from "../images/projects/cambium/marquee/03/03-marquee-dekstop-retina.webp";
+import CambiumMarquee03DesktopBaseWebp from "../images/projects/cambium/marquee/03/03-marquee-dekstop-base.webp";
+import CambiumMarquee03DesktopLazy from "../images/projects/cambium/marquee/03/03-marquee-dekstop-lazy.jpg";
+import CambiumMarquee03MobileRetina from "../images/projects/cambium/marquee/03/03-marquee-mobile-retina.jpg";
+import CambiumMarquee03MobileBase from "../images/projects/cambium/marquee/03/03-marquee-mobile-base.jpg";
+import CambiumMarquee03MobileRetinaWebp from "../images/projects/cambium/marquee/03/03-marquee-mobile-retina.webp";
+import CambiumMarquee03MobileBaseWebp from "../images/projects/cambium/marquee/03/03-marquee-mobile-base.webp";
+import CambiumMarquee03MobileLazy from "../images/projects/cambium/marquee/03/03-marquee-mobile-lazy.jpg";
+
+import CambiumMarquee04DesktopRetina from "../images/projects/cambium/marquee/04/04-marquee-dekstop-retina.jpg";
+import CambiumMarquee04DesktopBase from "../images/projects/cambium/marquee/04/04-marquee-dekstop-base.jpg";
+import CambiumMarquee04DesktopRetinaWebp from "../images/projects/cambium/marquee/04/04-marquee-dekstop-retina.webp";
+import CambiumMarquee04DesktopBaseWebp from "../images/projects/cambium/marquee/04/04-marquee-dekstop-base.webp";
+import CambiumMarquee04DesktopLazy from "../images/projects/cambium/marquee/04/04-marquee-dekstop-lazy.jpg";
+import CambiumMarquee04MobileRetina from "../images/projects/cambium/marquee/04/04-marquee-mobile-retina.jpg";
+import CambiumMarquee04MobileBase from "../images/projects/cambium/marquee/04/04-marquee-mobile-base.jpg";
+import CambiumMarquee04MobileRetinaWebp from "../images/projects/cambium/marquee/04/04-marquee-mobile-retina.webp";
+import CambiumMarquee04MobileBaseWebp from "../images/projects/cambium/marquee/04/04-marquee-mobile-base.webp";
+import CambiumMarquee04MobileLazy from "../images/projects/cambium/marquee/04/04-marquee-mobile-lazy.jpg";
+
+import CambiumMarquee05DesktopRetina from "../images/projects/cambium/marquee/05/05-marquee-dekstop-retina.jpg";
+import CambiumMarquee05DesktopBase from "../images/projects/cambium/marquee/05/05-marquee-dekstop-base.jpg";
+import CambiumMarquee05DesktopRetinaWebp from "../images/projects/cambium/marquee/05/05-marquee-dekstop-retina.webp";
+import CambiumMarquee05DesktopBaseWebp from "../images/projects/cambium/marquee/05/05-marquee-dekstop-base.webp";
+import CambiumMarquee05DesktopLazy from "../images/projects/cambium/marquee/05/05-marquee-dekstop-lazy.jpg";
+import CambiumMarquee05MobileRetina from "../images/projects/cambium/marquee/05/05-marquee-mobile-retina.jpg";
+import CambiumMarquee05MobileBase from "../images/projects/cambium/marquee/05/05-marquee-mobile-base.jpg";
+import CambiumMarquee05MobileRetinaWebp from "../images/projects/cambium/marquee/05/05-marquee-mobile-retina.webp";
+import CambiumMarquee05MobileBaseWebp from "../images/projects/cambium/marquee/05/05-marquee-mobile-base.webp";
+import CambiumMarquee05MobileLazy from "../images/projects/cambium/marquee/05/05-marquee-mobile-lazy.jpg";
+
+import CambiumMarquee06DesktopRetina from "../images/projects/cambium/marquee/06/06-marquee-dekstop-retina.jpg";
+import CambiumMarquee06DesktopBase from "../images/projects/cambium/marquee/06/06-marquee-dekstop-base.jpg";
+import CambiumMarquee06DesktopRetinaWebp from "../images/projects/cambium/marquee/06/06-marquee-dekstop-retina.webp";
+import CambiumMarquee06DesktopBaseWebp from "../images/projects/cambium/marquee/06/06-marquee-dekstop-base.webp";
+import CambiumMarquee06DesktopLazy from "../images/projects/cambium/marquee/06/06-marquee-dekstop-lazy.jpg";
+import CambiumMarquee06MobileRetina from "../images/projects/cambium/marquee/06/06-marquee-mobile-retina.jpg";
+import CambiumMarquee06MobileBase from "../images/projects/cambium/marquee/06/06-marquee-mobile-base.jpg";
+import CambiumMarquee06MobileRetinaWebp from "../images/projects/cambium/marquee/06/06-marquee-mobile-retina.webp";
+import CambiumMarquee06MobileBaseWebp from "../images/projects/cambium/marquee/06/06-marquee-mobile-base.webp";
+import CambiumMarquee06MobileLazy from "../images/projects/cambium/marquee/06/06-marquee-mobile-lazy.jpg";
+
+import CambiumMarquee07DesktopRetina from "../images/projects/cambium/marquee/07/07-marquee-dekstop-retina.jpg";
+import CambiumMarquee07DesktopBase from "../images/projects/cambium/marquee/07/07-marquee-dekstop-base.jpg";
+import CambiumMarquee07DesktopRetinaWebp from "../images/projects/cambium/marquee/07/07-marquee-dekstop-retina.webp";
+import CambiumMarquee07DesktopBaseWebp from "../images/projects/cambium/marquee/07/07-marquee-dekstop-base.webp";
+import CambiumMarquee07DesktopLazy from "../images/projects/cambium/marquee/07/07-marquee-dekstop-lazy.jpg";
+import CambiumMarquee07MobileRetina from "../images/projects/cambium/marquee/07/07-marquee-mobile-retina.jpg";
+import CambiumMarquee07MobileBase from "../images/projects/cambium/marquee/07/07-marquee-mobile-base.jpg";
+import CambiumMarquee07MobileRetinaWebp from "../images/projects/cambium/marquee/07/07-marquee-mobile-retina.webp";
+import CambiumMarquee07MobileBaseWebp from "../images/projects/cambium/marquee/07/07-marquee-mobile-base.webp";
+import CambiumMarquee07MobileLazy from "../images/projects/cambium/marquee/07/07-marquee-mobile-lazy.jpg";
+
+import CambiumMarquee08DesktopRetina from "../images/projects/cambium/marquee/08/08-marquee-dekstop-retina.jpg";
+import CambiumMarquee08DesktopBase from "../images/projects/cambium/marquee/08/08-marquee-dekstop-base.jpg";
+import CambiumMarquee08DesktopRetinaWebp from "../images/projects/cambium/marquee/08/08-marquee-dekstop-retina.webp";
+import CambiumMarquee08DesktopBaseWebp from "../images/projects/cambium/marquee/08/08-marquee-dekstop-base.webp";
+import CambiumMarquee08DesktopLazy from "../images/projects/cambium/marquee/08/08-marquee-dekstop-lazy.jpg";
+import CambiumMarquee08MobileRetina from "../images/projects/cambium/marquee/08/08-marquee-mobile-retina.jpg";
+import CambiumMarquee08MobileBase from "../images/projects/cambium/marquee/08/08-marquee-mobile-base.jpg";
+import CambiumMarquee08MobileRetinaWebp from "../images/projects/cambium/marquee/08/08-marquee-mobile-retina.webp";
+import CambiumMarquee08MobileBaseWebp from "../images/projects/cambium/marquee/08/08-marquee-mobile-base.webp";
+import CambiumMarquee08MobileLazy from "../images/projects/cambium/marquee/08/08-marquee-mobile-lazy.jpg";
+
+import CambiumMarquee09DesktopRetina from "../images/projects/cambium/marquee/09/09-marquee-dekstop-retina.jpg";
+import CambiumMarquee09DesktopBase from "../images/projects/cambium/marquee/09/09-marquee-dekstop-base.jpg";
+import CambiumMarquee09DesktopRetinaWebp from "../images/projects/cambium/marquee/09/09-marquee-dekstop-retina.webp";
+import CambiumMarquee09DesktopBaseWebp from "../images/projects/cambium/marquee/09/09-marquee-dekstop-base.webp";
+import CambiumMarquee09DesktopLazy from "../images/projects/cambium/marquee/09/09-marquee-dekstop-lazy.jpg";
+import CambiumMarquee09MobileRetina from "../images/projects/cambium/marquee/09/09-marquee-mobile-retina.jpg";
+import CambiumMarquee09MobileBase from "../images/projects/cambium/marquee/09/09-marquee-mobile-base.jpg";
+import CambiumMarquee09MobileRetinaWebp from "../images/projects/cambium/marquee/09/09-marquee-mobile-retina.webp";
+import CambiumMarquee09MobileBaseWebp from "../images/projects/cambium/marquee/09/09-marquee-mobile-base.webp";
+import CambiumMarquee09MobileLazy from "../images/projects/cambium/marquee/09/09-marquee-mobile-lazy.jpg";
+
+//Incepto
+import InceptoMarquee01DesktopRetina from "../images/projects/incepto/marquee/01/01-marquee-dekstop-retina.jpg";
+import InceptoMarquee01DesktopBase from "../images/projects/incepto/marquee/01/01-marquee-dekstop-base.jpg";
+import InceptoMarquee01DesktopRetinaWebp from "../images/projects/incepto/marquee/01/01-marquee-dekstop-retina.webp";
+import InceptoMarquee01DesktopBaseWebp from "../images/projects/incepto/marquee/01/01-marquee-dekstop-base.webp";
+import InceptoMarquee01DesktopLazy from "../images/projects/incepto/marquee/01/01-marquee-dekstop-lazy.jpg";
+import InceptoMarquee01MobileRetina from "../images/projects/incepto/marquee/01/01-marquee-mobile-retina.jpg";
+import InceptoMarquee01MobileBase from "../images/projects/incepto/marquee/01/01-marquee-mobile-base.jpg";
+import InceptoMarquee01MobileRetinaWebp from "../images/projects/incepto/marquee/01/01-marquee-mobile-retina.webp";
+import InceptoMarquee01MobileBaseWebp from "../images/projects/incepto/marquee/01/01-marquee-mobile-base.webp";
+import InceptoMarquee01MobileLazy from "../images/projects/incepto/marquee/01/01-marquee-mobile-lazy.jpg";
+
+import InceptoMarquee02DesktopRetina from "../images/projects/incepto/marquee/02/02-marquee-dekstop-retina.jpg";
+import InceptoMarquee02DesktopBase from "../images/projects/incepto/marquee/02/02-marquee-dekstop-base.jpg";
+import InceptoMarquee02DesktopRetinaWebp from "../images/projects/incepto/marquee/02/02-marquee-dekstop-retina.webp";
+import InceptoMarquee02DesktopBaseWebp from "../images/projects/incepto/marquee/02/02-marquee-dekstop-base.webp";
+import InceptoMarquee02DesktopLazy from "../images/projects/incepto/marquee/02/02-marquee-dekstop-lazy.jpg";
+import InceptoMarquee02MobileRetina from "../images/projects/incepto/marquee/02/02-marquee-mobile-retina.jpg";
+import InceptoMarquee02MobileBase from "../images/projects/incepto/marquee/02/02-marquee-mobile-base.jpg";
+import InceptoMarquee02MobileRetinaWebp from "../images/projects/incepto/marquee/02/02-marquee-mobile-retina.webp";
+import InceptoMarquee02MobileBaseWebp from "../images/projects/incepto/marquee/02/02-marquee-mobile-base.webp";
+import InceptoMarquee02MobileLazy from "../images/projects/incepto/marquee/02/02-marquee-mobile-lazy.jpg";
+
+import InceptoMarquee03DesktopRetina from "../images/projects/incepto/marquee/03/03-marquee-dekstop-retina.jpg";
+import InceptoMarquee03DesktopBase from "../images/projects/incepto/marquee/03/03-marquee-dekstop-base.jpg";
+import InceptoMarquee03DesktopRetinaWebp from "../images/projects/incepto/marquee/03/03-marquee-dekstop-retina.webp";
+import InceptoMarquee03DesktopBaseWebp from "../images/projects/incepto/marquee/03/03-marquee-dekstop-base.webp";
+import InceptoMarquee03DesktopLazy from "../images/projects/incepto/marquee/03/03-marquee-dekstop-lazy.jpg";
+import InceptoMarquee03MobileRetina from "../images/projects/incepto/marquee/03/03-marquee-mobile-retina.jpg";
+import InceptoMarquee03MobileBase from "../images/projects/incepto/marquee/03/03-marquee-mobile-base.jpg";
+import InceptoMarquee03MobileRetinaWebp from "../images/projects/incepto/marquee/03/03-marquee-mobile-retina.webp";
+import InceptoMarquee03MobileBaseWebp from "../images/projects/incepto/marquee/03/03-marquee-mobile-base.webp";
+import InceptoMarquee03MobileLazy from "../images/projects/incepto/marquee/03/03-marquee-mobile-lazy.jpg";
+
+import InceptoMarquee04DesktopRetina from "../images/projects/incepto/marquee/04/04-marquee-dekstop-retina.jpg";
+import InceptoMarquee04DesktopBase from "../images/projects/incepto/marquee/04/04-marquee-dekstop-base.jpg";
+import InceptoMarquee04DesktopRetinaWebp from "../images/projects/incepto/marquee/04/04-marquee-dekstop-retina.webp";
+import InceptoMarquee04DesktopBaseWebp from "../images/projects/incepto/marquee/04/04-marquee-dekstop-base.webp";
+import InceptoMarquee04DesktopLazy from "../images/projects/incepto/marquee/04/04-marquee-dekstop-lazy.jpg";
+import InceptoMarquee04MobileRetina from "../images/projects/incepto/marquee/04/04-marquee-mobile-retina.jpg";
+import InceptoMarquee04MobileBase from "../images/projects/incepto/marquee/04/04-marquee-mobile-base.jpg";
+import InceptoMarquee04MobileRetinaWebp from "../images/projects/incepto/marquee/04/04-marquee-mobile-retina.webp";
+import InceptoMarquee04MobileBaseWebp from "../images/projects/incepto/marquee/04/04-marquee-mobile-base.webp";
+import InceptoMarquee04MobileLazy from "../images/projects/incepto/marquee/04/04-marquee-mobile-lazy.jpg";
+
+import InceptoMarquee05DesktopRetina from "../images/projects/incepto/marquee/05/05-marquee-dekstop-retina.jpg";
+import InceptoMarquee05DesktopBase from "../images/projects/incepto/marquee/05/05-marquee-dekstop-base.jpg";
+import InceptoMarquee05DesktopRetinaWebp from "../images/projects/incepto/marquee/05/05-marquee-dekstop-retina.webp";
+import InceptoMarquee05DesktopBaseWebp from "../images/projects/incepto/marquee/05/05-marquee-dekstop-base.webp";
+import InceptoMarquee05DesktopLazy from "../images/projects/incepto/marquee/05/05-marquee-dekstop-lazy.jpg";
+import InceptoMarquee05MobileRetina from "../images/projects/incepto/marquee/05/05-marquee-mobile-retina.jpg";
+import InceptoMarquee05MobileBase from "../images/projects/incepto/marquee/05/05-marquee-mobile-base.jpg";
+import InceptoMarquee05MobileRetinaWebp from "../images/projects/incepto/marquee/05/05-marquee-mobile-retina.webp";
+import InceptoMarquee05MobileBaseWebp from "../images/projects/incepto/marquee/05/05-marquee-mobile-base.webp";
+import InceptoMarquee05MobileLazy from "../images/projects/incepto/marquee/05/05-marquee-mobile-lazy.jpg";
+
+import InceptoMarquee06DesktopRetina from "../images/projects/incepto/marquee/06/06-marquee-dekstop-retina.jpg";
+import InceptoMarquee06DesktopBase from "../images/projects/incepto/marquee/06/06-marquee-dekstop-base.jpg";
+import InceptoMarquee06DesktopRetinaWebp from "../images/projects/incepto/marquee/06/06-marquee-dekstop-retina.webp";
+import InceptoMarquee06DesktopBaseWebp from "../images/projects/incepto/marquee/06/06-marquee-dekstop-base.webp";
+import InceptoMarquee06DesktopLazy from "../images/projects/incepto/marquee/06/06-marquee-dekstop-lazy.jpg";
+import InceptoMarquee06MobileRetina from "../images/projects/incepto/marquee/06/06-marquee-mobile-retina.jpg";
+import InceptoMarquee06MobileBase from "../images/projects/incepto/marquee/06/06-marquee-mobile-base.jpg";
+import InceptoMarquee06MobileRetinaWebp from "../images/projects/incepto/marquee/06/06-marquee-mobile-retina.webp";
+import InceptoMarquee06MobileBaseWebp from "../images/projects/incepto/marquee/06/06-marquee-mobile-base.webp";
+import InceptoMarquee06MobileLazy from "../images/projects/incepto/marquee/06/06-marquee-mobile-lazy.jpg";
+
+import InceptoMarquee07DesktopRetina from "../images/projects/incepto/marquee/07/07-marquee-dekstop-retina.jpg";
+import InceptoMarquee07DesktopBase from "../images/projects/incepto/marquee/07/07-marquee-dekstop-base.jpg";
+import InceptoMarquee07DesktopRetinaWebp from "../images/projects/incepto/marquee/07/07-marquee-dekstop-retina.webp";
+import InceptoMarquee07DesktopBaseWebp from "../images/projects/incepto/marquee/07/07-marquee-dekstop-base.webp";
+import InceptoMarquee07DesktopLazy from "../images/projects/incepto/marquee/07/07-marquee-dekstop-lazy.jpg";
+import InceptoMarquee07MobileRetina from "../images/projects/incepto/marquee/07/07-marquee-mobile-retina.jpg";
+import InceptoMarquee07MobileBase from "../images/projects/incepto/marquee/07/07-marquee-mobile-base.jpg";
+import InceptoMarquee07MobileRetinaWebp from "../images/projects/incepto/marquee/07/07-marquee-mobile-retina.webp";
+import InceptoMarquee07MobileBaseWebp from "../images/projects/incepto/marquee/07/07-marquee-mobile-base.webp";
+import InceptoMarquee07MobileLazy from "../images/projects/incepto/marquee/07/07-marquee-mobile-lazy.jpg";
+
+import InceptoMarquee08DesktopRetina from "../images/projects/incepto/marquee/08/08-marquee-dekstop-retina.jpg";
+import InceptoMarquee08DesktopBase from "../images/projects/incepto/marquee/08/08-marquee-dekstop-base.jpg";
+import InceptoMarquee08DesktopRetinaWebp from "../images/projects/incepto/marquee/08/08-marquee-dekstop-retina.webp";
+import InceptoMarquee08DesktopBaseWebp from "../images/projects/incepto/marquee/08/08-marquee-dekstop-base.webp";
+import InceptoMarquee08DesktopLazy from "../images/projects/incepto/marquee/08/08-marquee-dekstop-lazy.jpg";
+import InceptoMarquee08MobileRetina from "../images/projects/incepto/marquee/08/08-marquee-mobile-retina.jpg";
+import InceptoMarquee08MobileBase from "../images/projects/incepto/marquee/08/08-marquee-mobile-base.jpg";
+import InceptoMarquee08MobileRetinaWebp from "../images/projects/incepto/marquee/08/08-marquee-mobile-retina.webp";
+import InceptoMarquee08MobileBaseWebp from "../images/projects/incepto/marquee/08/08-marquee-mobile-base.webp";
+import InceptoMarquee08MobileLazy from "../images/projects/incepto/marquee/08/08-marquee-mobile-lazy.jpg";
+
+import InceptoMarquee09DesktopRetina from "../images/projects/incepto/marquee/09/09-marquee-dekstop-retina.jpg";
+import InceptoMarquee09DesktopBase from "../images/projects/incepto/marquee/09/09-marquee-dekstop-base.jpg";
+import InceptoMarquee09DesktopRetinaWebp from "../images/projects/incepto/marquee/09/09-marquee-dekstop-retina.webp";
+import InceptoMarquee09DesktopBaseWebp from "../images/projects/incepto/marquee/09/09-marquee-dekstop-base.webp";
+import InceptoMarquee09DesktopLazy from "../images/projects/incepto/marquee/09/09-marquee-dekstop-lazy.jpg";
+import InceptoMarquee09MobileRetina from "../images/projects/incepto/marquee/09/09-marquee-mobile-retina.jpg";
+import InceptoMarquee09MobileBase from "../images/projects/incepto/marquee/09/09-marquee-mobile-base.jpg";
+import InceptoMarquee09MobileRetinaWebp from "../images/projects/incepto/marquee/09/09-marquee-mobile-retina.webp";
+import InceptoMarquee09MobileBaseWebp from "../images/projects/incepto/marquee/09/09-marquee-mobile-base.webp";
+import InceptoMarquee09MobileLazy from "../images/projects/incepto/marquee/09/09-marquee-mobile-lazy.jpg";
+
+//LBQ
+import LBQMarquee01DesktopRetina from "../images/projects/lbq/marquee/01/01-marquee-dekstop-retina.jpg";
+import LBQMarquee01DesktopBase from "../images/projects/lbq/marquee/01/01-marquee-dekstop-base.jpg";
+import LBQMarquee01DesktopRetinaWebp from "../images/projects/lbq/marquee/01/01-marquee-dekstop-retina.webp";
+import LBQMarquee01DesktopBaseWebp from "../images/projects/lbq/marquee/01/01-marquee-dekstop-base.webp";
+import LBQMarquee01DesktopLazy from "../images/projects/lbq/marquee/01/01-marquee-dekstop-lazy.jpg";
+import LBQMarquee01MobileRetina from "../images/projects/lbq/marquee/01/01-marquee-mobile-retina.jpg";
+import LBQMarquee01MobileBase from "../images/projects/lbq/marquee/01/01-marquee-mobile-base.jpg";
+import LBQMarquee01MobileRetinaWebp from "../images/projects/lbq/marquee/01/01-marquee-mobile-retina.webp";
+import LBQMarquee01MobileBaseWebp from "../images/projects/lbq/marquee/01/01-marquee-mobile-base.webp";
+import LBQMarquee01MobileLazy from "../images/projects/lbq/marquee/01/01-marquee-mobile-lazy.jpg";
+
+import LBQMarquee02DesktopRetina from "../images/projects/lbq/marquee/02/02-marquee-dekstop-retina.jpg";
+import LBQMarquee02DesktopBase from "../images/projects/lbq/marquee/02/02-marquee-dekstop-base.jpg";
+import LBQMarquee02DesktopRetinaWebp from "../images/projects/lbq/marquee/02/02-marquee-dekstop-retina.webp";
+import LBQMarquee02DesktopBaseWebp from "../images/projects/lbq/marquee/02/02-marquee-dekstop-base.webp";
+import LBQMarquee02DesktopLazy from "../images/projects/lbq/marquee/02/02-marquee-dekstop-lazy.jpg";
+import LBQMarquee02MobileRetina from "../images/projects/lbq/marquee/02/02-marquee-mobile-retina.jpg";
+import LBQMarquee02MobileBase from "../images/projects/lbq/marquee/02/02-marquee-mobile-base.jpg";
+import LBQMarquee02MobileRetinaWebp from "../images/projects/lbq/marquee/02/02-marquee-mobile-retina.webp";
+import LBQMarquee02MobileBaseWebp from "../images/projects/lbq/marquee/02/02-marquee-mobile-base.webp";
+import LBQMarquee02MobileLazy from "../images/projects/lbq/marquee/02/02-marquee-mobile-lazy.jpg";
+
+import LBQMarquee03DesktopRetina from "../images/projects/lbq/marquee/03/03-marquee-dekstop-retina.jpg";
+import LBQMarquee03DesktopBase from "../images/projects/lbq/marquee/03/03-marquee-dekstop-base.jpg";
+import LBQMarquee03DesktopRetinaWebp from "../images/projects/lbq/marquee/03/03-marquee-dekstop-retina.webp";
+import LBQMarquee03DesktopBaseWebp from "../images/projects/lbq/marquee/03/03-marquee-dekstop-base.webp";
+import LBQMarquee03DesktopLazy from "../images/projects/lbq/marquee/03/03-marquee-dekstop-lazy.jpg";
+import LBQMarquee03MobileRetina from "../images/projects/lbq/marquee/03/03-marquee-mobile-retina.jpg";
+import LBQMarquee03MobileBase from "../images/projects/lbq/marquee/03/03-marquee-mobile-base.jpg";
+import LBQMarquee03MobileRetinaWebp from "../images/projects/lbq/marquee/03/03-marquee-mobile-retina.webp";
+import LBQMarquee03MobileBaseWebp from "../images/projects/lbq/marquee/03/03-marquee-mobile-base.webp";
+import LBQMarquee03MobileLazy from "../images/projects/lbq/marquee/03/03-marquee-mobile-lazy.jpg";
+
+import LBQMarquee04DesktopRetina from "../images/projects/lbq/marquee/04/04-marquee-dekstop-retina.jpg";
+import LBQMarquee04DesktopBase from "../images/projects/lbq/marquee/04/04-marquee-dekstop-base.jpg";
+import LBQMarquee04DesktopRetinaWebp from "../images/projects/lbq/marquee/04/04-marquee-dekstop-retina.webp";
+import LBQMarquee04DesktopBaseWebp from "../images/projects/lbq/marquee/04/04-marquee-dekstop-base.webp";
+import LBQMarquee04DesktopLazy from "../images/projects/lbq/marquee/04/04-marquee-dekstop-lazy.jpg";
+import LBQMarquee04MobileRetina from "../images/projects/lbq/marquee/04/04-marquee-mobile-retina.jpg";
+import LBQMarquee04MobileBase from "../images/projects/lbq/marquee/04/04-marquee-mobile-base.jpg";
+import LBQMarquee04MobileRetinaWebp from "../images/projects/lbq/marquee/04/04-marquee-mobile-retina.webp";
+import LBQMarquee04MobileBaseWebp from "../images/projects/lbq/marquee/04/04-marquee-mobile-base.webp";
+import LBQMarquee04MobileLazy from "../images/projects/lbq/marquee/04/04-marquee-mobile-lazy.jpg";
+
+import LBQMarquee05DesktopRetina from "../images/projects/lbq/marquee/05/05-marquee-dekstop-retina.jpg";
+import LBQMarquee05DesktopBase from "../images/projects/lbq/marquee/05/05-marquee-dekstop-base.jpg";
+import LBQMarquee05DesktopRetinaWebp from "../images/projects/lbq/marquee/05/05-marquee-dekstop-retina.webp";
+import LBQMarquee05DesktopBaseWebp from "../images/projects/lbq/marquee/05/05-marquee-dekstop-base.webp";
+import LBQMarquee05DesktopLazy from "../images/projects/lbq/marquee/05/05-marquee-dekstop-lazy.jpg";
+import LBQMarquee05MobileRetina from "../images/projects/lbq/marquee/05/05-marquee-mobile-retina.jpg";
+import LBQMarquee05MobileBase from "../images/projects/lbq/marquee/05/05-marquee-mobile-base.jpg";
+import LBQMarquee05MobileRetinaWebp from "../images/projects/lbq/marquee/05/05-marquee-mobile-retina.webp";
+import LBQMarquee05MobileBaseWebp from "../images/projects/lbq/marquee/05/05-marquee-mobile-base.webp";
+import LBQMarquee05MobileLazy from "../images/projects/lbq/marquee/05/05-marquee-mobile-lazy.jpg";
+
+import LBQMarquee06DesktopRetina from "../images/projects/lbq/marquee/06/06-marquee-dekstop-retina.jpg";
+import LBQMarquee06DesktopBase from "../images/projects/lbq/marquee/06/06-marquee-dekstop-base.jpg";
+import LBQMarquee06DesktopRetinaWebp from "../images/projects/lbq/marquee/06/06-marquee-dekstop-retina.webp";
+import LBQMarquee06DesktopBaseWebp from "../images/projects/lbq/marquee/06/06-marquee-dekstop-base.webp";
+import LBQMarquee06DesktopLazy from "../images/projects/lbq/marquee/06/06-marquee-dekstop-lazy.jpg";
+import LBQMarquee06MobileRetina from "../images/projects/lbq/marquee/06/06-marquee-mobile-retina.jpg";
+import LBQMarquee06MobileBase from "../images/projects/lbq/marquee/06/06-marquee-mobile-base.jpg";
+import LBQMarquee06MobileRetinaWebp from "../images/projects/lbq/marquee/06/06-marquee-mobile-retina.webp";
+import LBQMarquee06MobileBaseWebp from "../images/projects/lbq/marquee/06/06-marquee-mobile-base.webp";
+import LBQMarquee06MobileLazy from "../images/projects/lbq/marquee/06/06-marquee-mobile-lazy.jpg";
+
+import LBQMarquee07DesktopRetina from "../images/projects/lbq/marquee/07/07-marquee-dekstop-retina.jpg";
+import LBQMarquee07DesktopBase from "../images/projects/lbq/marquee/07/07-marquee-dekstop-base.jpg";
+import LBQMarquee07DesktopRetinaWebp from "../images/projects/lbq/marquee/07/07-marquee-dekstop-retina.webp";
+import LBQMarquee07DesktopBaseWebp from "../images/projects/lbq/marquee/07/07-marquee-dekstop-base.webp";
+import LBQMarquee07DesktopLazy from "../images/projects/lbq/marquee/07/07-marquee-dekstop-lazy.jpg";
+import LBQMarquee07MobileRetina from "../images/projects/lbq/marquee/07/07-marquee-mobile-retina.jpg";
+import LBQMarquee07MobileBase from "../images/projects/lbq/marquee/07/07-marquee-mobile-base.jpg";
+import LBQMarquee07MobileRetinaWebp from "../images/projects/lbq/marquee/07/07-marquee-mobile-retina.webp";
+import LBQMarquee07MobileBaseWebp from "../images/projects/lbq/marquee/07/07-marquee-mobile-base.webp";
+import LBQMarquee07MobileLazy from "../images/projects/lbq/marquee/07/07-marquee-mobile-lazy.jpg";
+
+import LBQMarquee08DesktopRetina from "../images/projects/lbq/marquee/08/08-marquee-dekstop-retina.jpg";
+import LBQMarquee08DesktopBase from "../images/projects/lbq/marquee/08/08-marquee-dekstop-base.jpg";
+import LBQMarquee08DesktopRetinaWebp from "../images/projects/lbq/marquee/08/08-marquee-dekstop-retina.webp";
+import LBQMarquee08DesktopBaseWebp from "../images/projects/lbq/marquee/08/08-marquee-dekstop-base.webp";
+import LBQMarquee08DesktopLazy from "../images/projects/lbq/marquee/08/08-marquee-dekstop-lazy.jpg";
+import LBQMarquee08MobileRetina from "../images/projects/lbq/marquee/08/08-marquee-mobile-retina.jpg";
+import LBQMarquee08MobileBase from "../images/projects/lbq/marquee/08/08-marquee-mobile-base.jpg";
+import LBQMarquee08MobileRetinaWebp from "../images/projects/lbq/marquee/08/08-marquee-mobile-retina.webp";
+import LBQMarquee08MobileBaseWebp from "../images/projects/lbq/marquee/08/08-marquee-mobile-base.webp";
+import LBQMarquee08MobileLazy from "../images/projects/lbq/marquee/08/08-marquee-mobile-lazy.jpg";
+
+import LBQMarquee09DesktopRetina from "../images/projects/lbq/marquee/09/09-marquee-dekstop-retina.jpg";
+import LBQMarquee09DesktopBase from "../images/projects/lbq/marquee/09/09-marquee-dekstop-base.jpg";
+import LBQMarquee09DesktopRetinaWebp from "../images/projects/lbq/marquee/09/09-marquee-dekstop-retina.webp";
+import LBQMarquee09DesktopBaseWebp from "../images/projects/lbq/marquee/09/09-marquee-dekstop-base.webp";
+import LBQMarquee09DesktopLazy from "../images/projects/lbq/marquee/09/09-marquee-dekstop-lazy.jpg";
+import LBQMarquee09MobileRetina from "../images/projects/lbq/marquee/09/09-marquee-mobile-retina.jpg";
+import LBQMarquee09MobileBase from "../images/projects/lbq/marquee/09/09-marquee-mobile-base.jpg";
+import LBQMarquee09MobileRetinaWebp from "../images/projects/lbq/marquee/09/09-marquee-mobile-retina.webp";
+import LBQMarquee09MobileBaseWebp from "../images/projects/lbq/marquee/09/09-marquee-mobile-base.webp";
+import LBQMarquee09MobileLazy from "../images/projects/lbq/marquee/09/09-marquee-mobile-lazy.jpg";
+
+//Tertiavia
+import TertiaviaMarquee01DesktopRetina from "../images/projects/tertiavia/marquee/01/01-marquee-dekstop-retina.jpg";
+import TertiaviaMarquee01DesktopBase from "../images/projects/tertiavia/marquee/01/01-marquee-dekstop-base.jpg";
+import TertiaviaMarquee01DesktopRetinaWebp from "../images/projects/tertiavia/marquee/01/01-marquee-dekstop-retina.webp";
+import TertiaviaMarquee01DesktopBaseWebp from "../images/projects/tertiavia/marquee/01/01-marquee-dekstop-base.webp";
+import TertiaviaMarquee01DesktopLazy from "../images/projects/tertiavia/marquee/01/01-marquee-dekstop-lazy.jpg";
+import TertiaviaMarquee01MobileRetina from "../images/projects/tertiavia/marquee/01/01-marquee-mobile-retina.jpg";
+import TertiaviaMarquee01MobileBase from "../images/projects/tertiavia/marquee/01/01-marquee-mobile-base.jpg";
+import TertiaviaMarquee01MobileRetinaWebp from "../images/projects/tertiavia/marquee/01/01-marquee-mobile-retina.webp";
+import TertiaviaMarquee01MobileBaseWebp from "../images/projects/tertiavia/marquee/01/01-marquee-mobile-base.webp";
+import TertiaviaMarquee01MobileLazy from "../images/projects/tertiavia/marquee/01/01-marquee-mobile-lazy.jpg";
+
+import TertiaviaMarquee02DesktopRetina from "../images/projects/tertiavia/marquee/02/02-marquee-dekstop-retina.jpg";
+import TertiaviaMarquee02DesktopBase from "../images/projects/tertiavia/marquee/02/02-marquee-dekstop-base.jpg";
+import TertiaviaMarquee02DesktopRetinaWebp from "../images/projects/tertiavia/marquee/02/02-marquee-dekstop-retina.webp";
+import TertiaviaMarquee02DesktopBaseWebp from "../images/projects/tertiavia/marquee/02/02-marquee-dekstop-base.webp";
+import TertiaviaMarquee02DesktopLazy from "../images/projects/tertiavia/marquee/02/02-marquee-dekstop-lazy.jpg";
+import TertiaviaMarquee02MobileRetina from "../images/projects/tertiavia/marquee/02/02-marquee-mobile-retina.jpg";
+import TertiaviaMarquee02MobileBase from "../images/projects/tertiavia/marquee/02/02-marquee-mobile-base.jpg";
+import TertiaviaMarquee02MobileRetinaWebp from "../images/projects/tertiavia/marquee/02/02-marquee-mobile-retina.webp";
+import TertiaviaMarquee02MobileBaseWebp from "../images/projects/tertiavia/marquee/02/02-marquee-mobile-base.webp";
+import TertiaviaMarquee02MobileLazy from "../images/projects/tertiavia/marquee/02/02-marquee-mobile-lazy.jpg";
+
+import TertiaviaMarquee03DesktopRetina from "../images/projects/tertiavia/marquee/03/03-marquee-dekstop-retina.jpg";
+import TertiaviaMarquee03DesktopBase from "../images/projects/tertiavia/marquee/03/03-marquee-dekstop-base.jpg";
+import TertiaviaMarquee03DesktopRetinaWebp from "../images/projects/tertiavia/marquee/03/03-marquee-dekstop-retina.webp";
+import TertiaviaMarquee03DesktopBaseWebp from "../images/projects/tertiavia/marquee/03/03-marquee-dekstop-base.webp";
+import TertiaviaMarquee03DesktopLazy from "../images/projects/tertiavia/marquee/03/03-marquee-dekstop-lazy.jpg";
+import TertiaviaMarquee03MobileRetina from "../images/projects/tertiavia/marquee/03/03-marquee-mobile-retina.jpg";
+import TertiaviaMarquee03MobileBase from "../images/projects/tertiavia/marquee/03/03-marquee-mobile-base.jpg";
+import TertiaviaMarquee03MobileRetinaWebp from "../images/projects/tertiavia/marquee/03/03-marquee-mobile-retina.webp";
+import TertiaviaMarquee03MobileBaseWebp from "../images/projects/tertiavia/marquee/03/03-marquee-mobile-base.webp";
+import TertiaviaMarquee03MobileLazy from "../images/projects/tertiavia/marquee/03/03-marquee-mobile-lazy.jpg";
+
+import TertiaviaMarquee04DesktopRetina from "../images/projects/tertiavia/marquee/04/04-marquee-dekstop-retina.jpg";
+import TertiaviaMarquee04DesktopBase from "../images/projects/tertiavia/marquee/04/04-marquee-dekstop-base.jpg";
+import TertiaviaMarquee04DesktopRetinaWebp from "../images/projects/tertiavia/marquee/04/04-marquee-dekstop-retina.webp";
+import TertiaviaMarquee04DesktopBaseWebp from "../images/projects/tertiavia/marquee/04/04-marquee-dekstop-base.webp";
+import TertiaviaMarquee04DesktopLazy from "../images/projects/tertiavia/marquee/04/04-marquee-dekstop-lazy.jpg";
+import TertiaviaMarquee04MobileRetina from "../images/projects/tertiavia/marquee/04/04-marquee-mobile-retina.jpg";
+import TertiaviaMarquee04MobileBase from "../images/projects/tertiavia/marquee/04/04-marquee-mobile-base.jpg";
+import TertiaviaMarquee04MobileRetinaWebp from "../images/projects/tertiavia/marquee/04/04-marquee-mobile-retina.webp";
+import TertiaviaMarquee04MobileBaseWebp from "../images/projects/tertiavia/marquee/04/04-marquee-mobile-base.webp";
+import TertiaviaMarquee04MobileLazy from "../images/projects/tertiavia/marquee/04/04-marquee-mobile-lazy.jpg";
+
+import TertiaviaMarquee05DesktopRetina from "../images/projects/tertiavia/marquee/05/05-marquee-dekstop-retina.jpg";
+import TertiaviaMarquee05DesktopBase from "../images/projects/tertiavia/marquee/05/05-marquee-dekstop-base.jpg";
+import TertiaviaMarquee05DesktopRetinaWebp from "../images/projects/tertiavia/marquee/05/05-marquee-dekstop-retina.webp";
+import TertiaviaMarquee05DesktopBaseWebp from "../images/projects/tertiavia/marquee/05/05-marquee-dekstop-base.webp";
+import TertiaviaMarquee05DesktopLazy from "../images/projects/tertiavia/marquee/05/05-marquee-dekstop-lazy.jpg";
+import TertiaviaMarquee05MobileRetina from "../images/projects/tertiavia/marquee/05/05-marquee-mobile-retina.jpg";
+import TertiaviaMarquee05MobileBase from "../images/projects/tertiavia/marquee/05/05-marquee-mobile-base.jpg";
+import TertiaviaMarquee05MobileRetinaWebp from "../images/projects/tertiavia/marquee/05/05-marquee-mobile-retina.webp";
+import TertiaviaMarquee05MobileBaseWebp from "../images/projects/tertiavia/marquee/05/05-marquee-mobile-base.webp";
+import TertiaviaMarquee05MobileLazy from "../images/projects/tertiavia/marquee/05/05-marquee-mobile-lazy.jpg";
+
+import TertiaviaMarquee06DesktopRetina from "../images/projects/tertiavia/marquee/06/06-marquee-dekstop-retina.jpg";
+import TertiaviaMarquee06DesktopBase from "../images/projects/tertiavia/marquee/06/06-marquee-dekstop-base.jpg";
+import TertiaviaMarquee06DesktopRetinaWebp from "../images/projects/tertiavia/marquee/06/06-marquee-dekstop-retina.webp";
+import TertiaviaMarquee06DesktopBaseWebp from "../images/projects/tertiavia/marquee/06/06-marquee-dekstop-base.webp";
+import TertiaviaMarquee06DesktopLazy from "../images/projects/tertiavia/marquee/06/06-marquee-dekstop-lazy.jpg";
+import TertiaviaMarquee06MobileRetina from "../images/projects/tertiavia/marquee/06/06-marquee-mobile-retina.jpg";
+import TertiaviaMarquee06MobileBase from "../images/projects/tertiavia/marquee/06/06-marquee-mobile-base.jpg";
+import TertiaviaMarquee06MobileRetinaWebp from "../images/projects/tertiavia/marquee/06/06-marquee-mobile-retina.webp";
+import TertiaviaMarquee06MobileBaseWebp from "../images/projects/tertiavia/marquee/06/06-marquee-mobile-base.webp";
+import TertiaviaMarquee06MobileLazy from "../images/projects/tertiavia/marquee/06/06-marquee-mobile-lazy.jpg";
+
+import TertiaviaMarquee07DesktopRetina from "../images/projects/tertiavia/marquee/07/07-marquee-dekstop-retina.jpg";
+import TertiaviaMarquee07DesktopBase from "../images/projects/tertiavia/marquee/07/07-marquee-dekstop-base.jpg";
+import TertiaviaMarquee07DesktopRetinaWebp from "../images/projects/tertiavia/marquee/07/07-marquee-dekstop-retina.webp";
+import TertiaviaMarquee07DesktopBaseWebp from "../images/projects/tertiavia/marquee/07/07-marquee-dekstop-base.webp";
+import TertiaviaMarquee07DesktopLazy from "../images/projects/tertiavia/marquee/07/07-marquee-dekstop-lazy.jpg";
+import TertiaviaMarquee07MobileRetina from "../images/projects/tertiavia/marquee/07/07-marquee-mobile-retina.jpg";
+import TertiaviaMarquee07MobileBase from "../images/projects/tertiavia/marquee/07/07-marquee-mobile-base.jpg";
+import TertiaviaMarquee07MobileRetinaWebp from "../images/projects/tertiavia/marquee/07/07-marquee-mobile-retina.webp";
+import TertiaviaMarquee07MobileBaseWebp from "../images/projects/tertiavia/marquee/07/07-marquee-mobile-base.webp";
+import TertiaviaMarquee07MobileLazy from "../images/projects/tertiavia/marquee/07/07-marquee-mobile-lazy.jpg";
+
+import TertiaviaMarquee08DesktopRetina from "../images/projects/tertiavia/marquee/08/08-marquee-dekstop-retina.jpg";
+import TertiaviaMarquee08DesktopBase from "../images/projects/tertiavia/marquee/08/08-marquee-dekstop-base.jpg";
+import TertiaviaMarquee08DesktopRetinaWebp from "../images/projects/tertiavia/marquee/08/08-marquee-dekstop-retina.webp";
+import TertiaviaMarquee08DesktopBaseWebp from "../images/projects/tertiavia/marquee/08/08-marquee-dekstop-base.webp";
+import TertiaviaMarquee08DesktopLazy from "../images/projects/tertiavia/marquee/08/08-marquee-dekstop-lazy.jpg";
+import TertiaviaMarquee08MobileRetina from "../images/projects/tertiavia/marquee/08/08-marquee-mobile-retina.jpg";
+import TertiaviaMarquee08MobileBase from "../images/projects/tertiavia/marquee/08/08-marquee-mobile-base.jpg";
+import TertiaviaMarquee08MobileRetinaWebp from "../images/projects/tertiavia/marquee/08/08-marquee-mobile-retina.webp";
+import TertiaviaMarquee08MobileBaseWebp from "../images/projects/tertiavia/marquee/08/08-marquee-mobile-base.webp";
+import TertiaviaMarquee08MobileLazy from "../images/projects/tertiavia/marquee/08/08-marquee-mobile-lazy.jpg";
+
+import TertiaviaMarquee09DesktopRetina from "../images/projects/tertiavia/marquee/09/09-marquee-dekstop-retina.jpg";
+import TertiaviaMarquee09DesktopBase from "../images/projects/tertiavia/marquee/09/09-marquee-dekstop-base.jpg";
+import TertiaviaMarquee09DesktopRetinaWebp from "../images/projects/tertiavia/marquee/09/09-marquee-dekstop-retina.webp";
+import TertiaviaMarquee09DesktopBaseWebp from "../images/projects/tertiavia/marquee/09/09-marquee-dekstop-base.webp";
+import TertiaviaMarquee09DesktopLazy from "../images/projects/tertiavia/marquee/09/09-marquee-dekstop-lazy.jpg";
+import TertiaviaMarquee09MobileRetina from "../images/projects/tertiavia/marquee/09/09-marquee-mobile-retina.jpg";
+import TertiaviaMarquee09MobileBase from "../images/projects/tertiavia/marquee/09/09-marquee-mobile-base.jpg";
+import TertiaviaMarquee09MobileRetinaWebp from "../images/projects/tertiavia/marquee/09/09-marquee-mobile-retina.webp";
+import TertiaviaMarquee09MobileBaseWebp from "../images/projects/tertiavia/marquee/09/09-marquee-mobile-base.webp";
+import TertiaviaMarquee09MobileLazy from "../images/projects/tertiavia/marquee/09/09-marquee-mobile-lazy.jpg";
+
+//Webc
+import WebComponentMarquee01DesktopRetina from "../images/projects/webc/marquee/01/01-marquee-dekstop-retina.jpg";
+import WebComponentMarquee01DesktopBase from "../images/projects/webc/marquee/01/01-marquee-dekstop-base.jpg";
+import WebComponentMarquee01DesktopRetinaWebp from "../images/projects/webc/marquee/01/01-marquee-dekstop-retina.webp";
+import WebComponentMarquee01DesktopBaseWebp from "../images/projects/webc/marquee/01/01-marquee-dekstop-base.webp";
+import WebComponentMarquee01DesktopLazy from "../images/projects/webc/marquee/01/01-marquee-dekstop-lazy.jpg";
+import WebComponentMarquee01MobileRetina from "../images/projects/webc/marquee/01/01-marquee-mobile-retina.jpg";
+import WebComponentMarquee01MobileBase from "../images/projects/webc/marquee/01/01-marquee-mobile-base.jpg";
+import WebComponentMarquee01MobileRetinaWebp from "../images/projects/webc/marquee/01/01-marquee-mobile-retina.webp";
+import WebComponentMarquee01MobileBaseWebp from "../images/projects/webc/marquee/01/01-marquee-mobile-base.webp";
+import WebComponentMarquee01MobileLazy from "../images/projects/webc/marquee/01/01-marquee-mobile-lazy.jpg";
+
+import WebComponentMarquee02DesktopRetina from "../images/projects/webc/marquee/02/02-marquee-dekstop-retina.jpg";
+import WebComponentMarquee02DesktopBase from "../images/projects/webc/marquee/02/02-marquee-dekstop-base.jpg";
+import WebComponentMarquee02DesktopRetinaWebp from "../images/projects/webc/marquee/02/02-marquee-dekstop-retina.webp";
+import WebComponentMarquee02DesktopBaseWebp from "../images/projects/webc/marquee/02/02-marquee-dekstop-base.webp";
+import WebComponentMarquee02DesktopLazy from "../images/projects/webc/marquee/02/02-marquee-dekstop-lazy.jpg";
+import WebComponentMarquee02MobileRetina from "../images/projects/webc/marquee/02/02-marquee-mobile-retina.jpg";
+import WebComponentMarquee02MobileBase from "../images/projects/webc/marquee/02/02-marquee-mobile-base.jpg";
+import WebComponentMarquee02MobileRetinaWebp from "../images/projects/webc/marquee/02/02-marquee-mobile-retina.webp";
+import WebComponentMarquee02MobileBaseWebp from "../images/projects/webc/marquee/02/02-marquee-mobile-base.webp";
+import WebComponentMarquee02MobileLazy from "../images/projects/webc/marquee/02/02-marquee-mobile-lazy.jpg";
+
+import WebComponentMarquee03DesktopRetina from "../images/projects/webc/marquee/03/03-marquee-dekstop-retina.jpg";
+import WebComponentMarquee03DesktopBase from "../images/projects/webc/marquee/03/03-marquee-dekstop-base.jpg";
+import WebComponentMarquee03DesktopRetinaWebp from "../images/projects/webc/marquee/03/03-marquee-dekstop-retina.webp";
+import WebComponentMarquee03DesktopBaseWebp from "../images/projects/webc/marquee/03/03-marquee-dekstop-base.webp";
+import WebComponentMarquee03DesktopLazy from "../images/projects/webc/marquee/03/03-marquee-dekstop-lazy.jpg";
+import WebComponentMarquee03MobileRetina from "../images/projects/webc/marquee/03/03-marquee-mobile-retina.jpg";
+import WebComponentMarquee03MobileBase from "../images/projects/webc/marquee/03/03-marquee-mobile-base.jpg";
+import WebComponentMarquee03MobileRetinaWebp from "../images/projects/webc/marquee/03/03-marquee-mobile-retina.webp";
+import WebComponentMarquee03MobileBaseWebp from "../images/projects/webc/marquee/03/03-marquee-mobile-base.webp";
+import WebComponentMarquee03MobileLazy from "../images/projects/webc/marquee/03/03-marquee-mobile-lazy.jpg";
+
+import WebComponentMarquee04DesktopRetina from "../images/projects/webc/marquee/04/04-marquee-dekstop-retina.jpg";
+import WebComponentMarquee04DesktopBase from "../images/projects/webc/marquee/04/04-marquee-dekstop-base.jpg";
+import WebComponentMarquee04DesktopRetinaWebp from "../images/projects/webc/marquee/04/04-marquee-dekstop-retina.webp";
+import WebComponentMarquee04DesktopBaseWebp from "../images/projects/webc/marquee/04/04-marquee-dekstop-base.webp";
+import WebComponentMarquee04DesktopLazy from "../images/projects/webc/marquee/04/04-marquee-dekstop-lazy.jpg";
+import WebComponentMarquee04MobileRetina from "../images/projects/webc/marquee/04/04-marquee-mobile-retina.jpg";
+import WebComponentMarquee04MobileBase from "../images/projects/webc/marquee/04/04-marquee-mobile-base.jpg";
+import WebComponentMarquee04MobileRetinaWebp from "../images/projects/webc/marquee/04/04-marquee-mobile-retina.webp";
+import WebComponentMarquee04MobileBaseWebp from "../images/projects/webc/marquee/04/04-marquee-mobile-base.webp";
+import WebComponentMarquee04MobileLazy from "../images/projects/webc/marquee/04/04-marquee-mobile-lazy.jpg";
+
+import WebComponentMarquee05DesktopRetina from "../images/projects/webc/marquee/05/05-marquee-dekstop-retina.jpg";
+import WebComponentMarquee05DesktopBase from "../images/projects/webc/marquee/05/05-marquee-dekstop-base.jpg";
+import WebComponentMarquee05DesktopRetinaWebp from "../images/projects/webc/marquee/05/05-marquee-dekstop-retina.webp";
+import WebComponentMarquee05DesktopBaseWebp from "../images/projects/webc/marquee/05/05-marquee-dekstop-base.webp";
+import WebComponentMarquee05DesktopLazy from "../images/projects/webc/marquee/05/05-marquee-dekstop-lazy.jpg";
+import WebComponentMarquee05MobileRetina from "../images/projects/webc/marquee/05/05-marquee-mobile-retina.jpg";
+import WebComponentMarquee05MobileBase from "../images/projects/webc/marquee/05/05-marquee-mobile-base.jpg";
+import WebComponentMarquee05MobileRetinaWebp from "../images/projects/webc/marquee/05/05-marquee-mobile-retina.webp";
+import WebComponentMarquee05MobileBaseWebp from "../images/projects/webc/marquee/05/05-marquee-mobile-base.webp";
+import WebComponentMarquee05MobileLazy from "../images/projects/webc/marquee/05/05-marquee-mobile-lazy.jpg";
+
+import WebComponentMarquee06DesktopRetina from "../images/projects/webc/marquee/06/06-marquee-dekstop-retina.jpg";
+import WebComponentMarquee06DesktopBase from "../images/projects/webc/marquee/06/06-marquee-dekstop-base.jpg";
+import WebComponentMarquee06DesktopRetinaWebp from "../images/projects/webc/marquee/06/06-marquee-dekstop-retina.webp";
+import WebComponentMarquee06DesktopBaseWebp from "../images/projects/webc/marquee/06/06-marquee-dekstop-base.webp";
+import WebComponentMarquee06DesktopLazy from "../images/projects/webc/marquee/06/06-marquee-dekstop-lazy.jpg";
+import WebComponentMarquee06MobileRetina from "../images/projects/webc/marquee/06/06-marquee-mobile-retina.jpg";
+import WebComponentMarquee06MobileBase from "../images/projects/webc/marquee/06/06-marquee-mobile-base.jpg";
+import WebComponentMarquee06MobileRetinaWebp from "../images/projects/webc/marquee/06/06-marquee-mobile-retina.webp";
+import WebComponentMarquee06MobileBaseWebp from "../images/projects/webc/marquee/06/06-marquee-mobile-base.webp";
+import WebComponentMarquee06MobileLazy from "../images/projects/webc/marquee/06/06-marquee-mobile-lazy.jpg";
+
+import WebComponentMarquee07DesktopRetina from "../images/projects/webc/marquee/07/07-marquee-dekstop-retina.jpg";
+import WebComponentMarquee07DesktopBase from "../images/projects/webc/marquee/07/07-marquee-dekstop-base.jpg";
+import WebComponentMarquee07DesktopRetinaWebp from "../images/projects/webc/marquee/07/07-marquee-dekstop-retina.webp";
+import WebComponentMarquee07DesktopBaseWebp from "../images/projects/webc/marquee/07/07-marquee-dekstop-base.webp";
+import WebComponentMarquee07DesktopLazy from "../images/projects/webc/marquee/07/07-marquee-dekstop-lazy.jpg";
+import WebComponentMarquee07MobileRetina from "../images/projects/webc/marquee/07/07-marquee-mobile-retina.jpg";
+import WebComponentMarquee07MobileBase from "../images/projects/webc/marquee/07/07-marquee-mobile-base.jpg";
+import WebComponentMarquee07MobileRetinaWebp from "../images/projects/webc/marquee/07/07-marquee-mobile-retina.webp";
+import WebComponentMarquee07MobileBaseWebp from "../images/projects/webc/marquee/07/07-marquee-mobile-base.webp";
+import WebComponentMarquee07MobileLazy from "../images/projects/webc/marquee/07/07-marquee-mobile-lazy.jpg";
+
+import WebComponentMarquee08DesktopRetina from "../images/projects/webc/marquee/08/08-marquee-dekstop-retina.jpg";
+import WebComponentMarquee08DesktopBase from "../images/projects/webc/marquee/08/08-marquee-dekstop-base.jpg";
+import WebComponentMarquee08DesktopRetinaWebp from "../images/projects/webc/marquee/08/08-marquee-dekstop-retina.webp";
+import WebComponentMarquee08DesktopBaseWebp from "../images/projects/webc/marquee/08/08-marquee-dekstop-base.webp";
+import WebComponentMarquee08DesktopLazy from "../images/projects/webc/marquee/08/08-marquee-dekstop-lazy.jpg";
+import WebComponentMarquee08MobileRetina from "../images/projects/webc/marquee/08/08-marquee-mobile-retina.jpg";
+import WebComponentMarquee08MobileBase from "../images/projects/webc/marquee/08/08-marquee-mobile-base.jpg";
+import WebComponentMarquee08MobileRetinaWebp from "../images/projects/webc/marquee/08/08-marquee-mobile-retina.webp";
+import WebComponentMarquee08MobileBaseWebp from "../images/projects/webc/marquee/08/08-marquee-mobile-base.webp";
+import WebComponentMarquee08MobileLazy from "../images/projects/webc/marquee/08/08-marquee-mobile-lazy.jpg";
+
+import WebComponentMarquee09DesktopRetina from "../images/projects/webc/marquee/09/09-marquee-dekstop-retina.jpg";
+import WebComponentMarquee09DesktopBase from "../images/projects/webc/marquee/09/09-marquee-dekstop-base.jpg";
+import WebComponentMarquee09DesktopRetinaWebp from "../images/projects/webc/marquee/09/09-marquee-dekstop-retina.webp";
+import WebComponentMarquee09DesktopBaseWebp from "../images/projects/webc/marquee/09/09-marquee-dekstop-base.webp";
+import WebComponentMarquee09DesktopLazy from "../images/projects/webc/marquee/09/09-marquee-dekstop-lazy.jpg";
+import WebComponentMarquee09MobileRetina from "../images/projects/webc/marquee/09/09-marquee-mobile-retina.jpg";
+import WebComponentMarquee09MobileBase from "../images/projects/webc/marquee/09/09-marquee-mobile-base.jpg";
+import WebComponentMarquee09MobileRetinaWebp from "../images/projects/webc/marquee/09/09-marquee-mobile-retina.webp";
+import WebComponentMarquee09MobileBaseWebp from "../images/projects/webc/marquee/09/09-marquee-mobile-base.webp";
+import WebComponentMarquee09MobileLazy from "../images/projects/webc/marquee/09/09-marquee-mobile-lazy.jpg";
+
+//Gongju
+import GongjuMarquee01DesktopRetina from "../images/projects/gongju/marquee/01/01-marquee-dekstop-retina.jpg";
+import GongjuMarquee01DesktopBase from "../images/projects/gongju/marquee/01/01-marquee-dekstop-base.jpg";
+import GongjuMarquee01DesktopRetinaWebp from "../images/projects/gongju/marquee/01/01-marquee-dekstop-retina.webp";
+import GongjuMarquee01DesktopBaseWebp from "../images/projects/gongju/marquee/01/01-marquee-dekstop-base.webp";
+import GongjuMarquee01DesktopLazy from "../images/projects/gongju/marquee/01/01-marquee-dekstop-lazy.jpg";
+import GongjuMarquee01MobileRetina from "../images/projects/gongju/marquee/01/01-marquee-mobile-retina.jpg";
+import GongjuMarquee01MobileBase from "../images/projects/gongju/marquee/01/01-marquee-mobile-base.jpg";
+import GongjuMarquee01MobileRetinaWebp from "../images/projects/gongju/marquee/01/01-marquee-mobile-retina.webp";
+import GongjuMarquee01MobileBaseWebp from "../images/projects/gongju/marquee/01/01-marquee-mobile-base.webp";
+import GongjuMarquee01MobileLazy from "../images/projects/gongju/marquee/01/01-marquee-mobile-lazy.jpg";
+
+import GongjuMarquee02DesktopRetina from "../images/projects/gongju/marquee/02/02-marquee-dekstop-retina.jpg";
+import GongjuMarquee02DesktopBase from "../images/projects/gongju/marquee/02/02-marquee-dekstop-base.jpg";
+import GongjuMarquee02DesktopRetinaWebp from "../images/projects/gongju/marquee/02/02-marquee-dekstop-retina.webp";
+import GongjuMarquee02DesktopBaseWebp from "../images/projects/gongju/marquee/02/02-marquee-dekstop-base.webp";
+import GongjuMarquee02DesktopLazy from "../images/projects/gongju/marquee/02/02-marquee-dekstop-lazy.jpg";
+import GongjuMarquee02MobileRetina from "../images/projects/gongju/marquee/02/02-marquee-mobile-retina.jpg";
+import GongjuMarquee02MobileBase from "../images/projects/gongju/marquee/02/02-marquee-mobile-base.jpg";
+import GongjuMarquee02MobileRetinaWebp from "../images/projects/gongju/marquee/02/02-marquee-mobile-retina.webp";
+import GongjuMarquee02MobileBaseWebp from "../images/projects/gongju/marquee/02/02-marquee-mobile-base.webp";
+import GongjuMarquee02MobileLazy from "../images/projects/gongju/marquee/02/02-marquee-mobile-lazy.jpg";
+
+import GongjuMarquee03DesktopRetina from "../images/projects/gongju/marquee/03/03-marquee-dekstop-retina.jpg";
+import GongjuMarquee03DesktopBase from "../images/projects/gongju/marquee/03/03-marquee-dekstop-base.jpg";
+import GongjuMarquee03DesktopRetinaWebp from "../images/projects/gongju/marquee/03/03-marquee-dekstop-retina.webp";
+import GongjuMarquee03DesktopBaseWebp from "../images/projects/gongju/marquee/03/03-marquee-dekstop-base.webp";
+import GongjuMarquee03DesktopLazy from "../images/projects/gongju/marquee/03/03-marquee-dekstop-lazy.jpg";
+import GongjuMarquee03MobileRetina from "../images/projects/gongju/marquee/03/03-marquee-mobile-retina.jpg";
+import GongjuMarquee03MobileBase from "../images/projects/gongju/marquee/03/03-marquee-mobile-base.jpg";
+import GongjuMarquee03MobileRetinaWebp from "../images/projects/gongju/marquee/03/03-marquee-mobile-retina.webp";
+import GongjuMarquee03MobileBaseWebp from "../images/projects/gongju/marquee/03/03-marquee-mobile-base.webp";
+import GongjuMarquee03MobileLazy from "../images/projects/gongju/marquee/03/03-marquee-mobile-lazy.jpg";
+
+import GongjuMarquee04DesktopRetina from "../images/projects/gongju/marquee/04/04-marquee-dekstop-retina.jpg";
+import GongjuMarquee04DesktopBase from "../images/projects/gongju/marquee/04/04-marquee-dekstop-base.jpg";
+import GongjuMarquee04DesktopRetinaWebp from "../images/projects/gongju/marquee/04/04-marquee-dekstop-retina.webp";
+import GongjuMarquee04DesktopBaseWebp from "../images/projects/gongju/marquee/04/04-marquee-dekstop-base.webp";
+import GongjuMarquee04DesktopLazy from "../images/projects/gongju/marquee/04/04-marquee-dekstop-lazy.jpg";
+import GongjuMarquee04MobileRetina from "../images/projects/gongju/marquee/04/04-marquee-mobile-retina.jpg";
+import GongjuMarquee04MobileBase from "../images/projects/gongju/marquee/04/04-marquee-mobile-base.jpg";
+import GongjuMarquee04MobileRetinaWebp from "../images/projects/gongju/marquee/04/04-marquee-mobile-retina.webp";
+import GongjuMarquee04MobileBaseWebp from "../images/projects/gongju/marquee/04/04-marquee-mobile-base.webp";
+import GongjuMarquee04MobileLazy from "../images/projects/gongju/marquee/04/04-marquee-mobile-lazy.jpg";
+
+import GongjuMarquee05DesktopRetina from "../images/projects/gongju/marquee/05/05-marquee-dekstop-retina.jpg";
+import GongjuMarquee05DesktopBase from "../images/projects/gongju/marquee/05/05-marquee-dekstop-base.jpg";
+import GongjuMarquee05DesktopRetinaWebp from "../images/projects/gongju/marquee/05/05-marquee-dekstop-retina.webp";
+import GongjuMarquee05DesktopBaseWebp from "../images/projects/gongju/marquee/05/05-marquee-dekstop-base.webp";
+import GongjuMarquee05DesktopLazy from "../images/projects/gongju/marquee/05/05-marquee-dekstop-lazy.jpg";
+import GongjuMarquee05MobileRetina from "../images/projects/gongju/marquee/05/05-marquee-mobile-retina.jpg";
+import GongjuMarquee05MobileBase from "../images/projects/gongju/marquee/05/05-marquee-mobile-base.jpg";
+import GongjuMarquee05MobileRetinaWebp from "../images/projects/gongju/marquee/05/05-marquee-mobile-retina.webp";
+import GongjuMarquee05MobileBaseWebp from "../images/projects/gongju/marquee/05/05-marquee-mobile-base.webp";
+import GongjuMarquee05MobileLazy from "../images/projects/gongju/marquee/05/05-marquee-mobile-lazy.jpg";
+
+import GongjuMarquee06DesktopRetina from "../images/projects/gongju/marquee/06/06-marquee-dekstop-retina.jpg";
+import GongjuMarquee06DesktopBase from "../images/projects/gongju/marquee/06/06-marquee-dekstop-base.jpg";
+import GongjuMarquee06DesktopRetinaWebp from "../images/projects/gongju/marquee/06/06-marquee-dekstop-retina.webp";
+import GongjuMarquee06DesktopBaseWebp from "../images/projects/gongju/marquee/06/06-marquee-dekstop-base.webp";
+import GongjuMarquee06DesktopLazy from "../images/projects/gongju/marquee/06/06-marquee-dekstop-lazy.jpg";
+import GongjuMarquee06MobileRetina from "../images/projects/gongju/marquee/06/06-marquee-mobile-retina.jpg";
+import GongjuMarquee06MobileBase from "../images/projects/gongju/marquee/06/06-marquee-mobile-base.jpg";
+import GongjuMarquee06MobileRetinaWebp from "../images/projects/gongju/marquee/06/06-marquee-mobile-retina.webp";
+import GongjuMarquee06MobileBaseWebp from "../images/projects/gongju/marquee/06/06-marquee-mobile-base.webp";
+import GongjuMarquee06MobileLazy from "../images/projects/gongju/marquee/06/06-marquee-mobile-lazy.jpg";
+
+import GongjuMarquee07DesktopRetina from "../images/projects/gongju/marquee/07/07-marquee-dekstop-retina.jpg";
+import GongjuMarquee07DesktopBase from "../images/projects/gongju/marquee/07/07-marquee-dekstop-base.jpg";
+import GongjuMarquee07DesktopRetinaWebp from "../images/projects/gongju/marquee/07/07-marquee-dekstop-retina.webp";
+import GongjuMarquee07DesktopBaseWebp from "../images/projects/gongju/marquee/07/07-marquee-dekstop-base.webp";
+import GongjuMarquee07DesktopLazy from "../images/projects/gongju/marquee/07/07-marquee-dekstop-lazy.jpg";
+import GongjuMarquee07MobileRetina from "../images/projects/gongju/marquee/07/07-marquee-mobile-retina.jpg";
+import GongjuMarquee07MobileBase from "../images/projects/gongju/marquee/07/07-marquee-mobile-base.jpg";
+import GongjuMarquee07MobileRetinaWebp from "../images/projects/gongju/marquee/07/07-marquee-mobile-retina.webp";
+import GongjuMarquee07MobileBaseWebp from "../images/projects/gongju/marquee/07/07-marquee-mobile-base.webp";
+import GongjuMarquee07MobileLazy from "../images/projects/gongju/marquee/07/07-marquee-mobile-lazy.jpg";
+
+import GongjuMarquee08DesktopRetina from "../images/projects/gongju/marquee/08/08-marquee-dekstop-retina.jpg";
+import GongjuMarquee08DesktopBase from "../images/projects/gongju/marquee/08/08-marquee-dekstop-base.jpg";
+import GongjuMarquee08DesktopRetinaWebp from "../images/projects/gongju/marquee/08/08-marquee-dekstop-retina.webp";
+import GongjuMarquee08DesktopBaseWebp from "../images/projects/gongju/marquee/08/08-marquee-dekstop-base.webp";
+import GongjuMarquee08DesktopLazy from "../images/projects/gongju/marquee/08/08-marquee-dekstop-lazy.jpg";
+import GongjuMarquee08MobileRetina from "../images/projects/gongju/marquee/08/08-marquee-mobile-retina.jpg";
+import GongjuMarquee08MobileBase from "../images/projects/gongju/marquee/08/08-marquee-mobile-base.jpg";
+import GongjuMarquee08MobileRetinaWebp from "../images/projects/gongju/marquee/08/08-marquee-mobile-retina.webp";
+import GongjuMarquee08MobileBaseWebp from "../images/projects/gongju/marquee/08/08-marquee-mobile-base.webp";
+import GongjuMarquee08MobileLazy from "../images/projects/gongju/marquee/08/08-marquee-mobile-lazy.jpg";
+
+import GongjuMarquee09DesktopRetina from "../images/projects/gongju/marquee/09/09-marquee-dekstop-retina.jpg";
+import GongjuMarquee09DesktopBase from "../images/projects/gongju/marquee/09/09-marquee-dekstop-base.jpg";
+import GongjuMarquee09DesktopRetinaWebp from "../images/projects/gongju/marquee/09/09-marquee-dekstop-retina.webp";
+import GongjuMarquee09DesktopBaseWebp from "../images/projects/gongju/marquee/09/09-marquee-dekstop-base.webp";
+import GongjuMarquee09DesktopLazy from "../images/projects/gongju/marquee/09/09-marquee-dekstop-lazy.jpg";
+import GongjuMarquee09MobileRetina from "../images/projects/gongju/marquee/09/09-marquee-mobile-retina.jpg";
+import GongjuMarquee09MobileBase from "../images/projects/gongju/marquee/09/09-marquee-mobile-base.jpg";
+import GongjuMarquee09MobileRetinaWebp from "../images/projects/gongju/marquee/09/09-marquee-mobile-retina.webp";
+import GongjuMarquee09MobileBaseWebp from "../images/projects/gongju/marquee/09/09-marquee-mobile-base.webp";
+import GongjuMarquee09MobileLazy from "../images/projects/gongju/marquee/09/09-marquee-mobile-lazy.jpg";
+
 export default {
   projects: [
     {
@@ -308,154 +1213,262 @@ export default {
       marqueeImages: [
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                SCCMarquee01MobileBase,
+                SCCMarquee01MobileRetina,
+              ],
+              webp: [
+                SCCMarquee01MobileBaseWebp,
+                SCCMarquee01MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                SCCMarquee01DesktopBase,
+                SCCMarquee01DesktopRetina,
+              ],
+              webp: [
+                SCCMarquee01DesktopBaseWebp,
+                SCCMarquee01DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: SCCMarquee01DesktopLazy,
+            mobile: SCCMarquee01MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                SCCMarquee02MobileBase,
+                SCCMarquee02MobileRetina,
+              ],
+              webp: [
+                SCCMarquee02MobileBaseWebp,
+                SCCMarquee02MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                SCCMarquee02DesktopBase,
+                SCCMarquee02DesktopRetina,
+              ],
+              webp: [
+                SCCMarquee02DesktopBaseWebp,
+                SCCMarquee02DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: SCCMarquee02DesktopLazy,
+            mobile: SCCMarquee02MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                SCCMarquee03MobileBase,
+                SCCMarquee03MobileRetina,
+              ],
+              webp: [
+                SCCMarquee03MobileBaseWebp,
+                SCCMarquee03MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                SCCMarquee03DesktopBase,
+                SCCMarquee03DesktopRetina,
+              ],
+              webp: [
+                SCCMarquee03DesktopBaseWebp,
+                SCCMarquee03DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: SCCMarquee03DesktopLazy,
+            mobile: SCCMarquee03MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                SCCMarquee04MobileBase,
+                SCCMarquee04MobileRetina,
+              ],
+              webp: [
+                SCCMarquee04MobileBaseWebp,
+                SCCMarquee04MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                SCCMarquee04DesktopBase,
+                SCCMarquee04DesktopRetina,
+              ],
+              webp: [
+                SCCMarquee04DesktopBaseWebp,
+                SCCMarquee04DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: SCCMarquee04DesktopLazy,
+            mobile: SCCMarquee04MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                SCCMarquee05MobileBase,
+                SCCMarquee05MobileRetina,
+              ],
+              webp: [
+                SCCMarquee05MobileBaseWebp,
+                SCCMarquee05MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                SCCMarquee05DesktopBase,
+                SCCMarquee05DesktopRetina,
+              ],
+              webp: [
+                SCCMarquee05DesktopBaseWebp,
+                SCCMarquee05DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: SCCMarquee05DesktopLazy,
+            mobile: SCCMarquee05MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                SCCMarquee06MobileBase,
+                SCCMarquee06MobileRetina,
+              ],
+              webp: [
+                SCCMarquee06MobileBaseWebp,
+                SCCMarquee06MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                SCCMarquee06DesktopBase,
+                SCCMarquee06DesktopRetina,
+              ],
+              webp: [
+                SCCMarquee06DesktopBaseWebp,
+                SCCMarquee06DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: SCCMarquee06DesktopLazy,
+            mobile: SCCMarquee06MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                SCCMarquee07MobileBase,
+                SCCMarquee07MobileRetina,
+              ],
+              webp: [
+                SCCMarquee07MobileBaseWebp,
+                SCCMarquee07MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                SCCMarquee07DesktopBase,
+                SCCMarquee07DesktopRetina,
+              ],
+              webp: [
+                SCCMarquee07DesktopBaseWebp,
+                SCCMarquee07DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: SCCMarquee07DesktopLazy,
+            mobile: SCCMarquee07MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                SCCMarquee08MobileBase,
+                SCCMarquee08MobileRetina,
+              ],
+              webp: [
+                SCCMarquee08MobileBaseWebp,
+                SCCMarquee08MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                SCCMarquee08DesktopBase,
+                SCCMarquee08DesktopRetina,
+              ],
+              webp: [
+                SCCMarquee08DesktopBaseWebp,
+                SCCMarquee08DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: SCCMarquee08DesktopLazy,
+            mobile: SCCMarquee08MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                SCCMarquee09MobileBase,
+                SCCMarquee09MobileRetina,
+              ],
+              webp: [
+                SCCMarquee09MobileBaseWebp,
+                SCCMarquee09MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                SCCMarquee09DesktopBase,
+                SCCMarquee09DesktopRetina,
+              ],
+              webp: [
+                SCCMarquee09DesktopBaseWebp,
+                SCCMarquee09DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: SCCMarquee09DesktopLazy,
+            mobile: SCCMarquee09MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
@@ -543,154 +1556,262 @@ export default {
       marqueeImages: [
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                LBQMarquee01MobileBase,
+                LBQMarquee01MobileRetina,
+              ],
+              webp: [
+                LBQMarquee01MobileBaseWebp,
+                LBQMarquee01MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                LBQMarquee01DesktopBase,
+                LBQMarquee01DesktopRetina,
+              ],
+              webp: [
+                LBQMarquee01DesktopBaseWebp,
+                LBQMarquee01DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: LBQMarquee01DesktopLazy,
+            mobile: LBQMarquee01MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                LBQMarquee02MobileBase,
+                LBQMarquee02MobileRetina,
+              ],
+              webp: [
+                LBQMarquee02MobileBaseWebp,
+                LBQMarquee02MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                LBQMarquee02DesktopBase,
+                LBQMarquee02DesktopRetina,
+              ],
+              webp: [
+                LBQMarquee02DesktopBaseWebp,
+                LBQMarquee02DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: LBQMarquee02DesktopLazy,
+            mobile: LBQMarquee02MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                LBQMarquee03MobileBase,
+                LBQMarquee03MobileRetina,
+              ],
+              webp: [
+                LBQMarquee03MobileBaseWebp,
+                LBQMarquee03MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                LBQMarquee03DesktopBase,
+                LBQMarquee03DesktopRetina,
+              ],
+              webp: [
+                LBQMarquee03DesktopBaseWebp,
+                LBQMarquee03DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: LBQMarquee03DesktopLazy,
+            mobile: LBQMarquee03MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                LBQMarquee04MobileBase,
+                LBQMarquee04MobileRetina,
+              ],
+              webp: [
+                LBQMarquee04MobileBaseWebp,
+                LBQMarquee04MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                LBQMarquee04DesktopBase,
+                LBQMarquee04DesktopRetina,
+              ],
+              webp: [
+                LBQMarquee04DesktopBaseWebp,
+                LBQMarquee04DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: LBQMarquee04DesktopLazy,
+            mobile: LBQMarquee04MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                LBQMarquee05MobileBase,
+                LBQMarquee05MobileRetina,
+              ],
+              webp: [
+                LBQMarquee05MobileBaseWebp,
+                LBQMarquee05MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                LBQMarquee05DesktopBase,
+                LBQMarquee05DesktopRetina,
+              ],
+              webp: [
+                LBQMarquee05DesktopBaseWebp,
+                LBQMarquee05DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: LBQMarquee05DesktopLazy,
+            mobile: LBQMarquee05MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                LBQMarquee06MobileBase,
+                LBQMarquee06MobileRetina,
+              ],
+              webp: [
+                LBQMarquee06MobileBaseWebp,
+                LBQMarquee06MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                LBQMarquee06DesktopBase,
+                LBQMarquee06DesktopRetina,
+              ],
+              webp: [
+                LBQMarquee06DesktopBaseWebp,
+                LBQMarquee06DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: LBQMarquee06DesktopLazy,
+            mobile: LBQMarquee06MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                LBQMarquee07MobileBase,
+                LBQMarquee07MobileRetina,
+              ],
+              webp: [
+                LBQMarquee07MobileBaseWebp,
+                LBQMarquee07MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                LBQMarquee07DesktopBase,
+                LBQMarquee07DesktopRetina,
+              ],
+              webp: [
+                LBQMarquee07DesktopBaseWebp,
+                LBQMarquee07DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: LBQMarquee07DesktopLazy,
+            mobile: LBQMarquee07MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                LBQMarquee08MobileBase,
+                LBQMarquee08MobileRetina,
+              ],
+              webp: [
+                LBQMarquee08MobileBaseWebp,
+                LBQMarquee08MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                LBQMarquee08DesktopBase,
+                LBQMarquee08DesktopRetina,
+              ],
+              webp: [
+                LBQMarquee08DesktopBaseWebp,
+                LBQMarquee08DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: LBQMarquee08DesktopLazy,
+            mobile: LBQMarquee08MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                LBQMarquee09MobileBase,
+                LBQMarquee09MobileRetina,
+              ],
+              webp: [
+                LBQMarquee09MobileBaseWebp,
+                LBQMarquee09MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                LBQMarquee09DesktopBase,
+                LBQMarquee09DesktopRetina,
+              ],
+              webp: [
+                LBQMarquee09DesktopBaseWebp,
+                LBQMarquee09DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: LBQMarquee09DesktopLazy,
+            mobile: LBQMarquee09MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
@@ -790,154 +1911,262 @@ export default {
       marqueeImages: [
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                ExperienceMarquee01MobileBase,
+                ExperienceMarquee01MobileRetina,
+              ],
+              webp: [
+                ExperienceMarquee01MobileBaseWebp,
+                ExperienceMarquee01MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                ExperienceMarquee01DesktopBase,
+                ExperienceMarquee01DesktopRetina,
+              ],
+              webp: [
+                ExperienceMarquee01DesktopBaseWebp,
+                ExperienceMarquee01DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: ExperienceMarquee01DesktopLazy,
+            mobile: ExperienceMarquee01MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                ExperienceMarquee02MobileBase,
+                ExperienceMarquee02MobileRetina,
+              ],
+              webp: [
+                ExperienceMarquee02MobileBaseWebp,
+                ExperienceMarquee02MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                ExperienceMarquee02DesktopBase,
+                ExperienceMarquee02DesktopRetina,
+              ],
+              webp: [
+                ExperienceMarquee02DesktopBaseWebp,
+                ExperienceMarquee02DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: ExperienceMarquee02DesktopLazy,
+            mobile: ExperienceMarquee02MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                ExperienceMarquee03MobileBase,
+                ExperienceMarquee03MobileRetina,
+              ],
+              webp: [
+                ExperienceMarquee03MobileBaseWebp,
+                ExperienceMarquee03MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                ExperienceMarquee03DesktopBase,
+                ExperienceMarquee03DesktopRetina,
+              ],
+              webp: [
+                ExperienceMarquee03DesktopBaseWebp,
+                ExperienceMarquee03DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: ExperienceMarquee03DesktopLazy,
+            mobile: ExperienceMarquee03MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                ExperienceMarquee04MobileBase,
+                ExperienceMarquee04MobileRetina,
+              ],
+              webp: [
+                ExperienceMarquee04MobileBaseWebp,
+                ExperienceMarquee04MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                ExperienceMarquee04DesktopBase,
+                ExperienceMarquee04DesktopRetina,
+              ],
+              webp: [
+                ExperienceMarquee04DesktopBaseWebp,
+                ExperienceMarquee04DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: ExperienceMarquee04DesktopLazy,
+            mobile: ExperienceMarquee04MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                ExperienceMarquee05MobileBase,
+                ExperienceMarquee05MobileRetina,
+              ],
+              webp: [
+                ExperienceMarquee05MobileBaseWebp,
+                ExperienceMarquee05MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                ExperienceMarquee05DesktopBase,
+                ExperienceMarquee05DesktopRetina,
+              ],
+              webp: [
+                ExperienceMarquee05DesktopBaseWebp,
+                ExperienceMarquee05DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: ExperienceMarquee05DesktopLazy,
+            mobile: ExperienceMarquee05MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                ExperienceMarquee06MobileBase,
+                ExperienceMarquee06MobileRetina,
+              ],
+              webp: [
+                ExperienceMarquee06MobileBaseWebp,
+                ExperienceMarquee06MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                ExperienceMarquee06DesktopBase,
+                ExperienceMarquee06DesktopRetina,
+              ],
+              webp: [
+                ExperienceMarquee06DesktopBaseWebp,
+                ExperienceMarquee06DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: ExperienceMarquee06DesktopLazy,
+            mobile: ExperienceMarquee06MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                ExperienceMarquee07MobileBase,
+                ExperienceMarquee07MobileRetina,
+              ],
+              webp: [
+                ExperienceMarquee07MobileBaseWebp,
+                ExperienceMarquee07MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                ExperienceMarquee07DesktopBase,
+                ExperienceMarquee07DesktopRetina,
+              ],
+              webp: [
+                ExperienceMarquee07DesktopBaseWebp,
+                ExperienceMarquee07DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: ExperienceMarquee07DesktopLazy,
+            mobile: ExperienceMarquee07MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                ExperienceMarquee08MobileBase,
+                ExperienceMarquee08MobileRetina,
+              ],
+              webp: [
+                ExperienceMarquee08MobileBaseWebp,
+                ExperienceMarquee08MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                ExperienceMarquee08DesktopBase,
+                ExperienceMarquee08DesktopRetina,
+              ],
+              webp: [
+                ExperienceMarquee08DesktopBaseWebp,
+                ExperienceMarquee08DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: ExperienceMarquee08DesktopLazy,
+            mobile: ExperienceMarquee08MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                ExperienceMarquee09MobileBase,
+                ExperienceMarquee09MobileRetina,
+              ],
+              webp: [
+                ExperienceMarquee09MobileBaseWebp,
+                ExperienceMarquee09MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                ExperienceMarquee09DesktopBase,
+                ExperienceMarquee09DesktopRetina,
+              ],
+              webp: [
+                ExperienceMarquee09DesktopBaseWebp,
+                ExperienceMarquee09DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: ExperienceMarquee09DesktopLazy,
+            mobile: ExperienceMarquee09MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
@@ -1037,154 +2266,262 @@ export default {
       marqueeImages: [
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                CambiumMarquee01MobileBase,
+                CambiumMarquee01MobileRetina,
+              ],
+              webp: [
+                CambiumMarquee01MobileBaseWebp,
+                CambiumMarquee01MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                CambiumMarquee01DesktopBase,
+                CambiumMarquee01DesktopRetina,
+              ],
+              webp: [
+                CambiumMarquee01DesktopBaseWebp,
+                CambiumMarquee01DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: CambiumMarquee01DesktopLazy,
+            mobile: CambiumMarquee01MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                CambiumMarquee02MobileBase,
+                CambiumMarquee02MobileRetina,
+              ],
+              webp: [
+                CambiumMarquee02MobileBaseWebp,
+                CambiumMarquee02MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                CambiumMarquee02DesktopBase,
+                CambiumMarquee02DesktopRetina,
+              ],
+              webp: [
+                CambiumMarquee02DesktopBaseWebp,
+                CambiumMarquee02DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: CambiumMarquee02DesktopLazy,
+            mobile: CambiumMarquee02MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                CambiumMarquee03MobileBase,
+                CambiumMarquee03MobileRetina,
+              ],
+              webp: [
+                CambiumMarquee03MobileBaseWebp,
+                CambiumMarquee03MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                CambiumMarquee03DesktopBase,
+                CambiumMarquee03DesktopRetina,
+              ],
+              webp: [
+                CambiumMarquee03DesktopBaseWebp,
+                CambiumMarquee03DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: CambiumMarquee03DesktopLazy,
+            mobile: CambiumMarquee03MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                CambiumMarquee04MobileBase,
+                CambiumMarquee04MobileRetina,
+              ],
+              webp: [
+                CambiumMarquee04MobileBaseWebp,
+                CambiumMarquee04MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                CambiumMarquee04DesktopBase,
+                CambiumMarquee04DesktopRetina,
+              ],
+              webp: [
+                CambiumMarquee04DesktopBaseWebp,
+                CambiumMarquee04DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: CambiumMarquee04DesktopLazy,
+            mobile: CambiumMarquee04MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                CambiumMarquee05MobileBase,
+                CambiumMarquee05MobileRetina,
+              ],
+              webp: [
+                CambiumMarquee05MobileBaseWebp,
+                CambiumMarquee05MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                CambiumMarquee05DesktopBase,
+                CambiumMarquee05DesktopRetina,
+              ],
+              webp: [
+                CambiumMarquee05DesktopBaseWebp,
+                CambiumMarquee05DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: CambiumMarquee05DesktopLazy,
+            mobile: CambiumMarquee05MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                CambiumMarquee06MobileBase,
+                CambiumMarquee06MobileRetina,
+              ],
+              webp: [
+                CambiumMarquee06MobileBaseWebp,
+                CambiumMarquee06MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                CambiumMarquee06DesktopBase,
+                CambiumMarquee06DesktopRetina,
+              ],
+              webp: [
+                CambiumMarquee06DesktopBaseWebp,
+                CambiumMarquee06DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: CambiumMarquee06DesktopLazy,
+            mobile: CambiumMarquee06MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                CambiumMarquee07MobileBase,
+                CambiumMarquee07MobileRetina,
+              ],
+              webp: [
+                CambiumMarquee07MobileBaseWebp,
+                CambiumMarquee07MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                CambiumMarquee07DesktopBase,
+                CambiumMarquee07DesktopRetina,
+              ],
+              webp: [
+                CambiumMarquee07DesktopBaseWebp,
+                CambiumMarquee07DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: CambiumMarquee07DesktopLazy,
+            mobile: CambiumMarquee07MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                CambiumMarquee08MobileBase,
+                CambiumMarquee08MobileRetina,
+              ],
+              webp: [
+                CambiumMarquee08MobileBaseWebp,
+                CambiumMarquee08MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                CambiumMarquee08DesktopBase,
+                CambiumMarquee08DesktopRetina,
+              ],
+              webp: [
+                CambiumMarquee08DesktopBaseWebp,
+                CambiumMarquee08DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: CambiumMarquee08DesktopLazy,
+            mobile: CambiumMarquee08MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                CambiumMarquee09MobileBase,
+                CambiumMarquee09MobileRetina,
+              ],
+              webp: [
+                CambiumMarquee09MobileBaseWebp,
+                CambiumMarquee09MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                CambiumMarquee09DesktopBase,
+                CambiumMarquee09DesktopRetina,
+              ],
+              webp: [
+                CambiumMarquee09DesktopBaseWebp,
+                CambiumMarquee09DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: CambiumMarquee09DesktopLazy,
+            mobile: CambiumMarquee09MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
@@ -1194,14 +2531,7 @@ export default {
       colorStory: {
         paragraph:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet.",
-        colors: [
-          "#FFFFFF",
-          "#F6F6F6",
-          "#1C3B60",
-          "#1B1B1D",
-          "none",
-          "none",
-        ],
+        colors: ["#FFFFFF", "#F6F6F6", "#1C3B60", "#1B1B1D", "none", "none"],
       },
       lastImage: {
         picture: {
@@ -1278,154 +2608,262 @@ export default {
       marqueeImages: [
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                InceptoMarquee01MobileBase,
+                InceptoMarquee01MobileRetina,
+              ],
+              webp: [
+                InceptoMarquee01MobileBaseWebp,
+                InceptoMarquee01MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                InceptoMarquee01DesktopBase,
+                InceptoMarquee01DesktopRetina,
+              ],
+              webp: [
+                InceptoMarquee01DesktopBaseWebp,
+                InceptoMarquee01DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: InceptoMarquee01DesktopLazy,
+            mobile: InceptoMarquee01MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                InceptoMarquee02MobileBase,
+                InceptoMarquee02MobileRetina,
+              ],
+              webp: [
+                InceptoMarquee02MobileBaseWebp,
+                InceptoMarquee02MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                InceptoMarquee02DesktopBase,
+                InceptoMarquee02DesktopRetina,
+              ],
+              webp: [
+                InceptoMarquee02DesktopBaseWebp,
+                InceptoMarquee02DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: InceptoMarquee02DesktopLazy,
+            mobile: InceptoMarquee02MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                InceptoMarquee03MobileBase,
+                InceptoMarquee03MobileRetina,
+              ],
+              webp: [
+                InceptoMarquee03MobileBaseWebp,
+                InceptoMarquee03MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                InceptoMarquee03DesktopBase,
+                InceptoMarquee03DesktopRetina,
+              ],
+              webp: [
+                InceptoMarquee03DesktopBaseWebp,
+                InceptoMarquee03DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: InceptoMarquee03DesktopLazy,
+            mobile: InceptoMarquee03MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                InceptoMarquee04MobileBase,
+                InceptoMarquee04MobileRetina,
+              ],
+              webp: [
+                InceptoMarquee04MobileBaseWebp,
+                InceptoMarquee04MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                InceptoMarquee04DesktopBase,
+                InceptoMarquee04DesktopRetina,
+              ],
+              webp: [
+                InceptoMarquee04DesktopBaseWebp,
+                InceptoMarquee04DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: InceptoMarquee04DesktopLazy,
+            mobile: InceptoMarquee04MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                InceptoMarquee05MobileBase,
+                InceptoMarquee05MobileRetina,
+              ],
+              webp: [
+                InceptoMarquee05MobileBaseWebp,
+                InceptoMarquee05MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                InceptoMarquee05DesktopBase,
+                InceptoMarquee05DesktopRetina,
+              ],
+              webp: [
+                InceptoMarquee05DesktopBaseWebp,
+                InceptoMarquee05DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: InceptoMarquee05DesktopLazy,
+            mobile: InceptoMarquee05MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                InceptoMarquee06MobileBase,
+                InceptoMarquee06MobileRetina,
+              ],
+              webp: [
+                InceptoMarquee06MobileBaseWebp,
+                InceptoMarquee06MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                InceptoMarquee06DesktopBase,
+                InceptoMarquee06DesktopRetina,
+              ],
+              webp: [
+                InceptoMarquee06DesktopBaseWebp,
+                InceptoMarquee06DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: InceptoMarquee06DesktopLazy,
+            mobile: InceptoMarquee06MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                InceptoMarquee07MobileBase,
+                InceptoMarquee07MobileRetina,
+              ],
+              webp: [
+                InceptoMarquee07MobileBaseWebp,
+                InceptoMarquee07MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                InceptoMarquee07DesktopBase,
+                InceptoMarquee07DesktopRetina,
+              ],
+              webp: [
+                InceptoMarquee07DesktopBaseWebp,
+                InceptoMarquee07DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: InceptoMarquee07DesktopLazy,
+            mobile: InceptoMarquee07MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                InceptoMarquee08MobileBase,
+                InceptoMarquee08MobileRetina,
+              ],
+              webp: [
+                InceptoMarquee08MobileBaseWebp,
+                InceptoMarquee08MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                InceptoMarquee08DesktopBase,
+                InceptoMarquee08DesktopRetina,
+              ],
+              webp: [
+                InceptoMarquee08DesktopBaseWebp,
+                InceptoMarquee08DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: InceptoMarquee08DesktopLazy,
+            mobile: InceptoMarquee08MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                InceptoMarquee09MobileBase,
+                InceptoMarquee09MobileRetina,
+              ],
+              webp: [
+                InceptoMarquee09MobileBaseWebp,
+                InceptoMarquee09MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                InceptoMarquee09DesktopBase,
+                InceptoMarquee09DesktopRetina,
+              ],
+              webp: [
+                InceptoMarquee09DesktopBaseWebp,
+                InceptoMarquee09DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: InceptoMarquee09DesktopLazy,
+            mobile: InceptoMarquee09MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
@@ -1522,154 +2960,262 @@ export default {
       marqueeImages: [
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                TertiaviaMarquee01MobileBase,
+                TertiaviaMarquee01MobileRetina,
+              ],
+              webp: [
+                TertiaviaMarquee01MobileBaseWebp,
+                TertiaviaMarquee01MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                TertiaviaMarquee01DesktopBase,
+                TertiaviaMarquee01DesktopRetina,
+              ],
+              webp: [
+                TertiaviaMarquee01DesktopBaseWebp,
+                TertiaviaMarquee01DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: TertiaviaMarquee01DesktopLazy,
+            mobile: TertiaviaMarquee01MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                TertiaviaMarquee02MobileBase,
+                TertiaviaMarquee02MobileRetina,
+              ],
+              webp: [
+                TertiaviaMarquee02MobileBaseWebp,
+                TertiaviaMarquee02MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                TertiaviaMarquee02DesktopBase,
+                TertiaviaMarquee02DesktopRetina,
+              ],
+              webp: [
+                TertiaviaMarquee02DesktopBaseWebp,
+                TertiaviaMarquee02DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: TertiaviaMarquee02DesktopLazy,
+            mobile: TertiaviaMarquee02MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                TertiaviaMarquee03MobileBase,
+                TertiaviaMarquee03MobileRetina,
+              ],
+              webp: [
+                TertiaviaMarquee03MobileBaseWebp,
+                TertiaviaMarquee03MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                TertiaviaMarquee03DesktopBase,
+                TertiaviaMarquee03DesktopRetina,
+              ],
+              webp: [
+                TertiaviaMarquee03DesktopBaseWebp,
+                TertiaviaMarquee03DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: TertiaviaMarquee03DesktopLazy,
+            mobile: TertiaviaMarquee03MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                TertiaviaMarquee04MobileBase,
+                TertiaviaMarquee04MobileRetina,
+              ],
+              webp: [
+                TertiaviaMarquee04MobileBaseWebp,
+                TertiaviaMarquee04MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                TertiaviaMarquee04DesktopBase,
+                TertiaviaMarquee04DesktopRetina,
+              ],
+              webp: [
+                TertiaviaMarquee04DesktopBaseWebp,
+                TertiaviaMarquee04DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: TertiaviaMarquee04DesktopLazy,
+            mobile: TertiaviaMarquee04MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                TertiaviaMarquee05MobileBase,
+                TertiaviaMarquee05MobileRetina,
+              ],
+              webp: [
+                TertiaviaMarquee05MobileBaseWebp,
+                TertiaviaMarquee05MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                TertiaviaMarquee05DesktopBase,
+                TertiaviaMarquee05DesktopRetina,
+              ],
+              webp: [
+                TertiaviaMarquee05DesktopBaseWebp,
+                TertiaviaMarquee05DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: TertiaviaMarquee05DesktopLazy,
+            mobile: TertiaviaMarquee05MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                TertiaviaMarquee06MobileBase,
+                TertiaviaMarquee06MobileRetina,
+              ],
+              webp: [
+                TertiaviaMarquee06MobileBaseWebp,
+                TertiaviaMarquee06MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                TertiaviaMarquee06DesktopBase,
+                TertiaviaMarquee06DesktopRetina,
+              ],
+              webp: [
+                TertiaviaMarquee06DesktopBaseWebp,
+                TertiaviaMarquee06DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: TertiaviaMarquee06DesktopLazy,
+            mobile: TertiaviaMarquee06MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                TertiaviaMarquee07MobileBase,
+                TertiaviaMarquee07MobileRetina,
+              ],
+              webp: [
+                TertiaviaMarquee07MobileBaseWebp,
+                TertiaviaMarquee07MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                TertiaviaMarquee07DesktopBase,
+                TertiaviaMarquee07DesktopRetina,
+              ],
+              webp: [
+                TertiaviaMarquee07DesktopBaseWebp,
+                TertiaviaMarquee07DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: TertiaviaMarquee07DesktopLazy,
+            mobile: TertiaviaMarquee07MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                TertiaviaMarquee08MobileBase,
+                TertiaviaMarquee08MobileRetina,
+              ],
+              webp: [
+                TertiaviaMarquee08MobileBaseWebp,
+                TertiaviaMarquee08MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                TertiaviaMarquee08DesktopBase,
+                TertiaviaMarquee08DesktopRetina,
+              ],
+              webp: [
+                TertiaviaMarquee08DesktopBaseWebp,
+                TertiaviaMarquee08DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: TertiaviaMarquee08DesktopLazy,
+            mobile: TertiaviaMarquee08MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                TertiaviaMarquee09MobileBase,
+                TertiaviaMarquee09MobileRetina,
+              ],
+              webp: [
+                TertiaviaMarquee09MobileBaseWebp,
+                TertiaviaMarquee09MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                TertiaviaMarquee09DesktopBase,
+                TertiaviaMarquee09DesktopRetina,
+              ],
+              webp: [
+                TertiaviaMarquee09DesktopBaseWebp,
+                TertiaviaMarquee09DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: TertiaviaMarquee09DesktopLazy,
+            mobile: TertiaviaMarquee09MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
@@ -1775,154 +3321,262 @@ export default {
       marqueeImages: [
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                HeliopolisMarquee01MobileBase,
+                HeliopolisMarquee01MobileRetina,
+              ],
+              webp: [
+                HeliopolisMarquee01MobileBaseWebp,
+                HeliopolisMarquee01MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                HeliopolisMarquee01DesktopBase,
+                HeliopolisMarquee01DesktopRetina,
+              ],
+              webp: [
+                HeliopolisMarquee01DesktopBaseWebp,
+                HeliopolisMarquee01DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: HeliopolisMarquee01DesktopLazy,
+            mobile: HeliopolisMarquee01MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                HeliopolisMarquee02MobileBase,
+                HeliopolisMarquee02MobileRetina,
+              ],
+              webp: [
+                HeliopolisMarquee02MobileBaseWebp,
+                HeliopolisMarquee02MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                HeliopolisMarquee02DesktopBase,
+                HeliopolisMarquee02DesktopRetina,
+              ],
+              webp: [
+                HeliopolisMarquee02DesktopBaseWebp,
+                HeliopolisMarquee02DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: HeliopolisMarquee02DesktopLazy,
+            mobile: HeliopolisMarquee02MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                HeliopolisMarquee03MobileBase,
+                HeliopolisMarquee03MobileRetina,
+              ],
+              webp: [
+                HeliopolisMarquee03MobileBaseWebp,
+                HeliopolisMarquee03MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                HeliopolisMarquee03DesktopBase,
+                HeliopolisMarquee03DesktopRetina,
+              ],
+              webp: [
+                HeliopolisMarquee03DesktopBaseWebp,
+                HeliopolisMarquee03DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: HeliopolisMarquee03DesktopLazy,
+            mobile: HeliopolisMarquee03MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                HeliopolisMarquee04MobileBase,
+                HeliopolisMarquee04MobileRetina,
+              ],
+              webp: [
+                HeliopolisMarquee04MobileBaseWebp,
+                HeliopolisMarquee04MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                HeliopolisMarquee04DesktopBase,
+                HeliopolisMarquee04DesktopRetina,
+              ],
+              webp: [
+                HeliopolisMarquee04DesktopBaseWebp,
+                HeliopolisMarquee04DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: HeliopolisMarquee04DesktopLazy,
+            mobile: HeliopolisMarquee04MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                HeliopolisMarquee05MobileBase,
+                HeliopolisMarquee05MobileRetina,
+              ],
+              webp: [
+                HeliopolisMarquee05MobileBaseWebp,
+                HeliopolisMarquee05MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                HeliopolisMarquee05DesktopBase,
+                HeliopolisMarquee05DesktopRetina,
+              ],
+              webp: [
+                HeliopolisMarquee05DesktopBaseWebp,
+                HeliopolisMarquee05DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: HeliopolisMarquee05DesktopLazy,
+            mobile: HeliopolisMarquee05MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                HeliopolisMarquee06MobileBase,
+                HeliopolisMarquee06MobileRetina,
+              ],
+              webp: [
+                HeliopolisMarquee06MobileBaseWebp,
+                HeliopolisMarquee06MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                HeliopolisMarquee06DesktopBase,
+                HeliopolisMarquee06DesktopRetina,
+              ],
+              webp: [
+                HeliopolisMarquee06DesktopBaseWebp,
+                HeliopolisMarquee06DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: HeliopolisMarquee06DesktopLazy,
+            mobile: HeliopolisMarquee06MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                HeliopolisMarquee07MobileBase,
+                HeliopolisMarquee07MobileRetina,
+              ],
+              webp: [
+                HeliopolisMarquee07MobileBaseWebp,
+                HeliopolisMarquee07MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                HeliopolisMarquee07DesktopBase,
+                HeliopolisMarquee07DesktopRetina,
+              ],
+              webp: [
+                HeliopolisMarquee07DesktopBaseWebp,
+                HeliopolisMarquee07DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: HeliopolisMarquee07DesktopLazy,
+            mobile: HeliopolisMarquee07MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                HeliopolisMarquee08MobileBase,
+                HeliopolisMarquee08MobileRetina,
+              ],
+              webp: [
+                HeliopolisMarquee08MobileBaseWebp,
+                HeliopolisMarquee08MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                HeliopolisMarquee08DesktopBase,
+                HeliopolisMarquee08DesktopRetina,
+              ],
+              webp: [
+                HeliopolisMarquee08DesktopBaseWebp,
+                HeliopolisMarquee08DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: HeliopolisMarquee08DesktopLazy,
+            mobile: HeliopolisMarquee08MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                HeliopolisMarquee09MobileBase,
+                HeliopolisMarquee09MobileRetina,
+              ],
+              webp: [
+                HeliopolisMarquee09MobileBaseWebp,
+                HeliopolisMarquee09MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                HeliopolisMarquee09DesktopBase,
+                HeliopolisMarquee09DesktopRetina,
+              ],
+              webp: [
+                HeliopolisMarquee09DesktopBaseWebp,
+                HeliopolisMarquee09DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: HeliopolisMarquee09DesktopLazy,
+            mobile: HeliopolisMarquee09MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
@@ -2022,154 +3676,262 @@ export default {
       marqueeImages: [
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                GongjuMarquee01MobileBase,
+                GongjuMarquee01MobileRetina,
+              ],
+              webp: [
+                GongjuMarquee01MobileBaseWebp,
+                GongjuMarquee01MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                GongjuMarquee01DesktopBase,
+                GongjuMarquee01DesktopRetina,
+              ],
+              webp: [
+                GongjuMarquee01DesktopBaseWebp,
+                GongjuMarquee01DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: GongjuMarquee01DesktopLazy,
+            mobile: GongjuMarquee01MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                GongjuMarquee02MobileBase,
+                GongjuMarquee02MobileRetina,
+              ],
+              webp: [
+                GongjuMarquee02MobileBaseWebp,
+                GongjuMarquee02MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                GongjuMarquee02DesktopBase,
+                GongjuMarquee02DesktopRetina,
+              ],
+              webp: [
+                GongjuMarquee02DesktopBaseWebp,
+                GongjuMarquee02DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: GongjuMarquee02DesktopLazy,
+            mobile: GongjuMarquee02MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                GongjuMarquee03MobileBase,
+                GongjuMarquee03MobileRetina,
+              ],
+              webp: [
+                GongjuMarquee03MobileBaseWebp,
+                GongjuMarquee03MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                GongjuMarquee03DesktopBase,
+                GongjuMarquee03DesktopRetina,
+              ],
+              webp: [
+                GongjuMarquee03DesktopBaseWebp,
+                GongjuMarquee03DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: GongjuMarquee03DesktopLazy,
+            mobile: GongjuMarquee03MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                GongjuMarquee04MobileBase,
+                GongjuMarquee04MobileRetina,
+              ],
+              webp: [
+                GongjuMarquee04MobileBaseWebp,
+                GongjuMarquee04MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                GongjuMarquee04DesktopBase,
+                GongjuMarquee04DesktopRetina,
+              ],
+              webp: [
+                GongjuMarquee04DesktopBaseWebp,
+                GongjuMarquee04DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: GongjuMarquee04DesktopLazy,
+            mobile: GongjuMarquee04MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                GongjuMarquee05MobileBase,
+                GongjuMarquee05MobileRetina,
+              ],
+              webp: [
+                GongjuMarquee05MobileBaseWebp,
+                GongjuMarquee05MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                GongjuMarquee05DesktopBase,
+                GongjuMarquee05DesktopRetina,
+              ],
+              webp: [
+                GongjuMarquee05DesktopBaseWebp,
+                GongjuMarquee05DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: GongjuMarquee05DesktopLazy,
+            mobile: GongjuMarquee05MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                GongjuMarquee06MobileBase,
+                GongjuMarquee06MobileRetina,
+              ],
+              webp: [
+                GongjuMarquee06MobileBaseWebp,
+                GongjuMarquee06MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                GongjuMarquee06DesktopBase,
+                GongjuMarquee06DesktopRetina,
+              ],
+              webp: [
+                GongjuMarquee06DesktopBaseWebp,
+                GongjuMarquee06DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: GongjuMarquee06DesktopLazy,
+            mobile: GongjuMarquee06MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                GongjuMarquee07MobileBase,
+                GongjuMarquee07MobileRetina,
+              ],
+              webp: [
+                GongjuMarquee07MobileBaseWebp,
+                GongjuMarquee07MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                GongjuMarquee07DesktopBase,
+                GongjuMarquee07DesktopRetina,
+              ],
+              webp: [
+                GongjuMarquee07DesktopBaseWebp,
+                GongjuMarquee07DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: GongjuMarquee07DesktopLazy,
+            mobile: GongjuMarquee07MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                GongjuMarquee08MobileBase,
+                GongjuMarquee08MobileRetina,
+              ],
+              webp: [
+                GongjuMarquee08MobileBaseWebp,
+                GongjuMarquee08MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                GongjuMarquee08DesktopBase,
+                GongjuMarquee08DesktopRetina,
+              ],
+              webp: [
+                GongjuMarquee08DesktopBaseWebp,
+                GongjuMarquee08DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: GongjuMarquee08DesktopLazy,
+            mobile: GongjuMarquee08MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                GongjuMarquee09MobileBase,
+                GongjuMarquee09MobileRetina,
+              ],
+              webp: [
+                GongjuMarquee09MobileBaseWebp,
+                GongjuMarquee09MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                GongjuMarquee09DesktopBase,
+                GongjuMarquee09DesktopRetina,
+              ],
+              webp: [
+                GongjuMarquee09DesktopBaseWebp,
+                GongjuMarquee09DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: GongjuMarquee09DesktopLazy,
+            mobile: GongjuMarquee09MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
@@ -2179,14 +3941,7 @@ export default {
       colorStory: {
         paragraph:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet.",
-        colors: [
-          "#172414",
-          "#193614",
-          "#276619",
-          "#FFF1E4",
-          "none",
-          "none",
-        ],
+        colors: ["#172414", "#193614", "#276619", "#FFF1E4", "none", "none"],
       },
       lastImage: {
         picture: {
@@ -2275,154 +4030,262 @@ export default {
       marqueeImages: [
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                WebComponentMarquee01MobileBase,
+                WebComponentMarquee01MobileRetina,
+              ],
+              webp: [
+                WebComponentMarquee01MobileBaseWebp,
+                WebComponentMarquee01MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                WebComponentMarquee01DesktopBase,
+                WebComponentMarquee01DesktopRetina,
+              ],
+              webp: [
+                WebComponentMarquee01DesktopBaseWebp,
+                WebComponentMarquee01DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: WebComponentMarquee01DesktopLazy,
+            mobile: WebComponentMarquee01MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                WebComponentMarquee02MobileBase,
+                WebComponentMarquee02MobileRetina,
+              ],
+              webp: [
+                WebComponentMarquee02MobileBaseWebp,
+                WebComponentMarquee02MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                WebComponentMarquee02DesktopBase,
+                WebComponentMarquee02DesktopRetina,
+              ],
+              webp: [
+                WebComponentMarquee02DesktopBaseWebp,
+                WebComponentMarquee02DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: WebComponentMarquee02DesktopLazy,
+            mobile: WebComponentMarquee02MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                WebComponentMarquee03MobileBase,
+                WebComponentMarquee03MobileRetina,
+              ],
+              webp: [
+                WebComponentMarquee03MobileBaseWebp,
+                WebComponentMarquee03MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                WebComponentMarquee03DesktopBase,
+                WebComponentMarquee03DesktopRetina,
+              ],
+              webp: [
+                WebComponentMarquee03DesktopBaseWebp,
+                WebComponentMarquee03DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: WebComponentMarquee03DesktopLazy,
+            mobile: WebComponentMarquee03MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                WebComponentMarquee04MobileBase,
+                WebComponentMarquee04MobileRetina,
+              ],
+              webp: [
+                WebComponentMarquee04MobileBaseWebp,
+                WebComponentMarquee04MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                WebComponentMarquee04DesktopBase,
+                WebComponentMarquee04DesktopRetina,
+              ],
+              webp: [
+                WebComponentMarquee04DesktopBaseWebp,
+                WebComponentMarquee04DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: WebComponentMarquee04DesktopLazy,
+            mobile: WebComponentMarquee04MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                WebComponentMarquee05MobileBase,
+                WebComponentMarquee05MobileRetina,
+              ],
+              webp: [
+                WebComponentMarquee05MobileBaseWebp,
+                WebComponentMarquee05MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                WebComponentMarquee05DesktopBase,
+                WebComponentMarquee05DesktopRetina,
+              ],
+              webp: [
+                WebComponentMarquee05DesktopBaseWebp,
+                WebComponentMarquee05DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: WebComponentMarquee05DesktopLazy,
+            mobile: WebComponentMarquee05MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                WebComponentMarquee06MobileBase,
+                WebComponentMarquee06MobileRetina,
+              ],
+              webp: [
+                WebComponentMarquee06MobileBaseWebp,
+                WebComponentMarquee06MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                WebComponentMarquee06DesktopBase,
+                WebComponentMarquee06DesktopRetina,
+              ],
+              webp: [
+                WebComponentMarquee06DesktopBaseWebp,
+                WebComponentMarquee06DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: WebComponentMarquee06DesktopLazy,
+            mobile: WebComponentMarquee06MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                WebComponentMarquee07MobileBase,
+                WebComponentMarquee07MobileRetina,
+              ],
+              webp: [
+                WebComponentMarquee07MobileBaseWebp,
+                WebComponentMarquee07MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                WebComponentMarquee07DesktopBase,
+                WebComponentMarquee07DesktopRetina,
+              ],
+              webp: [
+                WebComponentMarquee07DesktopBaseWebp,
+                WebComponentMarquee07DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: WebComponentMarquee07DesktopLazy,
+            mobile: WebComponentMarquee07MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                WebComponentMarquee08MobileBase,
+                WebComponentMarquee08MobileRetina,
+              ],
+              webp: [
+                WebComponentMarquee08MobileBaseWebp,
+                WebComponentMarquee08MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                WebComponentMarquee08DesktopBase,
+                WebComponentMarquee08DesktopRetina,
+              ],
+              webp: [
+                WebComponentMarquee08DesktopBaseWebp,
+                WebComponentMarquee08DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: WebComponentMarquee08DesktopLazy,
+            mobile: WebComponentMarquee08MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },
         {
           images: {
-            desktop: {
-              jpeg: ["", ""],
-              webp: ["", ""],
-            },
             mobile: {
-              jpeg: ["", ""],
-              webp: ["", ""],
+              jpeg: [
+                WebComponentMarquee09MobileBase,
+                WebComponentMarquee09MobileRetina,
+              ],
+              webp: [
+                WebComponentMarquee09MobileBaseWebp,
+                WebComponentMarquee09MobileRetinaWebp,
+              ],
+            },
+            desktop: {
+              jpeg: [
+                WebComponentMarquee09DesktopBase,
+                WebComponentMarquee09DesktopRetina,
+              ],
+              webp: [
+                WebComponentMarquee09DesktopBaseWebp,
+                WebComponentMarquee09DesktopRetinaWebp,
+              ],
             },
           },
           lazy: {
-            desktop: "",
-            mobile: "",
+            desktop: WebComponentMarquee09DesktopLazy,
+            mobile: WebComponentMarquee09MobileLazy,
           },
           alternativeText: "Image de couverture du projet",
         },

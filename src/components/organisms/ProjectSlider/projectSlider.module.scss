@@ -2,9 +2,7 @@
 @import "../../../assets/styles/utils/mixins.scss";
 
 .ad_projectSlider {
-  position: absolute;
-  top: 55%;
-  transform: translateY(-50%);
+  margin-top: 10%;
   @include grid(
     map-get($layout-desktop, column-number),
     map-get($layout-desktop, column-spacing),
@@ -28,6 +26,9 @@
       scroll-snap-stop: always;
       &:nth-child(even){
         margin-top: map-get($spacing , "10" )
+      }
+      a{
+        display: block
       }
     }
   }

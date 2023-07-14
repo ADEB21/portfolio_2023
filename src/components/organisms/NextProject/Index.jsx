@@ -5,7 +5,6 @@ import "../../atoms/Picture/index";
 
 const Index = (props) => {
   const { nextProject } = props;
-  console.log("le slug", nextProject, data.projects[0]);
   return (
     <section className={NextProjectStyle.ad_nextProject}>
       <a

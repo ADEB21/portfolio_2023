@@ -5,7 +5,7 @@ import "../../atoms/Picture/";
 const index = (props) => {
   const { title, date, inCover } = props;
   return (
-    <section className={ProjectHeroStyle.ad_projectHero}>
+    <section className={`project-hero ${ProjectHeroStyle.ad_projectHero}`}>
       <div className={ProjectHeroStyle.ad_projectHero_container}>
         <div className={ProjectHeroStyle.ad_projectHero_container_picture}>
           <custom-picture
@@ -23,8 +23,8 @@ const index = (props) => {
           ></custom-picture>
         </div>
         <div className={ProjectHeroStyle.ad_projectHero_container_text}>
-          <h1>{title}</h1>
-          <p>{date}</p>
+          <h1><span>{title}</span></h1>
+          <p><span>{date}</span></p>
         </div>
       </div>
     </section>

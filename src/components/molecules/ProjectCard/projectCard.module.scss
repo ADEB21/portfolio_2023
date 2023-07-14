@@ -3,7 +3,7 @@
 
 .ad_projectCard_container {
   .ad_projectCard {
-    width: fit-content;
+    width: 288px;
     height: 435px;
     display: flex;
     flex-direction: column;
@@ -20,13 +20,17 @@
         align-items: baseline;
       }
     }
+    a{
+      width: 288px;
+    }
     &_picture {
-      width: 100%;
+      width: 288px;
       height: 380px;
-      custom-picture{
+      position: relative;
+      custom-picture {
         &::part(img) {
           transition: 300ms ease;
-        } 
+        }
       }
     }
   }
@@ -34,18 +38,17 @@
     .ad_projectCard_infos {
       span {
         transform: translateY(-103%);
-        &:nth-child(1){
+        &:nth-child(1) {
           filter: blur(2px);
         }
       }
     }
     .ad_projectCard_picture {
-      custom-picture{
+      custom-picture {
         &::part(img) {
           transform: scale(1.05);
-        } 
+        }
       }
-
     }
   }
 }

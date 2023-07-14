@@ -4,6 +4,8 @@ import axios from "axios";
 import gsap from "gsap";
 import TransitionPageStyle from "./transitionPage.module.scss";
 import projectsData from "../../../assets/data/projects";
+import ProjectSliderStyle from "../../../components/molecules/ProjectCard/projectCard.module.scss";
+import gongju from "../../../assets/scripts/vendor/gongju-es";
 
 const projectTransition = {
   name: "fade",
@@ -19,15 +21,96 @@ const projectTransition = {
       ].includes(data.next.url.path);
     },
   },
-  async leave() {
+  async leave(data) {
+    window.lenis.stop();
+    const triggeredProject = data.trigger;
+    const triggeredProjectTitle = data.trigger.querySelector(
+      "article div:nth-child(1)"
+    );
+    const triggeredProjectPicture = data.trigger.querySelector(
+      "article div:nth-child(2)"
+    );
+
+    const section = document.querySelector(".ad_projectSlider-container");
+    const sectionBtns = document.querySelector(
+      ".ad_projectSlider-container > div"
+    );
+    const triggeredProjectPictureRect = gongju.getRectangle(
+      triggeredProjectPicture
+    );
+
+    const projectsCards = [
+      ...document.querySelectorAll(".ad_projectSlider-container ul li a"),
+    ];
+    const projectsCardsFiltered = projectsCards.filter(
+      (card) => card !== triggeredProject
+    );
     const done = this.async();
-    gsap.fromTo(".transition-page", { x: "-100%", y: 0 }, { x: 0 });
-    setTimeout(() => {
-      done();
-    }, 500);
+    let tl = gsap.timeline({
+      onComplete: () => {
+        done();
+      },
+    });
+    tl.fromTo(
+      triggeredProjectTitle,
+      {
+        clipPath: "inset(0)",
+      },
+      {
+        clipPath: "inset(0 0 0 100%)",
+      }
+    );
+    tl.fromTo(
+      projectsCardsFiltered,
+      {
+        clipPath: "inset(0)",
+      },
+      {
+        clipPath: "inset(100% 0 0 0)",
+        stagger: 0.1,
+      },
+      ">-0.2"
+    );
+    tl.fromTo(
+      sectionBtns,
+      {
+        opacity: 1,
+      },
+      {
+        opacity: 0,
+      },
+      ">-1"
+    );
+    tl.fromTo(
+      triggeredProjectPicture,
+      {
+        position: "absolute",
+        width: 288,
+        top: triggeredProjectPictureRect.top,
+        left: triggeredProjectPictureRect.left,
+      },
+      {
+        position: "absolute",
+        width: 626,
+        height: "80vh",
+        left: "50%",
+        top: "50%",
+        x: "-50%",
+        y: "-50%",
+      },
+      ">"
+    );
+    tl.to(
+      section,
+      {
+        mixBlendMode: "luminosity",
+        opacity: 0.3,
+        filter: "blur(5px)",
+      },
+      "<"
+    );
   },
   beforeEnter(data) {
-
     // Get the existing styles in the current document head
     var existingStyles = Array.from(
       document.head.querySelectorAll('link[rel="stylesheet"]')
@@ -54,8 +137,9 @@ const projectTransition = {
       document.head.appendChild(style.cloneNode(true));
     });
   },
-  enter() {
-    gsap.fromTo(".transition-page", { x: 0 }, { x: "100%" });
+  enter() {},
+  after() {
+    window.lenis.start();
   },
 };
 
@@ -85,7 +169,7 @@ const defaultTransition = {
     }, 500);
   },
   beforeEnter(data) {
-
+    window.lenis.stop();
     // Get the existing styles in the current document head
     var existingStyles = Array.from(
       document.head.querySelectorAll('link[rel="stylesheet"]')
@@ -115,6 +199,9 @@ const defaultTransition = {
   enter() {
     gsap.fromTo(".transition-page", { y: 0 }, { y: "100%" });
   },
+  after() {
+    window.lenis.start();
+  },
 };
 
 const TransitionPage = () => {
@@ -136,7 +223,6 @@ const TransitionPage = () => {
       "Routes",
       projectsData.projects.map((el) => el.slug)
     );
-
   }, []);
 
   return (

@@ -6,6 +6,7 @@ const index = (props) => {
   const { title, date, images, poster, slug, alt } = props;
   return (
     <a
+      id={slug}
       className={ProjectCardStyle.ad_projectCard_container}
       href={`/projects/${slug}`}
     >

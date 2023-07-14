@@ -84,7 +84,7 @@ const index = () => {
   }, [currentScroll]);
 
   return (
-    <section ref={slider} className={ProjectSliderStyle.ad_projectSlider}>
+    <section ref={slider} className={`ad_projectSlider-container ${ProjectSliderStyle.ad_projectSlider}`}>
       <ul className="bi_home-slider-content">
         {projectsData.projects.map((p, index) => {
           return (

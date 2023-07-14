@@ -20,12 +20,10 @@ export const isElement = (element) => {
 
 export async function isTypoReady() {
   let ready = await getDocument().fonts.ready;
-  // console.log(ready);
 }
 
 export const scrollTrigger = (props, customFunction) => {
   let { triggerElement, timeline, end, pin, pinEnd } = props;
-  // console.log(props)
   // In this function we would like to create the behavior of the ScrollTrigger
   // First we init the behavior
   let pinElement = false;
@@ -39,7 +37,6 @@ export const scrollTrigger = (props, customFunction) => {
   pinElement = pin ? triggerElement.querySelector(".pin") : false;
 
   getDocument().addEventListener("scroll", () => {
-    // console.log(-(rectElement().top));
     if (pinElement && -rectElement().top >= 0) {
       if (!pinEnd) {
         if (

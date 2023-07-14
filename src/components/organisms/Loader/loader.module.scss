@@ -2,7 +2,7 @@
 @import "../../../assets/styles/utils/mixins.scss";
 
 .ad_loader{
-    position: absolute;
+    position: fixed;
     inset: 0;
     background-color: map-get($colors , "beige" );
     z-index: 100;

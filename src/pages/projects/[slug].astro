@@ -21,6 +21,8 @@ export function getStaticPaths() {
 }
 
 const { p } = Astro.props;
+console.log(p);
+
 const { nextProject } = Astro.props;
 const { slug } = Astro.params;
 ---
@@ -41,7 +43,7 @@ const { slug } = Astro.params;
       title={p.projectDescription.title}
       goal={p.projectDescription.goal}
     />
-    <MarqueePicture client:load />
+    <MarqueePicture marqueeImages={p.marqueeImages} client:load />
     {
       p.colorStory && (
         <ColorStory

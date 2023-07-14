@@ -28,13 +28,17 @@ const images = {
   },
 };
 
-const Index = () => {
+const Index = (props) => {
+  const { marqueeImages } = props;
+  console.log(marqueeImages);
   const marquee = React.useRef();
 
   const animation = () => {
     const marqueeRect = gongju.getRectangle(marquee.current);
     const marqueeTopList = marquee.current.querySelector(".pictures-top ul");
-    const marqueeBottomList = marquee.current.querySelector(".pictures-bottom ul");
+    const marqueeBottomList = marquee.current.querySelector(
+      ".pictures-bottom ul"
+    );
     if (gongju.isVisible(marquee.current)) {
       let progress =
         (window.innerHeight - marqueeRect.top) /
@@ -51,7 +55,7 @@ const Index = () => {
     document.addEventListener("scroll", animation);
     return () => {
       document.removeEventListener("scroll", animation);
-    }
+    };
   }, []);
 
   return (
@@ -63,222 +67,50 @@ const Index = () => {
         className={`pictures-top ${MarqueePictureStyle.ad_marqueePicture_top}`}
       >
         <ul>
-          <li>
-            <custom-picture
-              images={JSON.stringify(images)}
-              poster-desktop={ExperienceInCoverDesktopLazy}
-              poster-mobile={ExperienceInCoverMobileLazy}
-              alt={"inCover.alternativeText"}
-              width-desktop="429"
-              height-desktop="300"
-              width-mobile="200"
-              height-mobile="134"
-              is-lazy={true}
-              is-parallax={false}
-              parallax-direction="top"
-            ></custom-picture>
-          </li>
-          <li>
-            <custom-picture
-              images={JSON.stringify(images)}
-              poster-desktop={ExperienceInCoverDesktopLazy}
-              poster-mobile={ExperienceInCoverMobileLazy}
-              alt={"inCover.alternativeText"}
-              width-desktop="207"
-              height-desktop="300"
-              width-mobile="97"
-              height-mobile="134"
-              is-lazy={true}
-              is-parallax={false}
-              parallax-direction="top"
-            ></custom-picture>
-          </li>
-          <li>
-            <custom-picture
-              images={JSON.stringify(images)}
-              poster-desktop={ExperienceInCoverDesktopLazy}
-              poster-mobile={ExperienceInCoverMobileLazy}
-              alt={"inCover.alternativeText"}
-              width-desktop="692"
-              height-desktop="300"
-              width-mobile="324"
-              height-mobile="134"
-              is-lazy={true}
-              is-parallax={false}
-              parallax-direction="top"
-            ></custom-picture>
-          </li>
-          <li>
-            <custom-picture
-              images={JSON.stringify(images)}
-              poster-desktop={ExperienceInCoverDesktopLazy}
-              poster-mobile={ExperienceInCoverMobileLazy}
-              alt={"inCover.alternativeText"}
-              width-desktop="231"
-              height-desktop="300"
-              width-mobile="108"
-              height-mobile="134"
-              is-lazy={true}
-              is-parallax={false}
-              parallax-direction="top"
-            ></custom-picture>
-          </li>
-          <li>
-            <custom-picture
-              images={JSON.stringify(images)}
-              poster-desktop={ExperienceInCoverDesktopLazy}
-              poster-mobile={ExperienceInCoverMobileLazy}
-              alt={"inCover.alternativeText"}
-              width-desktop="504"
-              height-desktop="300"
-              width-mobile="236"
-              height-mobile="134"
-              is-lazy={true}
-              is-parallax={false}
-              parallax-direction="top"
-            ></custom-picture>
-          </li>
-          <li>
-            <custom-picture
-              images={JSON.stringify(images)}
-              poster-desktop={ExperienceInCoverDesktopLazy}
-              poster-mobile={ExperienceInCoverMobileLazy}
-              alt={"inCover.alternativeText"}
-              width-desktop="429"
-              height-desktop="300"
-              width-mobile="200"
-              height-mobile="134"
-              is-lazy={true}
-              is-parallax={false}
-              parallax-direction="top"
-            ></custom-picture>
-          </li>
-          <li>
-            <custom-picture
-              images={JSON.stringify(images)}
-              poster-desktop={ExperienceInCoverDesktopLazy}
-              poster-mobile={ExperienceInCoverMobileLazy}
-              alt={"inCover.alternativeText"}
-              width-desktop="207"
-              height-desktop="300"
-              width-mobile="97"
-              height-mobile="134"
-              is-lazy={true}
-              is-parallax={false}
-              parallax-direction="top"
-            ></custom-picture>
-          </li>
-          <li>
-            <custom-picture
-              images={JSON.stringify(images)}
-              poster-desktop={ExperienceInCoverDesktopLazy}
-              poster-mobile={ExperienceInCoverMobileLazy}
-              alt={"inCover.alternativeText"}
-              width-desktop="692"
-              height-desktop="300"
-              width-mobile="324"
-              height-mobile="134"
-              is-lazy={true}
-              is-parallax={false}
-              parallax-direction="top"
-            ></custom-picture>
-          </li>
-          <li>
-            <custom-picture
-              images={JSON.stringify(images)}
-              poster-desktop={ExperienceInCoverDesktopLazy}
-              poster-mobile={ExperienceInCoverMobileLazy}
-              alt={"inCover.alternativeText"}
-              width-desktop="231"
-              height-desktop="300"
-              width-mobile="108"
-              height-mobile="134"
-              is-lazy={true}
-              is-parallax={false}
-              parallax-direction="top"
-            ></custom-picture>
-          </li>
-          <li>
-            <custom-picture
-              images={JSON.stringify(images)}
-              poster-desktop={ExperienceInCoverDesktopLazy}
-              poster-mobile={ExperienceInCoverMobileLazy}
-              alt={"inCover.alternativeText"}
-              width-desktop="504"
-              height-desktop="300"
-              width-mobile="236"
-              height-mobile="134"
-              is-lazy={true}
-              is-parallax={false}
-              parallax-direction="top"
-            ></custom-picture>
-          </li>
+          {marqueeImages.slice(0, 5).map((m, index) => {
+            return (
+              <li key={index}>
+                <custom-picture
+                  images={JSON.stringify(m.images)}
+                  poster-desktop={m.lazy.desktop}
+                  poster-mobile={m.lazy.mobile}
+                  alt={"inCover.alternativeText"}
+                  width-desktop="231"
+                  height-desktop="300"
+                  width-mobile="108"
+                  height-mobile="134"
+                  is-lazy={true}
+                  is-parallax={false}
+                  parallax-direction="top"
+                ></custom-picture>
+              </li>
+            );
+          })}
         </ul>
       </div>
       <div
         className={`pictures-bottom ${MarqueePictureStyle.ad_marqueePicture_bottom}`}
       >
         <ul>
-          <li>
-            <custom-picture
-              images={JSON.stringify(images)}
-              poster-desktop={ExperienceInCoverDesktopLazy}
-              poster-mobile={ExperienceInCoverMobileLazy}
-              alt={"inCover.alternativeText"}
-              width-desktop="721"
-              height-desktop="300"
-              width-mobile="337"
-              height-mobile="134"
-              is-lazy={true}
-              is-parallax={false}
-              parallax-direction="top"
-            ></custom-picture>
-          </li>
-          <li>
-            <custom-picture
-              images={JSON.stringify(images)}
-              poster-desktop={ExperienceInCoverDesktopLazy}
-              poster-mobile={ExperienceInCoverMobileLazy}
-              alt={"inCover.alternativeText"}
-              width-desktop="461"
-              height-desktop="300"
-              width-mobile="216"
-              height-mobile="134"
-              is-lazy={true}
-              is-parallax={false}
-              parallax-direction="top"
-            ></custom-picture>
-          </li>
-          <li>
-            <custom-picture
-              images={JSON.stringify(images)}
-              poster-desktop={ExperienceInCoverDesktopLazy}
-              poster-mobile={ExperienceInCoverMobileLazy}
-              alt={"inCover.alternativeText"}
-              width-desktop="323"
-              height-desktop="300"
-              width-mobile="151"
-              height-mobile="134"
-              is-lazy={true}
-              is-parallax={false}
-              parallax-direction="top"
-            ></custom-picture>
-          </li>
-          <li>
-            <custom-picture
-              images={JSON.stringify(images)}
-              poster-desktop={ExperienceInCoverDesktopLazy}
-              poster-mobile={ExperienceInCoverMobileLazy}
-              alt={"inCover.alternativeText"}
-              width-desktop="509"
-              height-desktop="300"
-              width-mobile="238"
-              height-mobile="134"
-              is-lazy={true}
-              is-parallax={false}
-              parallax-direction="top"
-            ></custom-picture>
-          </li>
+          {marqueeImages.slice(5, 9).map((m, index) => {
+            return (
+              <li key={index}>
+                <custom-picture
+                  images={JSON.stringify(m.images)}
+                  poster-desktop={m.lazy.desktop}
+                  poster-mobile={m.lazy.mobile}
+                  alt={"inCover.alternativeText"}
+                  width-desktop="231"
+                  height-desktop="300"
+                  width-mobile="108"
+                  height-mobile="134"
+                  is-lazy={true}
+                  is-parallax={false}
+                  parallax-direction="top"
+                ></custom-picture>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </section>

@@ -163,10 +163,11 @@ const defaultTransition = {
 
   async leave() {
     const done = this.async();
-    gsap.fromTo(".transition-page", { y: "-100%", x: 0 }, { y: 0 });
-    setTimeout(() => {
+    const tl = gsap.timeline({onComplete: () => {
       done();
-    }, 500);
+    }})
+    tl.fromTo(".transition-page", { y: "-100%", x: 0 }, { y: 0 });
+    tl.fromTo(".name span", {y: "-100%"}, {y: 0})
   },
   beforeEnter(data) {
     window.lenis.stop();
@@ -197,7 +198,8 @@ const defaultTransition = {
     });
   },
   enter() {
-    gsap.fromTo(".transition-page", { y: 0 }, { y: "100%" });
+    gsap.fromTo(".transition-page", { y: 0 }, { y: "100%", delay: 0.8 });
+    gsap.fromTo(".name span", {y: 0}, {y: "100%", delay: 0.4})
   },
   after() {
     window.lenis.start();
@@ -228,7 +230,9 @@ const TransitionPage = () => {
   return (
     <div
       className={`${TransitionPageStyle.transition_page} transition-page`}
-    ></div>
+    >
+      <p className="name ad-mid-heading"><span>Arthur Debruille</span></p>
+    </div>
   );
 };
 

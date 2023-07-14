@@ -4,4 +4,14 @@
     background-color: #D6C29A;
     transform: translateX(-100%);
     z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        overflow: hidden;
+        span{
+            display: block;
+            transform: translateY(-100%);
+        }
+    }
 }

@@ -3,13 +3,13 @@ import "../assets/styles/utils/root.scss"
 import SmoothScroll from "./utils/SmoothScroll";
 import TransitionPage from "./utils/TransitionPage/TransitionPage";
 import Header from "../components/molecules/Header"
-
-const currentPath = Astro.url
+import Loader from "../components/organisms/Loader/Index"
 
 
 ---
 
 <body data-barba="wrapper">
+	<Loader client:load/>
 	<SmoothScroll client:load />
 	<TransitionPage client:only="react"/>
 	<Header/>

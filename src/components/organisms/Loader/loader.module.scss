@@ -1,0 +1,15 @@
+@import "../../../assets/styles/utils/variables";
+@import "../../../assets/styles/utils/mixins.scss";
+
+.ad_loader{
+    position: absolute;
+    inset: 0;
+    background-color: map-get($colors , "beige" );
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+
+    }
+}

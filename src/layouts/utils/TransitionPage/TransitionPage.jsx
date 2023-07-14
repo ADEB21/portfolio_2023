@@ -221,10 +221,10 @@ const TransitionPage = () => {
       transitions: [defaultTransition, projectTransition],
     });
 
-    console.log(
-      "Routes",
-      projectsData.projects.map((el) => el.slug)
-    );
+    // console.log(
+    //   "Routes",
+    //   projectsData.projects.map((el) => el.slug)
+    // );
   }, []);
 
   return (

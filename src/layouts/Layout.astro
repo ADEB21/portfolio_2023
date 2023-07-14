@@ -1,21 +1,17 @@
 ---
-import "../assets/styles/utils/root.scss"
+import "../assets/styles/utils/root.scss";
 import SmoothScroll from "./utils/SmoothScroll";
 import TransitionPage from "./utils/TransitionPage/TransitionPage";
-import Header from "../components/molecules/Header"
-import Loader from "../components/organisms/Loader/Index"
-
-
+import Header from "../components/molecules/Header";
+import Loader from "../components/organisms/Loader/Index";
 ---
 
 <body data-barba="wrapper">
-	<!-- <Loader client:load/> -->
-	<SmoothScroll client:load />
-	<TransitionPage client:only="react"/>
-	<Header/>
-	<main data-barba="container"><slot /></main>
+  <Loader client:load />
+  <SmoothScroll client:load />
+  <TransitionPage client:only="react" />
+  <Header />
+  <main data-barba="container"><slot /></main>
 </body>
 
-
-<script>
-</script>
+<script></script>

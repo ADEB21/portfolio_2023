@@ -30,7 +30,6 @@ const images = {
 
 const Index = (props) => {
   const { marqueeImages } = props;
-  console.log(marqueeImages);
   const marquee = React.useRef();
 
   const animation = () => {

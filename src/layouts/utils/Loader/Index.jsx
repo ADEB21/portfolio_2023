@@ -9,7 +9,7 @@ const Index = () => {
     if (progress < 100) {
       const interval = setInterval(() => {
         setProgress((prevProgress) => prevProgress + 1);
-      }, 35);
+      }, 15);
 
       return () => {
         clearInterval(interval);

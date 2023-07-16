@@ -261,7 +261,6 @@ import GongjuLastMobileLazy from "../images/projects/gongju/last/gongju-last-mob
  * Nine
  */
 
-
 //Experience
 import ExperienceMarquee01DesktopRetina from "../images/projects/experience/marquee/01/01-marquee-dekstop-retina.jpg";
 import ExperienceMarquee01DesktopBase from "../images/projects/experience/marquee/01/01-marquee-dekstop-base.jpg";
@@ -1214,20 +1213,11 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                SCCMarquee01MobileBase,
-                SCCMarquee01MobileRetina,
-              ],
-              webp: [
-                SCCMarquee01MobileBaseWebp,
-                SCCMarquee01MobileRetinaWebp,
-              ],
+              jpeg: [SCCMarquee01MobileBase, SCCMarquee01MobileRetina],
+              webp: [SCCMarquee01MobileBaseWebp, SCCMarquee01MobileRetinaWebp],
             },
             desktop: {
-              jpeg: [
-                SCCMarquee01DesktopBase,
-                SCCMarquee01DesktopRetina,
-              ],
+              jpeg: [SCCMarquee01DesktopBase, SCCMarquee01DesktopRetina],
               webp: [
                 SCCMarquee01DesktopBaseWebp,
                 SCCMarquee01DesktopRetinaWebp,
@@ -1243,20 +1233,11 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                SCCMarquee02MobileBase,
-                SCCMarquee02MobileRetina,
-              ],
-              webp: [
-                SCCMarquee02MobileBaseWebp,
-                SCCMarquee02MobileRetinaWebp,
-              ],
+              jpeg: [SCCMarquee02MobileBase, SCCMarquee02MobileRetina],
+              webp: [SCCMarquee02MobileBaseWebp, SCCMarquee02MobileRetinaWebp],
             },
             desktop: {
-              jpeg: [
-                SCCMarquee02DesktopBase,
-                SCCMarquee02DesktopRetina,
-              ],
+              jpeg: [SCCMarquee02DesktopBase, SCCMarquee02DesktopRetina],
               webp: [
                 SCCMarquee02DesktopBaseWebp,
                 SCCMarquee02DesktopRetinaWebp,
@@ -1272,20 +1253,11 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                SCCMarquee03MobileBase,
-                SCCMarquee03MobileRetina,
-              ],
-              webp: [
-                SCCMarquee03MobileBaseWebp,
-                SCCMarquee03MobileRetinaWebp,
-              ],
+              jpeg: [SCCMarquee03MobileBase, SCCMarquee03MobileRetina],
+              webp: [SCCMarquee03MobileBaseWebp, SCCMarquee03MobileRetinaWebp],
             },
             desktop: {
-              jpeg: [
-                SCCMarquee03DesktopBase,
-                SCCMarquee03DesktopRetina,
-              ],
+              jpeg: [SCCMarquee03DesktopBase, SCCMarquee03DesktopRetina],
               webp: [
                 SCCMarquee03DesktopBaseWebp,
                 SCCMarquee03DesktopRetinaWebp,
@@ -1301,20 +1273,11 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                SCCMarquee04MobileBase,
-                SCCMarquee04MobileRetina,
-              ],
-              webp: [
-                SCCMarquee04MobileBaseWebp,
-                SCCMarquee04MobileRetinaWebp,
-              ],
+              jpeg: [SCCMarquee04MobileBase, SCCMarquee04MobileRetina],
+              webp: [SCCMarquee04MobileBaseWebp, SCCMarquee04MobileRetinaWebp],
             },
             desktop: {
-              jpeg: [
-                SCCMarquee04DesktopBase,
-                SCCMarquee04DesktopRetina,
-              ],
+              jpeg: [SCCMarquee04DesktopBase, SCCMarquee04DesktopRetina],
               webp: [
                 SCCMarquee04DesktopBaseWebp,
                 SCCMarquee04DesktopRetinaWebp,
@@ -1330,20 +1293,11 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                SCCMarquee05MobileBase,
-                SCCMarquee05MobileRetina,
-              ],
-              webp: [
-                SCCMarquee05MobileBaseWebp,
-                SCCMarquee05MobileRetinaWebp,
-              ],
+              jpeg: [SCCMarquee05MobileBase, SCCMarquee05MobileRetina],
+              webp: [SCCMarquee05MobileBaseWebp, SCCMarquee05MobileRetinaWebp],
             },
             desktop: {
-              jpeg: [
-                SCCMarquee05DesktopBase,
-                SCCMarquee05DesktopRetina,
-              ],
+              jpeg: [SCCMarquee05DesktopBase, SCCMarquee05DesktopRetina],
               webp: [
                 SCCMarquee05DesktopBaseWebp,
                 SCCMarquee05DesktopRetinaWebp,
@@ -1359,20 +1313,11 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                SCCMarquee06MobileBase,
-                SCCMarquee06MobileRetina,
-              ],
-              webp: [
-                SCCMarquee06MobileBaseWebp,
-                SCCMarquee06MobileRetinaWebp,
-              ],
+              jpeg: [SCCMarquee06MobileBase, SCCMarquee06MobileRetina],
+              webp: [SCCMarquee06MobileBaseWebp, SCCMarquee06MobileRetinaWebp],
             },
             desktop: {
-              jpeg: [
-                SCCMarquee06DesktopBase,
-                SCCMarquee06DesktopRetina,
-              ],
+              jpeg: [SCCMarquee06DesktopBase, SCCMarquee06DesktopRetina],
               webp: [
                 SCCMarquee06DesktopBaseWebp,
                 SCCMarquee06DesktopRetinaWebp,
@@ -1388,20 +1333,11 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                SCCMarquee07MobileBase,
-                SCCMarquee07MobileRetina,
-              ],
-              webp: [
-                SCCMarquee07MobileBaseWebp,
-                SCCMarquee07MobileRetinaWebp,
-              ],
+              jpeg: [SCCMarquee07MobileBase, SCCMarquee07MobileRetina],
+              webp: [SCCMarquee07MobileBaseWebp, SCCMarquee07MobileRetinaWebp],
             },
             desktop: {
-              jpeg: [
-                SCCMarquee07DesktopBase,
-                SCCMarquee07DesktopRetina,
-              ],
+              jpeg: [SCCMarquee07DesktopBase, SCCMarquee07DesktopRetina],
               webp: [
                 SCCMarquee07DesktopBaseWebp,
                 SCCMarquee07DesktopRetinaWebp,
@@ -1417,20 +1353,11 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                SCCMarquee08MobileBase,
-                SCCMarquee08MobileRetina,
-              ],
-              webp: [
-                SCCMarquee08MobileBaseWebp,
-                SCCMarquee08MobileRetinaWebp,
-              ],
+              jpeg: [SCCMarquee08MobileBase, SCCMarquee08MobileRetina],
+              webp: [SCCMarquee08MobileBaseWebp, SCCMarquee08MobileRetinaWebp],
             },
             desktop: {
-              jpeg: [
-                SCCMarquee08DesktopBase,
-                SCCMarquee08DesktopRetina,
-              ],
+              jpeg: [SCCMarquee08DesktopBase, SCCMarquee08DesktopRetina],
               webp: [
                 SCCMarquee08DesktopBaseWebp,
                 SCCMarquee08DesktopRetinaWebp,
@@ -1446,20 +1373,11 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                SCCMarquee09MobileBase,
-                SCCMarquee09MobileRetina,
-              ],
-              webp: [
-                SCCMarquee09MobileBaseWebp,
-                SCCMarquee09MobileRetinaWebp,
-              ],
+              jpeg: [SCCMarquee09MobileBase, SCCMarquee09MobileRetina],
+              webp: [SCCMarquee09MobileBaseWebp, SCCMarquee09MobileRetinaWebp],
             },
             desktop: {
-              jpeg: [
-                SCCMarquee09DesktopBase,
-                SCCMarquee09DesktopRetina,
-              ],
+              jpeg: [SCCMarquee09DesktopBase, SCCMarquee09DesktopRetina],
               webp: [
                 SCCMarquee09DesktopBaseWebp,
                 SCCMarquee09DesktopRetinaWebp,
@@ -1550,27 +1468,18 @@ export default {
         },
       },
       projectDescription: {
-        title: "Une histoire qui dure depuis 1973",
-        goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus metus, mi cursus amet. Sit felis tellus praesent amet, suspendisse nisi at pretium. Tempus lectus facilisis nec viverra est, volutpat pulvinar non velit. Sem sit magna in augue libero ultrices. Elementum eros amet, vivamus id eget diam risus in mattis.",
+        title: "Plateforme de vente privée de vin",
+        goal: "Créer une maquette UI/UX et développer un site web pour LesBellesQuilles, une entreprise spécialisée dans la vente privée en ligne de vins. Le besoin initial était de doter l'entreprise d'une présence digitale, car elle ne disposait pas d'un site internet.",
       },
       marqueeImages: [
         {
           images: {
             mobile: {
-              jpeg: [
-                LBQMarquee01MobileBase,
-                LBQMarquee01MobileRetina,
-              ],
-              webp: [
-                LBQMarquee01MobileBaseWebp,
-                LBQMarquee01MobileRetinaWebp,
-              ],
+              jpeg: [LBQMarquee01MobileBase, LBQMarquee01MobileRetina],
+              webp: [LBQMarquee01MobileBaseWebp, LBQMarquee01MobileRetinaWebp],
             },
             desktop: {
-              jpeg: [
-                LBQMarquee01DesktopBase,
-                LBQMarquee01DesktopRetina,
-              ],
+              jpeg: [LBQMarquee01DesktopBase, LBQMarquee01DesktopRetina],
               webp: [
                 LBQMarquee01DesktopBaseWebp,
                 LBQMarquee01DesktopRetinaWebp,
@@ -1586,20 +1495,11 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                LBQMarquee02MobileBase,
-                LBQMarquee02MobileRetina,
-              ],
-              webp: [
-                LBQMarquee02MobileBaseWebp,
-                LBQMarquee02MobileRetinaWebp,
-              ],
+              jpeg: [LBQMarquee02MobileBase, LBQMarquee02MobileRetina],
+              webp: [LBQMarquee02MobileBaseWebp, LBQMarquee02MobileRetinaWebp],
             },
             desktop: {
-              jpeg: [
-                LBQMarquee02DesktopBase,
-                LBQMarquee02DesktopRetina,
-              ],
+              jpeg: [LBQMarquee02DesktopBase, LBQMarquee02DesktopRetina],
               webp: [
                 LBQMarquee02DesktopBaseWebp,
                 LBQMarquee02DesktopRetinaWebp,
@@ -1615,20 +1515,11 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                LBQMarquee03MobileBase,
-                LBQMarquee03MobileRetina,
-              ],
-              webp: [
-                LBQMarquee03MobileBaseWebp,
-                LBQMarquee03MobileRetinaWebp,
-              ],
+              jpeg: [LBQMarquee03MobileBase, LBQMarquee03MobileRetina],
+              webp: [LBQMarquee03MobileBaseWebp, LBQMarquee03MobileRetinaWebp],
             },
             desktop: {
-              jpeg: [
-                LBQMarquee03DesktopBase,
-                LBQMarquee03DesktopRetina,
-              ],
+              jpeg: [LBQMarquee03DesktopBase, LBQMarquee03DesktopRetina],
               webp: [
                 LBQMarquee03DesktopBaseWebp,
                 LBQMarquee03DesktopRetinaWebp,
@@ -1644,20 +1535,11 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                LBQMarquee04MobileBase,
-                LBQMarquee04MobileRetina,
-              ],
-              webp: [
-                LBQMarquee04MobileBaseWebp,
-                LBQMarquee04MobileRetinaWebp,
-              ],
+              jpeg: [LBQMarquee04MobileBase, LBQMarquee04MobileRetina],
+              webp: [LBQMarquee04MobileBaseWebp, LBQMarquee04MobileRetinaWebp],
             },
             desktop: {
-              jpeg: [
-                LBQMarquee04DesktopBase,
-                LBQMarquee04DesktopRetina,
-              ],
+              jpeg: [LBQMarquee04DesktopBase, LBQMarquee04DesktopRetina],
               webp: [
                 LBQMarquee04DesktopBaseWebp,
                 LBQMarquee04DesktopRetinaWebp,
@@ -1673,20 +1555,11 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                LBQMarquee05MobileBase,
-                LBQMarquee05MobileRetina,
-              ],
-              webp: [
-                LBQMarquee05MobileBaseWebp,
-                LBQMarquee05MobileRetinaWebp,
-              ],
+              jpeg: [LBQMarquee05MobileBase, LBQMarquee05MobileRetina],
+              webp: [LBQMarquee05MobileBaseWebp, LBQMarquee05MobileRetinaWebp],
             },
             desktop: {
-              jpeg: [
-                LBQMarquee05DesktopBase,
-                LBQMarquee05DesktopRetina,
-              ],
+              jpeg: [LBQMarquee05DesktopBase, LBQMarquee05DesktopRetina],
               webp: [
                 LBQMarquee05DesktopBaseWebp,
                 LBQMarquee05DesktopRetinaWebp,
@@ -1702,20 +1575,11 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                LBQMarquee06MobileBase,
-                LBQMarquee06MobileRetina,
-              ],
-              webp: [
-                LBQMarquee06MobileBaseWebp,
-                LBQMarquee06MobileRetinaWebp,
-              ],
+              jpeg: [LBQMarquee06MobileBase, LBQMarquee06MobileRetina],
+              webp: [LBQMarquee06MobileBaseWebp, LBQMarquee06MobileRetinaWebp],
             },
             desktop: {
-              jpeg: [
-                LBQMarquee06DesktopBase,
-                LBQMarquee06DesktopRetina,
-              ],
+              jpeg: [LBQMarquee06DesktopBase, LBQMarquee06DesktopRetina],
               webp: [
                 LBQMarquee06DesktopBaseWebp,
                 LBQMarquee06DesktopRetinaWebp,
@@ -1731,20 +1595,11 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                LBQMarquee07MobileBase,
-                LBQMarquee07MobileRetina,
-              ],
-              webp: [
-                LBQMarquee07MobileBaseWebp,
-                LBQMarquee07MobileRetinaWebp,
-              ],
+              jpeg: [LBQMarquee07MobileBase, LBQMarquee07MobileRetina],
+              webp: [LBQMarquee07MobileBaseWebp, LBQMarquee07MobileRetinaWebp],
             },
             desktop: {
-              jpeg: [
-                LBQMarquee07DesktopBase,
-                LBQMarquee07DesktopRetina,
-              ],
+              jpeg: [LBQMarquee07DesktopBase, LBQMarquee07DesktopRetina],
               webp: [
                 LBQMarquee07DesktopBaseWebp,
                 LBQMarquee07DesktopRetinaWebp,
@@ -1760,20 +1615,11 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                LBQMarquee08MobileBase,
-                LBQMarquee08MobileRetina,
-              ],
-              webp: [
-                LBQMarquee08MobileBaseWebp,
-                LBQMarquee08MobileRetinaWebp,
-              ],
+              jpeg: [LBQMarquee08MobileBase, LBQMarquee08MobileRetina],
+              webp: [LBQMarquee08MobileBaseWebp, LBQMarquee08MobileRetinaWebp],
             },
             desktop: {
-              jpeg: [
-                LBQMarquee08DesktopBase,
-                LBQMarquee08DesktopRetina,
-              ],
+              jpeg: [LBQMarquee08DesktopBase, LBQMarquee08DesktopRetina],
               webp: [
                 LBQMarquee08DesktopBaseWebp,
                 LBQMarquee08DesktopRetinaWebp,
@@ -1789,20 +1635,11 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                LBQMarquee09MobileBase,
-                LBQMarquee09MobileRetina,
-              ],
-              webp: [
-                LBQMarquee09MobileBaseWebp,
-                LBQMarquee09MobileRetinaWebp,
-              ],
+              jpeg: [LBQMarquee09MobileBase, LBQMarquee09MobileRetina],
+              webp: [LBQMarquee09MobileBaseWebp, LBQMarquee09MobileRetinaWebp],
             },
             desktop: {
-              jpeg: [
-                LBQMarquee09DesktopBase,
-                LBQMarquee09DesktopRetina,
-              ],
+              jpeg: [LBQMarquee09DesktopBase, LBQMarquee09DesktopRetina],
               webp: [
                 LBQMarquee09DesktopBaseWebp,
                 LBQMarquee09DesktopRetinaWebp,
@@ -1817,10 +1654,10 @@ export default {
         },
       ],
       process:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet. Sodales a sit aliquet dis. Tincidunt ut nunc leo cursus tempor. Pharetra bibendum magna viverra id. Lobortis non sed quis purus venenatis quis augue id.",
+        "Le site LesBellesQuilles a été développé en utilisant plusieurs technologies avancées telles que Stripe, React, NextJs, et en suivant la méthodologie de l'Atomic Design. Ces technologies ont permis de créer une expérience utilisateur dynamique, une gestion efficace du contenu et une structure modulaire pour faciliter la maintenance et l'évolutivité du site.",
       colorStory: {
         paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet.",
+          "Le vert est souvent associé à la nature. L'orange est une couleur énergique et chaleureuse, symbole de la convivialité et de la créativité. Pour un site de vente privée de vin, cela évoque une atmosphère joyeuse et festive, invitant les utilisateurs à découvrir de nouveaux vins et à partager des expériences conviviales autour du vin",
         colors: [
           "#07080A",
           "#FEFEFE",
@@ -1906,7 +1743,7 @@ export default {
       },
       projectDescription: {
         title: "Une histoire qui dure depuis 1973",
-        goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus metus, mi cursus amet. Sit felis tellus praesent amet, suspendisse nisi at pretium. Tempus lectus facilisis nec viverra est, volutpat pulvinar non velit. Sem sit magna in augue libero ultrices. Elementum eros amet, vivamus id eget diam risus in mattis.",
+        goal: "La demande initiale du client était de refondre leur site internet suite à la refonte de leur identité visuelle et de permettre aux utilisateurs d'acheter des produits en ligne. Le client souhaitait également disposer d'un système de gestion de contenu (CMS) pour gérer les produits et les commandes.",
       },
       marqueeImages: [
         {
@@ -2172,10 +2009,10 @@ export default {
         },
       ],
       process:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet. Sodales a sit aliquet dis. Tincidunt ut nunc leo cursus tempor. Pharetra bibendum magna viverra id. Lobortis non sed quis purus venenatis quis augue id.",
+        "Le site de la Librairie Experience a été développé en utilisant plusieurs technologies avancées telles que Stripe, React, Gatsby et Sanity CMS et en suivant la méthodologie de l'Atomic Design. Ces technologies ont permis  de créer une expérience utilisateur dynamique, une gestion efficace du contenu et une structure  modulaire pour faciliter la maintenance et l'évolutivité du site.",
       colorStory: {
         paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet.",
+          "L'utilisation de couleurs pastel pour un site de librairie spécialisé dans la BD... Créer une ambiance douce, ludique et accueillante, en accord avec l'univers artistique de la bande dessinée.",
         colors: [
           "#79C5D7",
           "#FADD4B",
@@ -2260,17 +2097,14 @@ export default {
         },
       },
       projectDescription: {
-        title: "Une histoire qui dure depuis 1973",
-        goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus metus, mi cursus amet. Sit felis tellus praesent amet, suspendisse nisi at pretium. Tempus lectus facilisis nec viverra est, volutpat pulvinar non velit. Sem sit magna in augue libero ultrices. Elementum eros amet, vivamus id eget diam risus in mattis.",
+        title: "Un savoir-faire issu du Private Equity",
+        goal: "Créer une maquette UI/UX et développement d'un site web pour Cambium, un fond d'investissement. Ce projet a été initié afin de fournir à Cambium une présence digitale, comblant ainsi le manque d'un site internet.",
       },
       marqueeImages: [
         {
           images: {
             mobile: {
-              jpeg: [
-                CambiumMarquee01MobileBase,
-                CambiumMarquee01MobileRetina,
-              ],
+              jpeg: [CambiumMarquee01MobileBase, CambiumMarquee01MobileRetina],
               webp: [
                 CambiumMarquee01MobileBaseWebp,
                 CambiumMarquee01MobileRetinaWebp,
@@ -2296,10 +2130,7 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                CambiumMarquee02MobileBase,
-                CambiumMarquee02MobileRetina,
-              ],
+              jpeg: [CambiumMarquee02MobileBase, CambiumMarquee02MobileRetina],
               webp: [
                 CambiumMarquee02MobileBaseWebp,
                 CambiumMarquee02MobileRetinaWebp,
@@ -2325,10 +2156,7 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                CambiumMarquee03MobileBase,
-                CambiumMarquee03MobileRetina,
-              ],
+              jpeg: [CambiumMarquee03MobileBase, CambiumMarquee03MobileRetina],
               webp: [
                 CambiumMarquee03MobileBaseWebp,
                 CambiumMarquee03MobileRetinaWebp,
@@ -2354,10 +2182,7 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                CambiumMarquee04MobileBase,
-                CambiumMarquee04MobileRetina,
-              ],
+              jpeg: [CambiumMarquee04MobileBase, CambiumMarquee04MobileRetina],
               webp: [
                 CambiumMarquee04MobileBaseWebp,
                 CambiumMarquee04MobileRetinaWebp,
@@ -2383,10 +2208,7 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                CambiumMarquee05MobileBase,
-                CambiumMarquee05MobileRetina,
-              ],
+              jpeg: [CambiumMarquee05MobileBase, CambiumMarquee05MobileRetina],
               webp: [
                 CambiumMarquee05MobileBaseWebp,
                 CambiumMarquee05MobileRetinaWebp,
@@ -2412,10 +2234,7 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                CambiumMarquee06MobileBase,
-                CambiumMarquee06MobileRetina,
-              ],
+              jpeg: [CambiumMarquee06MobileBase, CambiumMarquee06MobileRetina],
               webp: [
                 CambiumMarquee06MobileBaseWebp,
                 CambiumMarquee06MobileRetinaWebp,
@@ -2441,10 +2260,7 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                CambiumMarquee07MobileBase,
-                CambiumMarquee07MobileRetina,
-              ],
+              jpeg: [CambiumMarquee07MobileBase, CambiumMarquee07MobileRetina],
               webp: [
                 CambiumMarquee07MobileBaseWebp,
                 CambiumMarquee07MobileRetinaWebp,
@@ -2470,10 +2286,7 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                CambiumMarquee08MobileBase,
-                CambiumMarquee08MobileRetina,
-              ],
+              jpeg: [CambiumMarquee08MobileBase, CambiumMarquee08MobileRetina],
               webp: [
                 CambiumMarquee08MobileBaseWebp,
                 CambiumMarquee08MobileRetinaWebp,
@@ -2499,10 +2312,7 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                CambiumMarquee09MobileBase,
-                CambiumMarquee09MobileRetina,
-              ],
+              jpeg: [CambiumMarquee09MobileBase, CambiumMarquee09MobileRetina],
               webp: [
                 CambiumMarquee09MobileBaseWebp,
                 CambiumMarquee09MobileRetinaWebp,
@@ -2527,10 +2337,10 @@ export default {
         },
       ],
       process:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet. Sodales a sit aliquet dis. Tincidunt ut nunc leo cursus tempor. Pharetra bibendum magna viverra id. Lobortis non sed quis purus venenatis quis augue id.",
+        "Le site de Cambium a été développé en utilisant plusieurs technologies avancées telles que React, Gatsby et Prismic CMS et en suivant la méthodologie de l'Atomic Design. Ces technologies ont permis  de créer une expérience utilisateur dynamique, une gestion efficace du contenu et une structure  modulaire pour faciliter la maintenance et l'évolutivité du site.",
       colorStory: {
         paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet.",
+          "Le bleu est souvent associé au secteur financier et à des valeurs telles que la confiance, la stabilité et la fiabilité. En utilisant cette couleur, la marque et le site transmet un sentiment de professionnalisme et de confiance aux visiteurs, ce qui est essentiel pour un fond d'investissement qui gère les finances de ses clients. Le blanc est associé à la transparence et à la sécurité.",
         colors: ["#FFFFFF", "#F6F6F6", "#1C3B60", "#1B1B1D", "none", "none"],
       },
       lastImage: {
@@ -2602,17 +2412,14 @@ export default {
         },
       },
       projectDescription: {
-        title: "Une histoire qui dure depuis 1973",
-        goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus metus, mi cursus amet. Sit felis tellus praesent amet, suspendisse nisi at pretium. Tempus lectus facilisis nec viverra est, volutpat pulvinar non velit. Sem sit magna in augue libero ultrices. Elementum eros amet, vivamus id eget diam risus in mattis.",
+        title: "Transmettre votre entreprise",
+        goal: "Le projet numérique vise à atteindre plusieurs objectifs clés. Tout d'abord, il consiste à créer une landing page percutante et efficace. Cette page d'accueil sera conçue de manière à capter l'attention des visiteurs et à les inciter à prendre des mesures spécifiques. En plus de la création de la landing page, le projet a pour objectif de moderniser l'ensemble de l'expérience utilisateur. Cela implique d'adopter un design contemporain, avec des mises en page attrayantes, des typographies soignées et une utilisation judicieuse de l'espace et des couleurs. L'objectif est de donner une impression de fraîcheur et de dynamisme, tout en conservant une interface utilisateur intuitive et facile à naviguer.",
       },
       marqueeImages: [
         {
           images: {
             mobile: {
-              jpeg: [
-                InceptoMarquee01MobileBase,
-                InceptoMarquee01MobileRetina,
-              ],
+              jpeg: [InceptoMarquee01MobileBase, InceptoMarquee01MobileRetina],
               webp: [
                 InceptoMarquee01MobileBaseWebp,
                 InceptoMarquee01MobileRetinaWebp,
@@ -2638,10 +2445,7 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                InceptoMarquee02MobileBase,
-                InceptoMarquee02MobileRetina,
-              ],
+              jpeg: [InceptoMarquee02MobileBase, InceptoMarquee02MobileRetina],
               webp: [
                 InceptoMarquee02MobileBaseWebp,
                 InceptoMarquee02MobileRetinaWebp,
@@ -2667,10 +2471,7 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                InceptoMarquee03MobileBase,
-                InceptoMarquee03MobileRetina,
-              ],
+              jpeg: [InceptoMarquee03MobileBase, InceptoMarquee03MobileRetina],
               webp: [
                 InceptoMarquee03MobileBaseWebp,
                 InceptoMarquee03MobileRetinaWebp,
@@ -2696,10 +2497,7 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                InceptoMarquee04MobileBase,
-                InceptoMarquee04MobileRetina,
-              ],
+              jpeg: [InceptoMarquee04MobileBase, InceptoMarquee04MobileRetina],
               webp: [
                 InceptoMarquee04MobileBaseWebp,
                 InceptoMarquee04MobileRetinaWebp,
@@ -2725,10 +2523,7 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                InceptoMarquee05MobileBase,
-                InceptoMarquee05MobileRetina,
-              ],
+              jpeg: [InceptoMarquee05MobileBase, InceptoMarquee05MobileRetina],
               webp: [
                 InceptoMarquee05MobileBaseWebp,
                 InceptoMarquee05MobileRetinaWebp,
@@ -2754,10 +2549,7 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                InceptoMarquee06MobileBase,
-                InceptoMarquee06MobileRetina,
-              ],
+              jpeg: [InceptoMarquee06MobileBase, InceptoMarquee06MobileRetina],
               webp: [
                 InceptoMarquee06MobileBaseWebp,
                 InceptoMarquee06MobileRetinaWebp,
@@ -2783,10 +2575,7 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                InceptoMarquee07MobileBase,
-                InceptoMarquee07MobileRetina,
-              ],
+              jpeg: [InceptoMarquee07MobileBase, InceptoMarquee07MobileRetina],
               webp: [
                 InceptoMarquee07MobileBaseWebp,
                 InceptoMarquee07MobileRetinaWebp,
@@ -2812,10 +2601,7 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                InceptoMarquee08MobileBase,
-                InceptoMarquee08MobileRetina,
-              ],
+              jpeg: [InceptoMarquee08MobileBase, InceptoMarquee08MobileRetina],
               webp: [
                 InceptoMarquee08MobileBaseWebp,
                 InceptoMarquee08MobileRetinaWebp,
@@ -2841,10 +2627,7 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                InceptoMarquee09MobileBase,
-                InceptoMarquee09MobileRetina,
-              ],
+              jpeg: [InceptoMarquee09MobileBase, InceptoMarquee09MobileRetina],
               webp: [
                 InceptoMarquee09MobileBaseWebp,
                 InceptoMarquee09MobileRetinaWebp,
@@ -2869,10 +2652,10 @@ export default {
         },
       ],
       process:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet. Sodales a sit aliquet dis. Tincidunt ut nunc leo cursus tempor. Pharetra bibendum magna viverra id. Lobortis non sed quis purus venenatis quis augue id.",
+        "La landing page de Incepto Avocats a été développé en utilisant plusieurs technologies avancées telles que React, Parcel et en suivant la méthodologie de l'Atomic Design. Ces technologies ont permis  de créer une expérience utilisateur dynamique, une gestion efficace du contenu et une structure  modulaire pour faciliter la maintenance et l'évolutivité du site.",
       colorStory: {
         paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet.",
+          "L'utilisation du blanc comme couleur de fond permet de créer un contraste saisissant avec les couleurs vives telles que le vert et le rouge. Le rouge évoque l'énergie, la passion, l'urgence et l'action. Le vert quant a lui reflète la croissance, la prospérité et à la stabilité financière.",
         colors: [
           "#120102",
           "#696565",
@@ -2954,8 +2737,8 @@ export default {
         },
       },
       projectDescription: {
-        title: "Une histoire qui dure depuis 1973",
-        goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus metus, mi cursus amet. Sit felis tellus praesent amet, suspendisse nisi at pretium. Tempus lectus facilisis nec viverra est, volutpat pulvinar non velit. Sem sit magna in augue libero ultrices. Elementum eros amet, vivamus id eget diam risus in mattis.",
+        title: "Booster votre leadership",
+        goal: "Le projet TertiaVia a pour objectif principal de créer une maquette UI/UX et un site vitrine dédié aux formations visant à booster le leadership. L'objectif est de proposer une plateforme attrayante et informative où les visiteurs pourront découvrir les différentes formations disponibles, leurs avantages et les compétences qu'elles permettent de développer. Le site vitrine mettra en valeur les atouts des formations. En plus de créer un site vitrine de formations, un autre objectif important est de moderniser l'expérience utilisateur. Cela implique d'adopter un design contemporain, avec des éléments visuels percutants, des mises en page attractives et une interface utilisateur intuitive.",
       },
       marqueeImages: [
         {
@@ -3221,10 +3004,10 @@ export default {
         },
       ],
       process:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet. Sodales a sit aliquet dis. Tincidunt ut nunc leo cursus tempor. Pharetra bibendum magna viverra id. Lobortis non sed quis purus venenatis quis augue id.",
+        "Le site de Tertiavia a été développé en utilisant plusieurs technologies avancées telles que React, Astro et en suivant la méthodologie de l'Atomic Design. Ces technologies ont permis  de créer une expérience utilisateur dynamique, une gestion efficace du contenu et une structure  modulaire pour faciliter la maintenance et l'évolutivité du site.",
       colorStory: {
         paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet.",
+          "Le jaune reflète l'énergie, l'optimisme et la joie. En utilisant cette couleur, le site évoque un sentiment positif et dynamique, reflétant l'enthousiasme et la motivation des apprenants dans leur parcours de formation. Le blanc est souvent associé à la clarté, à la simplicité et à la pureté. En l'associant avec le jaune, il permet de créer un contraste net et offre une esthétique épurée, mettant en valeur les informations et les contenus clés du site.",
         colors: [
           "#050505",
           "#323333",
@@ -3315,8 +3098,8 @@ export default {
         },
       },
       projectDescription: {
-        title: "Une histoire qui dure depuis 1973",
-        goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus metus, mi cursus amet. Sit felis tellus praesent amet, suspendisse nisi at pretium. Tempus lectus facilisis nec viverra est, volutpat pulvinar non velit. Sem sit magna in augue libero ultrices. Elementum eros amet, vivamus id eget diam risus in mattis.",
+        title: "Nourrir ou Mourir ?",
+        goal: "Le projet numérique vise à atteindre plusieurs objectifs clés pour Heliopolis. Tout d'abord, il était essentiel de créer une landing page pour permettre à Heliopolis d'avoir une présence numérique. Cette page d'accueil donne à l'entreprise une visibilité en ligne, permettant aux visiteurs de découvrir les services et les missions de Heliopolis liés à la souveraineté alimentaire. En plus de créer une landing page, un objectif important était de concevoir une page moderne et attrayante. Cela implique d'adopter un design contemporain, avec une mise en page soignée, des éléments visuels percutants et une typographie appropriée. L'objectif est de captiver l'attention des visiteurs dès leur arrivée sur le site et de transmettre une image professionnelle et crédible.",
       },
       marqueeImages: [
         {
@@ -3582,10 +3365,10 @@ export default {
         },
       ],
       process:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet. Sodales a sit aliquet dis. Tincidunt ut nunc leo cursus tempor. Pharetra bibendum magna viverra id. Lobortis non sed quis purus venenatis quis augue id.",
+      "Le site de Heliopolis a été développé en utilisant plusieurs technologies avancées telles que Svelte, SvelteKit, Vite, Gsap et en suivant la méthodologie de l'Atomic Design. Ces technologies ont permis  de créer une expérience utilisateur dynamique, une gestion efficace du contenu et une structure  modulaire pour faciliter la maintenance et l'évolutivité du site.",
       colorStory: {
         paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet.",
+          "L'utilisation du noir et du blanc crée un contraste visuel fort et percutant, ce qui peut aider à attirer l'attention des visiteurs et à rendre le contenu plus lisible. Le noir et le blanc offrent également une esthétique minimaliste et moderne, ce qui peut renforcer l'image professionnelle et épurée de Heliopolis. Le noir est souvent associé à la sophistication, à l'autorité et à l'élégance, ce qui peut renforcer l'image de Heliopolis en tant qu'acteur sérieux et compétent dans le domaine de la souveraineté alimentaire. Le rouge, quant à lui, est souvent associé à la passion, à l'énergie et à l'urgence. En l'intégrant dans la palette de couleurs, il peut transmettre le dynamisme et l'engagement de Heliopolis dans la réalisation de projets complexes et audacieux.",
         colors: [
           "#0F0907",
           "#514845",
@@ -3670,27 +3453,21 @@ export default {
         },
       },
       projectDescription: {
-        title: "Une histoire qui dure depuis 1973",
-        goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus metus, mi cursus amet. Sit felis tellus praesent amet, suspendisse nisi at pretium. Tempus lectus facilisis nec viverra est, volutpat pulvinar non velit. Sem sit magna in augue libero ultrices. Elementum eros amet, vivamus id eget diam risus in mattis.",
+        title: "Une boite à outils",
+        goal: "Gongju est la boîte à outils des développeurs de Bihua, et elle sert également de guide pour les nouveaux membres de l'équipe. L'utilisation de ce fichier unique permet de regrouper toutes les fonctionnalités et les utilitaires nécessaires en un seul endroit pratique. Cette approche facilite grandement la réutilisation du code, car les développeurs peuvent simplement inclure le fichier dans leurs projets et accéder aux fonctions nécessaires sans avoir à les chercher ni à les intégrer individuellement. Cela permet un gain de temps significatif et simplifie le processus de développement. L'utilisation d'un fichier unique pour rassembler des fonctions JavaScript utiles dans une boîte à outils présente de nombreux avantages, tels que la réutilisabilité du code, la cohérence du code, l'efficacité du développement et la gestion simplifiée des dépendances. Cette approche facilite le processus de développement et permet aux développeurs de se concentrer sur les aspects spécifiques de leurs projets, tout en bénéficiant de fonctionnalités préexistantes fiables et testées",
       },
       marqueeImages: [
         {
           images: {
             mobile: {
-              jpeg: [
-                GongjuMarquee01MobileBase,
-                GongjuMarquee01MobileRetina,
-              ],
+              jpeg: [GongjuMarquee01MobileBase, GongjuMarquee01MobileRetina],
               webp: [
                 GongjuMarquee01MobileBaseWebp,
                 GongjuMarquee01MobileRetinaWebp,
               ],
             },
             desktop: {
-              jpeg: [
-                GongjuMarquee01DesktopBase,
-                GongjuMarquee01DesktopRetina,
-              ],
+              jpeg: [GongjuMarquee01DesktopBase, GongjuMarquee01DesktopRetina],
               webp: [
                 GongjuMarquee01DesktopBaseWebp,
                 GongjuMarquee01DesktopRetinaWebp,
@@ -3706,20 +3483,14 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                GongjuMarquee02MobileBase,
-                GongjuMarquee02MobileRetina,
-              ],
+              jpeg: [GongjuMarquee02MobileBase, GongjuMarquee02MobileRetina],
               webp: [
                 GongjuMarquee02MobileBaseWebp,
                 GongjuMarquee02MobileRetinaWebp,
               ],
             },
             desktop: {
-              jpeg: [
-                GongjuMarquee02DesktopBase,
-                GongjuMarquee02DesktopRetina,
-              ],
+              jpeg: [GongjuMarquee02DesktopBase, GongjuMarquee02DesktopRetina],
               webp: [
                 GongjuMarquee02DesktopBaseWebp,
                 GongjuMarquee02DesktopRetinaWebp,
@@ -3735,20 +3506,14 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                GongjuMarquee03MobileBase,
-                GongjuMarquee03MobileRetina,
-              ],
+              jpeg: [GongjuMarquee03MobileBase, GongjuMarquee03MobileRetina],
               webp: [
                 GongjuMarquee03MobileBaseWebp,
                 GongjuMarquee03MobileRetinaWebp,
               ],
             },
             desktop: {
-              jpeg: [
-                GongjuMarquee03DesktopBase,
-                GongjuMarquee03DesktopRetina,
-              ],
+              jpeg: [GongjuMarquee03DesktopBase, GongjuMarquee03DesktopRetina],
               webp: [
                 GongjuMarquee03DesktopBaseWebp,
                 GongjuMarquee03DesktopRetinaWebp,
@@ -3764,20 +3529,14 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                GongjuMarquee04MobileBase,
-                GongjuMarquee04MobileRetina,
-              ],
+              jpeg: [GongjuMarquee04MobileBase, GongjuMarquee04MobileRetina],
               webp: [
                 GongjuMarquee04MobileBaseWebp,
                 GongjuMarquee04MobileRetinaWebp,
               ],
             },
             desktop: {
-              jpeg: [
-                GongjuMarquee04DesktopBase,
-                GongjuMarquee04DesktopRetina,
-              ],
+              jpeg: [GongjuMarquee04DesktopBase, GongjuMarquee04DesktopRetina],
               webp: [
                 GongjuMarquee04DesktopBaseWebp,
                 GongjuMarquee04DesktopRetinaWebp,
@@ -3793,20 +3552,14 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                GongjuMarquee05MobileBase,
-                GongjuMarquee05MobileRetina,
-              ],
+              jpeg: [GongjuMarquee05MobileBase, GongjuMarquee05MobileRetina],
               webp: [
                 GongjuMarquee05MobileBaseWebp,
                 GongjuMarquee05MobileRetinaWebp,
               ],
             },
             desktop: {
-              jpeg: [
-                GongjuMarquee05DesktopBase,
-                GongjuMarquee05DesktopRetina,
-              ],
+              jpeg: [GongjuMarquee05DesktopBase, GongjuMarquee05DesktopRetina],
               webp: [
                 GongjuMarquee05DesktopBaseWebp,
                 GongjuMarquee05DesktopRetinaWebp,
@@ -3822,20 +3575,14 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                GongjuMarquee06MobileBase,
-                GongjuMarquee06MobileRetina,
-              ],
+              jpeg: [GongjuMarquee06MobileBase, GongjuMarquee06MobileRetina],
               webp: [
                 GongjuMarquee06MobileBaseWebp,
                 GongjuMarquee06MobileRetinaWebp,
               ],
             },
             desktop: {
-              jpeg: [
-                GongjuMarquee06DesktopBase,
-                GongjuMarquee06DesktopRetina,
-              ],
+              jpeg: [GongjuMarquee06DesktopBase, GongjuMarquee06DesktopRetina],
               webp: [
                 GongjuMarquee06DesktopBaseWebp,
                 GongjuMarquee06DesktopRetinaWebp,
@@ -3851,20 +3598,14 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                GongjuMarquee07MobileBase,
-                GongjuMarquee07MobileRetina,
-              ],
+              jpeg: [GongjuMarquee07MobileBase, GongjuMarquee07MobileRetina],
               webp: [
                 GongjuMarquee07MobileBaseWebp,
                 GongjuMarquee07MobileRetinaWebp,
               ],
             },
             desktop: {
-              jpeg: [
-                GongjuMarquee07DesktopBase,
-                GongjuMarquee07DesktopRetina,
-              ],
+              jpeg: [GongjuMarquee07DesktopBase, GongjuMarquee07DesktopRetina],
               webp: [
                 GongjuMarquee07DesktopBaseWebp,
                 GongjuMarquee07DesktopRetinaWebp,
@@ -3880,20 +3621,14 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                GongjuMarquee08MobileBase,
-                GongjuMarquee08MobileRetina,
-              ],
+              jpeg: [GongjuMarquee08MobileBase, GongjuMarquee08MobileRetina],
               webp: [
                 GongjuMarquee08MobileBaseWebp,
                 GongjuMarquee08MobileRetinaWebp,
               ],
             },
             desktop: {
-              jpeg: [
-                GongjuMarquee08DesktopBase,
-                GongjuMarquee08DesktopRetina,
-              ],
+              jpeg: [GongjuMarquee08DesktopBase, GongjuMarquee08DesktopRetina],
               webp: [
                 GongjuMarquee08DesktopBaseWebp,
                 GongjuMarquee08DesktopRetinaWebp,
@@ -3909,20 +3644,14 @@ export default {
         {
           images: {
             mobile: {
-              jpeg: [
-                GongjuMarquee09MobileBase,
-                GongjuMarquee09MobileRetina,
-              ],
+              jpeg: [GongjuMarquee09MobileBase, GongjuMarquee09MobileRetina],
               webp: [
                 GongjuMarquee09MobileBaseWebp,
                 GongjuMarquee09MobileRetinaWebp,
               ],
             },
             desktop: {
-              jpeg: [
-                GongjuMarquee09DesktopBase,
-                GongjuMarquee09DesktopRetina,
-              ],
+              jpeg: [GongjuMarquee09DesktopBase, GongjuMarquee09DesktopRetina],
               webp: [
                 GongjuMarquee09DesktopBaseWebp,
                 GongjuMarquee09DesktopRetinaWebp,
@@ -3936,32 +3665,6 @@ export default {
           alternativeText: "Image de couverture du projet",
         },
       ],
-      process:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet. Sodales a sit aliquet dis. Tincidunt ut nunc leo cursus tempor. Pharetra bibendum magna viverra id. Lobortis non sed quis purus venenatis quis augue id.",
-      colorStory: {
-        paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet.",
-        colors: ["#172414", "#193614", "#276619", "#FFF1E4", "none", "none"],
-      },
-      lastImage: {
-        picture: {
-          images: {
-            mobile: {
-              jpeg: [GongjuLastMobileBase, GongjuLastMobileRetina],
-              webp: [GongjuLastMobileBaseWebp, GongjuLastMobileRetinaWebp],
-            },
-            desktop: {
-              jpeg: [GongjuLastDesktopBase, GongjuLastDesktopRetina],
-              webp: [GongjuLastDesktopBaseWebp, GongjuLastDesktopRetinaWebp],
-            },
-          },
-          lazy: {
-            desktop: GongjuLastDesktopLazy,
-            mobile: GongjuLastMobileLazy,
-          },
-          alternativeText: "UI",
-        },
-      },
     },
     {
       title: "WebC",
@@ -4024,8 +3727,8 @@ export default {
         },
       },
       projectDescription: {
-        title: "Une histoire qui dure depuis 1973",
-        goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus metus, mi cursus amet. Sit felis tellus praesent amet, suspendisse nisi at pretium. Tempus lectus facilisis nec viverra est, volutpat pulvinar non velit. Sem sit magna in augue libero ultrices. Elementum eros amet, vivamus id eget diam risus in mattis.",
+        title: "Optimiser les images",
+        goal: "Ce projet consiste en la création d'un web-component dédié aux images, utilisant les principes des responsive images, du lazy loading et intégrant une animation de parallaxe. Ce web-component offre une solution complète pour optimiser les images sur le web, en assurant une expérience visuelle cohérente, des performances de chargement améliorées et une interaction immersive avec les images. Il facilite la réutilisation du code, améliore la modularité et favorise une approche de développement centrée sur la performance et l'expérience utilisateur.",
       },
       marqueeImages: [
         {
@@ -4291,35 +3994,7 @@ export default {
         },
       ],
       process:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet. Sodales a sit aliquet dis. Tincidunt ut nunc leo cursus tempor. Pharetra bibendum magna viverra id. Lobortis non sed quis purus venenatis quis augue id.",
-      lastImage: {
-        picture: {
-          images: {
-            mobile: {
-              jpeg: [WebcomponentLastMobileBase, WebcomponentLastMobileRetina],
-              webp: [
-                WebcomponentLastMobileBaseWebp,
-                WebcomponentLastMobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [
-                WebcomponentLastDesktopBase,
-                WebcomponentLastDesktopRetina,
-              ],
-              webp: [
-                WebcomponentLastDesktopBaseWebp,
-                WebcomponentLastDesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: WebcomponentLastDesktopLazy,
-            mobile: WebcomponentLastMobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-      },
+        "Ce web-component spécifique pour les images utilise les responsive images pour s'assurer que les images s'adaptent de manière optimale à différents appareils et tailles d'écran. Cela garantit une expérience visuelle cohérente et optimisée pour les utilisateurs, quel que soit le dispositif utilisé. En plus des responsive images, ce web-component intègre également le lazy loading. Cette technique permet de différer le chargement des images jusqu'à ce qu'elles soient réellement nécessaires, ce qui améliore considérablement les performances de chargement de la page. Les images sont chargées progressivement à mesure que l'utilisateur fait défiler la page, réduisant ainsi le temps de chargement initial et améliorant l'expérience utilisateur globale. Enfin, ce web-component propose également une animation de parallaxe intégrée pour les images. La parallaxe crée une illusion de profondeur et de mouvement en superposant différents éléments visuels à des vitesses différentes lors du défilement de la page. Cela ajoute une dimension immersive et visuellement attrayante aux images, captivant ainsi l'attention des utilisateurs et rendant l'expérience plus engageante.",
     },
   ],
 };

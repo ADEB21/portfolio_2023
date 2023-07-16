@@ -1184,7 +1184,7 @@ export default {
             desktop: SccOutCoverLazy,
             mobile: SccOutCoverLazy,
           },
-          alternativeText: "Image de couverture du projet",
+          alternativeText: "Couverture du projet - SCC",
         },
       },
       inCover: {
@@ -1203,12 +1203,12 @@ export default {
             desktop: SccInCoverDesktopLazy,
             mobile: SccInCoverMobileLazy,
           },
-          alternativeText: "Image de couverture du projet",
+          alternativeText: "Couverture du projet - SCC",
         },
       },
       projectDescription: {
-        title: "Une histoire qui dure depuis 1973",
-        goal: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus metus, mi cursus amet. Sit felis tellus praesent amet, suspendisse nisi at pretium. Tempus lectus facilisis nec viverra est, volutpat pulvinar non velit. Sem sit magna in augue libero ultrices. Elementum eros amet, vivamus id eget diam risus in mattis.",
+        title: "L'avenir avec SCC France",
+        goal: "La refonte complète de l'UI et de l'UX du site web de SCC France : une transformation moderne pour une expérience utilisateur optimisée. SCC France souhaitait moderniser son site internet, qui avait déjà quelques années d'ancienneté, afin de refléter sa nouvelle identité visuelle et d'offrir une expérience utilisateur améliorée. Ils avaient besoin d'un système de gestion de contenu (CMS) plus simple d'utilisation pour créer et gérer facilement les pages du site.",
       },
       marqueeImages: [
         {
@@ -1474,10 +1474,10 @@ export default {
         },
       ],
       process:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet. Sodales a sit aliquet dis. Tincidunt ut nunc leo cursus tempor. Pharetra bibendum magna viverra id. Lobortis non sed quis purus venenatis quis augue id.",
+        "Le site de SCC France a été développé en utilisant plusieurs technologies avancées telles que Lerna.js, Sanity CMS, React, Astro, et en suivant la méthodologie de l'Atomic Design. Ces technologies ont permis de créer une expérience utilisateur dynamique, une gestion efficace du contenu et une structure modulaire pour faciliter la maintenance et l'évolutivité du site.",
       colorStory: {
         paragraph:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis euismod ipsum orci urna luctus arcu. Sodales lectus imperdiet sagittis eros, ornare quis. Sagittis egestas convallis pellentesque eget lectus id amet.",
+          "Le bleu est souvent associé à des valeurs telles que la confiance, la stabilité et la sérénité. En choisissant cette couleur, SCC France souhaite transmettre un sentiment de fiabilité et de professionnalisme à ses clients.",
         colors: [
           "#0F0F0F",
           "#4F4F4F",

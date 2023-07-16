@@ -9,6 +9,7 @@ import ColorStory from "../../components/organisms/ColorStory/Index";
 import LastImage from "../../components/molecules/LastImage/Index";
 import NextProject from "../../components/organisms/NextProject/Index";
 import Footer from "../../components/molecules/Footer/Index";
+import ProcessSection from "../../components/organisms/ProcessSection/Index"
 
 export function getStaticPaths() {
   return data.projects.map((p, index) => {
@@ -43,6 +44,7 @@ const { slug } = Astro.params;
       goal={p.projectDescription.goal}
     />
     <MarqueePicture marqueeImages={p.marqueeImages} client:load />
+    <ProcessSection subTitle={p.process}/>
     {
       p.colorStory && (
         <ColorStory

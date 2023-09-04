@@ -1,5 +1,6 @@
 import React from "react";
 import barba from "@barba/core";
+import barbaPrefetch from "@barba/prefetch"
 import axios from "axios";
 import gsap from "gsap";
 import TransitionPageStyle from "./transitionPage.module.scss";
@@ -216,6 +217,7 @@ const TransitionPage = () => {
   };
 
   React.useEffect(() => {
+    barba.use(barbaPrefetch);
     barba.init({
       sync: true,
       transitions: [defaultTransition, projectTransition],

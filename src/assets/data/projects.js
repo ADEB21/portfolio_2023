@@ -3404,597 +3404,597 @@ export default {
         },
       },
     },
-    {
-      title: "Gongju",
-      slug: "gongju",
-      date: "2023",
-      outCover: {
-        picture: {
-          images: {
-            mobile: {
-              jpeg: [GongjuOutCoverBase, GongjuOutCoverRetina],
-              webp: [GongjuOutCoverBaseWebp, GongjuOutCoverRetinaWebp],
-            },
-            desktop: {
-              jpeg: [GongjuOutCoverBase, GongjuOutCoverRetina],
-              webp: [GongjuOutCoverBaseWebp, GongjuOutCoverRetinaWebp],
-            },
-          },
-          lazy: {
-            desktop: GongjuOutCoverLazy,
-            mobile: GongjuOutCoverLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-      },
-      inCover: {
-        picture: {
-          images: {
-            mobile: {
-              jpeg: [GongjuInCoverMobileBase, GongjuInCoverMobileRetina],
-              webp: [
-                GongjuInCoverMobileBaseWebp,
-                GongjuInCoverMobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [GongjuInCoverDesktopBase, GongjuInCoverDesktopRetina],
-              webp: [
-                GongjuInCoverDesktopBaseWebp,
-                GongjuInCoverDesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: GongjuInCoverDesktopLazy,
-            mobile: GongjuInCoverMobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-      },
-      projectDescription: {
-        title: "Une boite à outils",
-        goal: "Gongju est la boîte à outils des développeurs de Bihua, et elle sert également de guide pour les nouveaux membres de l'équipe. L'utilisation de ce fichier unique permet de regrouper toutes les fonctionnalités et les utilitaires nécessaires en un seul endroit pratique. Cette approche facilite grandement la réutilisation du code, car les développeurs peuvent simplement inclure le fichier dans leurs projets et accéder aux fonctions nécessaires sans avoir à les chercher ni à les intégrer individuellement. Cela permet un gain de temps significatif et simplifie le processus de développement. L'utilisation d'un fichier unique pour rassembler des fonctions JavaScript utiles dans une boîte à outils présente de nombreux avantages, tels que la réutilisabilité du code, la cohérence du code, l'efficacité du développement et la gestion simplifiée des dépendances. Cette approche facilite le processus de développement et permet aux développeurs de se concentrer sur les aspects spécifiques de leurs projets, tout en bénéficiant de fonctionnalités préexistantes fiables et testées",
-      },
-      marqueeImages: [
-        {
-          images: {
-            mobile: {
-              jpeg: [GongjuMarquee01MobileBase, GongjuMarquee01MobileRetina],
-              webp: [
-                GongjuMarquee01MobileBaseWebp,
-                GongjuMarquee01MobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [GongjuMarquee01DesktopBase, GongjuMarquee01DesktopRetina],
-              webp: [
-                GongjuMarquee01DesktopBaseWebp,
-                GongjuMarquee01DesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: GongjuMarquee01DesktopLazy,
-            mobile: GongjuMarquee01MobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-        {
-          images: {
-            mobile: {
-              jpeg: [GongjuMarquee02MobileBase, GongjuMarquee02MobileRetina],
-              webp: [
-                GongjuMarquee02MobileBaseWebp,
-                GongjuMarquee02MobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [GongjuMarquee02DesktopBase, GongjuMarquee02DesktopRetina],
-              webp: [
-                GongjuMarquee02DesktopBaseWebp,
-                GongjuMarquee02DesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: GongjuMarquee02DesktopLazy,
-            mobile: GongjuMarquee02MobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-        {
-          images: {
-            mobile: {
-              jpeg: [GongjuMarquee03MobileBase, GongjuMarquee03MobileRetina],
-              webp: [
-                GongjuMarquee03MobileBaseWebp,
-                GongjuMarquee03MobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [GongjuMarquee03DesktopBase, GongjuMarquee03DesktopRetina],
-              webp: [
-                GongjuMarquee03DesktopBaseWebp,
-                GongjuMarquee03DesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: GongjuMarquee03DesktopLazy,
-            mobile: GongjuMarquee03MobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-        {
-          images: {
-            mobile: {
-              jpeg: [GongjuMarquee04MobileBase, GongjuMarquee04MobileRetina],
-              webp: [
-                GongjuMarquee04MobileBaseWebp,
-                GongjuMarquee04MobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [GongjuMarquee04DesktopBase, GongjuMarquee04DesktopRetina],
-              webp: [
-                GongjuMarquee04DesktopBaseWebp,
-                GongjuMarquee04DesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: GongjuMarquee04DesktopLazy,
-            mobile: GongjuMarquee04MobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-        {
-          images: {
-            mobile: {
-              jpeg: [GongjuMarquee05MobileBase, GongjuMarquee05MobileRetina],
-              webp: [
-                GongjuMarquee05MobileBaseWebp,
-                GongjuMarquee05MobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [GongjuMarquee05DesktopBase, GongjuMarquee05DesktopRetina],
-              webp: [
-                GongjuMarquee05DesktopBaseWebp,
-                GongjuMarquee05DesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: GongjuMarquee05DesktopLazy,
-            mobile: GongjuMarquee05MobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-        {
-          images: {
-            mobile: {
-              jpeg: [GongjuMarquee06MobileBase, GongjuMarquee06MobileRetina],
-              webp: [
-                GongjuMarquee06MobileBaseWebp,
-                GongjuMarquee06MobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [GongjuMarquee06DesktopBase, GongjuMarquee06DesktopRetina],
-              webp: [
-                GongjuMarquee06DesktopBaseWebp,
-                GongjuMarquee06DesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: GongjuMarquee06DesktopLazy,
-            mobile: GongjuMarquee06MobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-        {
-          images: {
-            mobile: {
-              jpeg: [GongjuMarquee07MobileBase, GongjuMarquee07MobileRetina],
-              webp: [
-                GongjuMarquee07MobileBaseWebp,
-                GongjuMarquee07MobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [GongjuMarquee07DesktopBase, GongjuMarquee07DesktopRetina],
-              webp: [
-                GongjuMarquee07DesktopBaseWebp,
-                GongjuMarquee07DesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: GongjuMarquee07DesktopLazy,
-            mobile: GongjuMarquee07MobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-        {
-          images: {
-            mobile: {
-              jpeg: [GongjuMarquee08MobileBase, GongjuMarquee08MobileRetina],
-              webp: [
-                GongjuMarquee08MobileBaseWebp,
-                GongjuMarquee08MobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [GongjuMarquee08DesktopBase, GongjuMarquee08DesktopRetina],
-              webp: [
-                GongjuMarquee08DesktopBaseWebp,
-                GongjuMarquee08DesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: GongjuMarquee08DesktopLazy,
-            mobile: GongjuMarquee08MobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-        {
-          images: {
-            mobile: {
-              jpeg: [GongjuMarquee09MobileBase, GongjuMarquee09MobileRetina],
-              webp: [
-                GongjuMarquee09MobileBaseWebp,
-                GongjuMarquee09MobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [GongjuMarquee09DesktopBase, GongjuMarquee09DesktopRetina],
-              webp: [
-                GongjuMarquee09DesktopBaseWebp,
-                GongjuMarquee09DesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: GongjuMarquee09DesktopLazy,
-            mobile: GongjuMarquee09MobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-      ],
-    },
-    {
-      title: "WebC",
-      slug: "webc",
-      date: "2023",
-      outCover: {
-        picture: {
-          images: {
-            mobile: {
-              jpeg: [WebcomponentOutCoverBase, WebcomponentOutCoverRetina],
-              webp: [
-                WebcomponentOutCoverBaseWebp,
-                WebcomponentOutCoverRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [WebcomponentOutCoverBase, WebcomponentOutCoverRetina],
-              webp: [
-                WebcomponentOutCoverBaseWebp,
-                WebcomponentOutCoverRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: WebcomponentOutCoverLazy,
-            mobile: WebcomponentOutCoverLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-      },
-      inCover: {
-        picture: {
-          images: {
-            mobile: {
-              jpeg: [
-                WebcomponentInCoverMobileBase,
-                WebcomponentInCoverMobileRetina,
-              ],
-              webp: [
-                WebcomponentInCoverMobileBaseWebp,
-                WebcomponentInCoverMobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [
-                WebcomponentInCoverDesktopBase,
-                WebcomponentInCoverDesktopRetina,
-              ],
-              webp: [
-                WebcomponentInCoverDesktopBaseWebp,
-                WebcomponentInCoverDesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: WebcomponentInCoverDesktopLazy,
-            mobile: WebcomponentInCoverMobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-      },
-      projectDescription: {
-        title: "Optimiser les images",
-        goal: "Ce projet consiste en la création d'un web-component dédié aux images, utilisant les principes des responsive images, du lazy loading et intégrant une animation de parallaxe. Ce web-component offre une solution complète pour optimiser les images sur le web, en assurant une expérience visuelle cohérente, des performances de chargement améliorées et une interaction immersive avec les images. Il facilite la réutilisation du code, améliore la modularité et favorise une approche de développement centrée sur la performance et l'expérience utilisateur.",
-      },
-      marqueeImages: [
-        {
-          images: {
-            mobile: {
-              jpeg: [
-                WebComponentMarquee01MobileBase,
-                WebComponentMarquee01MobileRetina,
-              ],
-              webp: [
-                WebComponentMarquee01MobileBaseWebp,
-                WebComponentMarquee01MobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [
-                WebComponentMarquee01DesktopBase,
-                WebComponentMarquee01DesktopRetina,
-              ],
-              webp: [
-                WebComponentMarquee01DesktopBaseWebp,
-                WebComponentMarquee01DesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: WebComponentMarquee01DesktopLazy,
-            mobile: WebComponentMarquee01MobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-        {
-          images: {
-            mobile: {
-              jpeg: [
-                WebComponentMarquee02MobileBase,
-                WebComponentMarquee02MobileRetina,
-              ],
-              webp: [
-                WebComponentMarquee02MobileBaseWebp,
-                WebComponentMarquee02MobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [
-                WebComponentMarquee02DesktopBase,
-                WebComponentMarquee02DesktopRetina,
-              ],
-              webp: [
-                WebComponentMarquee02DesktopBaseWebp,
-                WebComponentMarquee02DesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: WebComponentMarquee02DesktopLazy,
-            mobile: WebComponentMarquee02MobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-        {
-          images: {
-            mobile: {
-              jpeg: [
-                WebComponentMarquee03MobileBase,
-                WebComponentMarquee03MobileRetina,
-              ],
-              webp: [
-                WebComponentMarquee03MobileBaseWebp,
-                WebComponentMarquee03MobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [
-                WebComponentMarquee03DesktopBase,
-                WebComponentMarquee03DesktopRetina,
-              ],
-              webp: [
-                WebComponentMarquee03DesktopBaseWebp,
-                WebComponentMarquee03DesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: WebComponentMarquee03DesktopLazy,
-            mobile: WebComponentMarquee03MobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-        {
-          images: {
-            mobile: {
-              jpeg: [
-                WebComponentMarquee04MobileBase,
-                WebComponentMarquee04MobileRetina,
-              ],
-              webp: [
-                WebComponentMarquee04MobileBaseWebp,
-                WebComponentMarquee04MobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [
-                WebComponentMarquee04DesktopBase,
-                WebComponentMarquee04DesktopRetina,
-              ],
-              webp: [
-                WebComponentMarquee04DesktopBaseWebp,
-                WebComponentMarquee04DesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: WebComponentMarquee04DesktopLazy,
-            mobile: WebComponentMarquee04MobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-        {
-          images: {
-            mobile: {
-              jpeg: [
-                WebComponentMarquee05MobileBase,
-                WebComponentMarquee05MobileRetina,
-              ],
-              webp: [
-                WebComponentMarquee05MobileBaseWebp,
-                WebComponentMarquee05MobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [
-                WebComponentMarquee05DesktopBase,
-                WebComponentMarquee05DesktopRetina,
-              ],
-              webp: [
-                WebComponentMarquee05DesktopBaseWebp,
-                WebComponentMarquee05DesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: WebComponentMarquee05DesktopLazy,
-            mobile: WebComponentMarquee05MobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-        {
-          images: {
-            mobile: {
-              jpeg: [
-                WebComponentMarquee06MobileBase,
-                WebComponentMarquee06MobileRetina,
-              ],
-              webp: [
-                WebComponentMarquee06MobileBaseWebp,
-                WebComponentMarquee06MobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [
-                WebComponentMarquee06DesktopBase,
-                WebComponentMarquee06DesktopRetina,
-              ],
-              webp: [
-                WebComponentMarquee06DesktopBaseWebp,
-                WebComponentMarquee06DesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: WebComponentMarquee06DesktopLazy,
-            mobile: WebComponentMarquee06MobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-        {
-          images: {
-            mobile: {
-              jpeg: [
-                WebComponentMarquee07MobileBase,
-                WebComponentMarquee07MobileRetina,
-              ],
-              webp: [
-                WebComponentMarquee07MobileBaseWebp,
-                WebComponentMarquee07MobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [
-                WebComponentMarquee07DesktopBase,
-                WebComponentMarquee07DesktopRetina,
-              ],
-              webp: [
-                WebComponentMarquee07DesktopBaseWebp,
-                WebComponentMarquee07DesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: WebComponentMarquee07DesktopLazy,
-            mobile: WebComponentMarquee07MobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-        {
-          images: {
-            mobile: {
-              jpeg: [
-                WebComponentMarquee08MobileBase,
-                WebComponentMarquee08MobileRetina,
-              ],
-              webp: [
-                WebComponentMarquee08MobileBaseWebp,
-                WebComponentMarquee08MobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [
-                WebComponentMarquee08DesktopBase,
-                WebComponentMarquee08DesktopRetina,
-              ],
-              webp: [
-                WebComponentMarquee08DesktopBaseWebp,
-                WebComponentMarquee08DesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: WebComponentMarquee08DesktopLazy,
-            mobile: WebComponentMarquee08MobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-        {
-          images: {
-            mobile: {
-              jpeg: [
-                WebComponentMarquee09MobileBase,
-                WebComponentMarquee09MobileRetina,
-              ],
-              webp: [
-                WebComponentMarquee09MobileBaseWebp,
-                WebComponentMarquee09MobileRetinaWebp,
-              ],
-            },
-            desktop: {
-              jpeg: [
-                WebComponentMarquee09DesktopBase,
-                WebComponentMarquee09DesktopRetina,
-              ],
-              webp: [
-                WebComponentMarquee09DesktopBaseWebp,
-                WebComponentMarquee09DesktopRetinaWebp,
-              ],
-            },
-          },
-          lazy: {
-            desktop: WebComponentMarquee09DesktopLazy,
-            mobile: WebComponentMarquee09MobileLazy,
-          },
-          alternativeText: "Image de couverture du projet",
-        },
-      ],
-      process:
-        "Ce web-component spécifique pour les images utilise les responsive images pour s'assurer que les images s'adaptent de manière optimale à différents appareils et tailles d'écran. Cela garantit une expérience visuelle cohérente et optimisée pour les utilisateurs, quel que soit le dispositif utilisé. En plus des responsive images, ce web-component intègre également le lazy loading. Cette technique permet de différer le chargement des images jusqu'à ce qu'elles soient réellement nécessaires, ce qui améliore considérablement les performances de chargement de la page. Les images sont chargées progressivement à mesure que l'utilisateur fait défiler la page, réduisant ainsi le temps de chargement initial et améliorant l'expérience utilisateur globale. Enfin, ce web-component propose également une animation de parallaxe intégrée pour les images. La parallaxe crée une illusion de profondeur et de mouvement en superposant différents éléments visuels à des vitesses différentes lors du défilement de la page. Cela ajoute une dimension immersive et visuellement attrayante aux images, captivant ainsi l'attention des utilisateurs et rendant l'expérience plus engageante.",
-    },
+    // {
+    //   title: "Gongju",
+    //   slug: "gongju",
+    //   date: "2023",
+    //   outCover: {
+    //     picture: {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [GongjuOutCoverBase, GongjuOutCoverRetina],
+    //           webp: [GongjuOutCoverBaseWebp, GongjuOutCoverRetinaWebp],
+    //         },
+    //         desktop: {
+    //           jpeg: [GongjuOutCoverBase, GongjuOutCoverRetina],
+    //           webp: [GongjuOutCoverBaseWebp, GongjuOutCoverRetinaWebp],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: GongjuOutCoverLazy,
+    //         mobile: GongjuOutCoverLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //   },
+    //   inCover: {
+    //     picture: {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [GongjuInCoverMobileBase, GongjuInCoverMobileRetina],
+    //           webp: [
+    //             GongjuInCoverMobileBaseWebp,
+    //             GongjuInCoverMobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [GongjuInCoverDesktopBase, GongjuInCoverDesktopRetina],
+    //           webp: [
+    //             GongjuInCoverDesktopBaseWebp,
+    //             GongjuInCoverDesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: GongjuInCoverDesktopLazy,
+    //         mobile: GongjuInCoverMobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //   },
+    //   projectDescription: {
+    //     title: "Une boite à outils",
+    //     goal: "Gongju est la boîte à outils des développeurs de Bihua, et elle sert également de guide pour les nouveaux membres de l'équipe. L'utilisation de ce fichier unique permet de regrouper toutes les fonctionnalités et les utilitaires nécessaires en un seul endroit pratique. Cette approche facilite grandement la réutilisation du code, car les développeurs peuvent simplement inclure le fichier dans leurs projets et accéder aux fonctions nécessaires sans avoir à les chercher ni à les intégrer individuellement. Cela permet un gain de temps significatif et simplifie le processus de développement. L'utilisation d'un fichier unique pour rassembler des fonctions JavaScript utiles dans une boîte à outils présente de nombreux avantages, tels que la réutilisabilité du code, la cohérence du code, l'efficacité du développement et la gestion simplifiée des dépendances. Cette approche facilite le processus de développement et permet aux développeurs de se concentrer sur les aspects spécifiques de leurs projets, tout en bénéficiant de fonctionnalités préexistantes fiables et testées",
+    //   },
+    //   marqueeImages: [
+    //     {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [GongjuMarquee01MobileBase, GongjuMarquee01MobileRetina],
+    //           webp: [
+    //             GongjuMarquee01MobileBaseWebp,
+    //             GongjuMarquee01MobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [GongjuMarquee01DesktopBase, GongjuMarquee01DesktopRetina],
+    //           webp: [
+    //             GongjuMarquee01DesktopBaseWebp,
+    //             GongjuMarquee01DesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: GongjuMarquee01DesktopLazy,
+    //         mobile: GongjuMarquee01MobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //     {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [GongjuMarquee02MobileBase, GongjuMarquee02MobileRetina],
+    //           webp: [
+    //             GongjuMarquee02MobileBaseWebp,
+    //             GongjuMarquee02MobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [GongjuMarquee02DesktopBase, GongjuMarquee02DesktopRetina],
+    //           webp: [
+    //             GongjuMarquee02DesktopBaseWebp,
+    //             GongjuMarquee02DesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: GongjuMarquee02DesktopLazy,
+    //         mobile: GongjuMarquee02MobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //     {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [GongjuMarquee03MobileBase, GongjuMarquee03MobileRetina],
+    //           webp: [
+    //             GongjuMarquee03MobileBaseWebp,
+    //             GongjuMarquee03MobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [GongjuMarquee03DesktopBase, GongjuMarquee03DesktopRetina],
+    //           webp: [
+    //             GongjuMarquee03DesktopBaseWebp,
+    //             GongjuMarquee03DesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: GongjuMarquee03DesktopLazy,
+    //         mobile: GongjuMarquee03MobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //     {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [GongjuMarquee04MobileBase, GongjuMarquee04MobileRetina],
+    //           webp: [
+    //             GongjuMarquee04MobileBaseWebp,
+    //             GongjuMarquee04MobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [GongjuMarquee04DesktopBase, GongjuMarquee04DesktopRetina],
+    //           webp: [
+    //             GongjuMarquee04DesktopBaseWebp,
+    //             GongjuMarquee04DesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: GongjuMarquee04DesktopLazy,
+    //         mobile: GongjuMarquee04MobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //     {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [GongjuMarquee05MobileBase, GongjuMarquee05MobileRetina],
+    //           webp: [
+    //             GongjuMarquee05MobileBaseWebp,
+    //             GongjuMarquee05MobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [GongjuMarquee05DesktopBase, GongjuMarquee05DesktopRetina],
+    //           webp: [
+    //             GongjuMarquee05DesktopBaseWebp,
+    //             GongjuMarquee05DesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: GongjuMarquee05DesktopLazy,
+    //         mobile: GongjuMarquee05MobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //     {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [GongjuMarquee06MobileBase, GongjuMarquee06MobileRetina],
+    //           webp: [
+    //             GongjuMarquee06MobileBaseWebp,
+    //             GongjuMarquee06MobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [GongjuMarquee06DesktopBase, GongjuMarquee06DesktopRetina],
+    //           webp: [
+    //             GongjuMarquee06DesktopBaseWebp,
+    //             GongjuMarquee06DesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: GongjuMarquee06DesktopLazy,
+    //         mobile: GongjuMarquee06MobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //     {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [GongjuMarquee07MobileBase, GongjuMarquee07MobileRetina],
+    //           webp: [
+    //             GongjuMarquee07MobileBaseWebp,
+    //             GongjuMarquee07MobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [GongjuMarquee07DesktopBase, GongjuMarquee07DesktopRetina],
+    //           webp: [
+    //             GongjuMarquee07DesktopBaseWebp,
+    //             GongjuMarquee07DesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: GongjuMarquee07DesktopLazy,
+    //         mobile: GongjuMarquee07MobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //     {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [GongjuMarquee08MobileBase, GongjuMarquee08MobileRetina],
+    //           webp: [
+    //             GongjuMarquee08MobileBaseWebp,
+    //             GongjuMarquee08MobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [GongjuMarquee08DesktopBase, GongjuMarquee08DesktopRetina],
+    //           webp: [
+    //             GongjuMarquee08DesktopBaseWebp,
+    //             GongjuMarquee08DesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: GongjuMarquee08DesktopLazy,
+    //         mobile: GongjuMarquee08MobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //     {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [GongjuMarquee09MobileBase, GongjuMarquee09MobileRetina],
+    //           webp: [
+    //             GongjuMarquee09MobileBaseWebp,
+    //             GongjuMarquee09MobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [GongjuMarquee09DesktopBase, GongjuMarquee09DesktopRetina],
+    //           webp: [
+    //             GongjuMarquee09DesktopBaseWebp,
+    //             GongjuMarquee09DesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: GongjuMarquee09DesktopLazy,
+    //         mobile: GongjuMarquee09MobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "WebC",
+    //   slug: "webc",
+    //   date: "2023",
+    //   outCover: {
+    //     picture: {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [WebcomponentOutCoverBase, WebcomponentOutCoverRetina],
+    //           webp: [
+    //             WebcomponentOutCoverBaseWebp,
+    //             WebcomponentOutCoverRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [WebcomponentOutCoverBase, WebcomponentOutCoverRetina],
+    //           webp: [
+    //             WebcomponentOutCoverBaseWebp,
+    //             WebcomponentOutCoverRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: WebcomponentOutCoverLazy,
+    //         mobile: WebcomponentOutCoverLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //   },
+    //   inCover: {
+    //     picture: {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [
+    //             WebcomponentInCoverMobileBase,
+    //             WebcomponentInCoverMobileRetina,
+    //           ],
+    //           webp: [
+    //             WebcomponentInCoverMobileBaseWebp,
+    //             WebcomponentInCoverMobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [
+    //             WebcomponentInCoverDesktopBase,
+    //             WebcomponentInCoverDesktopRetina,
+    //           ],
+    //           webp: [
+    //             WebcomponentInCoverDesktopBaseWebp,
+    //             WebcomponentInCoverDesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: WebcomponentInCoverDesktopLazy,
+    //         mobile: WebcomponentInCoverMobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //   },
+    //   projectDescription: {
+    //     title: "Optimiser les images",
+    //     goal: "Ce projet consiste en la création d'un web-component dédié aux images, utilisant les principes des responsive images, du lazy loading et intégrant une animation de parallaxe. Ce web-component offre une solution complète pour optimiser les images sur le web, en assurant une expérience visuelle cohérente, des performances de chargement améliorées et une interaction immersive avec les images. Il facilite la réutilisation du code, améliore la modularité et favorise une approche de développement centrée sur la performance et l'expérience utilisateur.",
+    //   },
+    //   marqueeImages: [
+    //     {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [
+    //             WebComponentMarquee01MobileBase,
+    //             WebComponentMarquee01MobileRetina,
+    //           ],
+    //           webp: [
+    //             WebComponentMarquee01MobileBaseWebp,
+    //             WebComponentMarquee01MobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [
+    //             WebComponentMarquee01DesktopBase,
+    //             WebComponentMarquee01DesktopRetina,
+    //           ],
+    //           webp: [
+    //             WebComponentMarquee01DesktopBaseWebp,
+    //             WebComponentMarquee01DesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: WebComponentMarquee01DesktopLazy,
+    //         mobile: WebComponentMarquee01MobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //     {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [
+    //             WebComponentMarquee02MobileBase,
+    //             WebComponentMarquee02MobileRetina,
+    //           ],
+    //           webp: [
+    //             WebComponentMarquee02MobileBaseWebp,
+    //             WebComponentMarquee02MobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [
+    //             WebComponentMarquee02DesktopBase,
+    //             WebComponentMarquee02DesktopRetina,
+    //           ],
+    //           webp: [
+    //             WebComponentMarquee02DesktopBaseWebp,
+    //             WebComponentMarquee02DesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: WebComponentMarquee02DesktopLazy,
+    //         mobile: WebComponentMarquee02MobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //     {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [
+    //             WebComponentMarquee03MobileBase,
+    //             WebComponentMarquee03MobileRetina,
+    //           ],
+    //           webp: [
+    //             WebComponentMarquee03MobileBaseWebp,
+    //             WebComponentMarquee03MobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [
+    //             WebComponentMarquee03DesktopBase,
+    //             WebComponentMarquee03DesktopRetina,
+    //           ],
+    //           webp: [
+    //             WebComponentMarquee03DesktopBaseWebp,
+    //             WebComponentMarquee03DesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: WebComponentMarquee03DesktopLazy,
+    //         mobile: WebComponentMarquee03MobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //     {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [
+    //             WebComponentMarquee04MobileBase,
+    //             WebComponentMarquee04MobileRetina,
+    //           ],
+    //           webp: [
+    //             WebComponentMarquee04MobileBaseWebp,
+    //             WebComponentMarquee04MobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [
+    //             WebComponentMarquee04DesktopBase,
+    //             WebComponentMarquee04DesktopRetina,
+    //           ],
+    //           webp: [
+    //             WebComponentMarquee04DesktopBaseWebp,
+    //             WebComponentMarquee04DesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: WebComponentMarquee04DesktopLazy,
+    //         mobile: WebComponentMarquee04MobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //     {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [
+    //             WebComponentMarquee05MobileBase,
+    //             WebComponentMarquee05MobileRetina,
+    //           ],
+    //           webp: [
+    //             WebComponentMarquee05MobileBaseWebp,
+    //             WebComponentMarquee05MobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [
+    //             WebComponentMarquee05DesktopBase,
+    //             WebComponentMarquee05DesktopRetina,
+    //           ],
+    //           webp: [
+    //             WebComponentMarquee05DesktopBaseWebp,
+    //             WebComponentMarquee05DesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: WebComponentMarquee05DesktopLazy,
+    //         mobile: WebComponentMarquee05MobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //     {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [
+    //             WebComponentMarquee06MobileBase,
+    //             WebComponentMarquee06MobileRetina,
+    //           ],
+    //           webp: [
+    //             WebComponentMarquee06MobileBaseWebp,
+    //             WebComponentMarquee06MobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [
+    //             WebComponentMarquee06DesktopBase,
+    //             WebComponentMarquee06DesktopRetina,
+    //           ],
+    //           webp: [
+    //             WebComponentMarquee06DesktopBaseWebp,
+    //             WebComponentMarquee06DesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: WebComponentMarquee06DesktopLazy,
+    //         mobile: WebComponentMarquee06MobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //     {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [
+    //             WebComponentMarquee07MobileBase,
+    //             WebComponentMarquee07MobileRetina,
+    //           ],
+    //           webp: [
+    //             WebComponentMarquee07MobileBaseWebp,
+    //             WebComponentMarquee07MobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [
+    //             WebComponentMarquee07DesktopBase,
+    //             WebComponentMarquee07DesktopRetina,
+    //           ],
+    //           webp: [
+    //             WebComponentMarquee07DesktopBaseWebp,
+    //             WebComponentMarquee07DesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: WebComponentMarquee07DesktopLazy,
+    //         mobile: WebComponentMarquee07MobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //     {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [
+    //             WebComponentMarquee08MobileBase,
+    //             WebComponentMarquee08MobileRetina,
+    //           ],
+    //           webp: [
+    //             WebComponentMarquee08MobileBaseWebp,
+    //             WebComponentMarquee08MobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [
+    //             WebComponentMarquee08DesktopBase,
+    //             WebComponentMarquee08DesktopRetina,
+    //           ],
+    //           webp: [
+    //             WebComponentMarquee08DesktopBaseWebp,
+    //             WebComponentMarquee08DesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: WebComponentMarquee08DesktopLazy,
+    //         mobile: WebComponentMarquee08MobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //     {
+    //       images: {
+    //         mobile: {
+    //           jpeg: [
+    //             WebComponentMarquee09MobileBase,
+    //             WebComponentMarquee09MobileRetina,
+    //           ],
+    //           webp: [
+    //             WebComponentMarquee09MobileBaseWebp,
+    //             WebComponentMarquee09MobileRetinaWebp,
+    //           ],
+    //         },
+    //         desktop: {
+    //           jpeg: [
+    //             WebComponentMarquee09DesktopBase,
+    //             WebComponentMarquee09DesktopRetina,
+    //           ],
+    //           webp: [
+    //             WebComponentMarquee09DesktopBaseWebp,
+    //             WebComponentMarquee09DesktopRetinaWebp,
+    //           ],
+    //         },
+    //       },
+    //       lazy: {
+    //         desktop: WebComponentMarquee09DesktopLazy,
+    //         mobile: WebComponentMarquee09MobileLazy,
+    //       },
+    //       alternativeText: "Image de couverture du projet",
+    //     },
+    //   ],
+    //   process:
+    //     "Ce web-component spécifique pour les images utilise les responsive images pour s'assurer que les images s'adaptent de manière optimale à différents appareils et tailles d'écran. Cela garantit une expérience visuelle cohérente et optimisée pour les utilisateurs, quel que soit le dispositif utilisé. En plus des responsive images, ce web-component intègre également le lazy loading. Cette technique permet de différer le chargement des images jusqu'à ce qu'elles soient réellement nécessaires, ce qui améliore considérablement les performances de chargement de la page. Les images sont chargées progressivement à mesure que l'utilisateur fait défiler la page, réduisant ainsi le temps de chargement initial et améliorant l'expérience utilisateur globale. Enfin, ce web-component propose également une animation de parallaxe intégrée pour les images. La parallaxe crée une illusion de profondeur et de mouvement en superposant différents éléments visuels à des vitesses différentes lors du défilement de la page. Cela ajoute une dimension immersive et visuellement attrayante aux images, captivant ainsi l'attention des utilisateurs et rendant l'expérience plus engageante.",
+    // },
   ],
 };

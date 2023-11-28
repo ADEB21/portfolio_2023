@@ -26,7 +26,7 @@ const Index = () => {
 
   const loaderStyle = {
     transform: completed ? "translateY(-100%)" : "none",
-    transition: "transform 0.5s ease",
+    transition: "transform .8s ease-out",
   };
 
   return (

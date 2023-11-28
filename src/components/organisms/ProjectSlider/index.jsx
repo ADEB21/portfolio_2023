@@ -86,7 +86,7 @@ const index = () => {
   return (
     <section ref={slider} className={`ad_projectSlider-container ${ProjectSliderStyle.ad_projectSlider}`}>
       <ul className="bi_home-slider-content">
-        {projectsData.projects.map((p, index) => {
+        {projectsData.projects.sort((a, b) => new Date(b.date) - new Date(a.date)).map((p, index) => {
           return (
             <li key={index}>
               <ProjectCard

@@ -11,25 +11,25 @@ const Index = () => {
   return (
     <form className={FormStyle.ad_form} onSubmit={handleSubmit}>
       <label htmlFor="firstName">Prénom</label>
-      <input id="firstName" type="text" name="Prénom" />
+      <input id="firstName" type="text" placeholder="John" name="Prénom" />
       <ValidationError
         prefix="FirstName"
         field="firstName"
         errors={state.errors}
       />
       <label htmlFor="lastName">Nom</label>
-      <input id="lastName" type="text" name="Nom" />
+      <input id="lastName" type="text" placeholder="Doe" name="Nom" />
       <ValidationError
         prefix="LastName"
         field="lastName"
         errors={state.errors}
       />
       <label htmlFor="email">Email</label>
-      <input id="email" type="email" name="Email" />
+      <input id="email" type="email"  placeholder="john.doe@exemple.com" name="Email" />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
 
       <label htmlFor="email">Sujet</label>
-      <input id="subject" type="text" name="Sujet" />
+      <input id="subject" type="text" placeholder="" name="Sujet" />
       <ValidationError
         prefix="Subject"
         field="subject"

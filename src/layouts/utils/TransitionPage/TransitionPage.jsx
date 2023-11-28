@@ -167,7 +167,7 @@ const defaultTransition = {
     const tl = gsap.timeline({onComplete: () => {
       done();
     }})
-    tl.fromTo(".transition-page", { y: "-100%", x: 0 }, { y: 0 });
+    tl.fromTo(".transition-page", { y: "-100%", x: 0 }, { y: 0, ease: "power2.inOut", duration: 0.8 });
     tl.fromTo(".name span", {y: "-100%"}, {y: 0})
   },
   beforeEnter(data) {
@@ -199,7 +199,7 @@ const defaultTransition = {
     });
   },
   enter() {
-    gsap.fromTo(".transition-page", { y: 0 }, { y: "100%", delay: 0.8 });
+    gsap.fromTo(".transition-page", { y: 0 }, { y: "100%", delay: 0.8, ease: "power2.inOut", duration: 0.8 });
     gsap.fromTo(".name span", {y: 0}, {y: "100%", delay: 0.4})
   },
   after() {

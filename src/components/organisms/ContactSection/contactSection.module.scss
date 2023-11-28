@@ -7,6 +7,7 @@
     map-get($layout-desktop, column-spacing),
     map-get($layout-desktop, margin)
   );
+  padding-bottom: 40px;
   &_container {
     grid-column: 3/12;
     h1 {

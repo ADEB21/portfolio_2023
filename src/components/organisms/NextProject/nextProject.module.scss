@@ -11,7 +11,7 @@
   height: 80vh;
   &_link {
     height: inherit;
-    grid-column: 2/12;
+    grid-column: 1/13;
     @include grid(10, map-get($layout-desktop, column-spacing), 0);
     &_picture {
       height: inherit;

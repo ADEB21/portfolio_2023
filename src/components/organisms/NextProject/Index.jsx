@@ -44,7 +44,7 @@ const Index = (props) => {
           ></custom-picture>
           <div className={NextProjectStyle.ad_nextProject_link_picture_text}>
             <p>Projet suivant</p>
-            <h1>{nextProject ? nextProject.title : data.projects[0].title}</h1>
+            <h1 style={{width: "150%", textAlign: "center"}}>{nextProject ? nextProject.title : data.projects[0].title}</h1>
           </div>
         </div>
       </a>

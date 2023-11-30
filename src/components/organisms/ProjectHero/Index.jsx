@@ -23,7 +23,7 @@ const index = (props) => {
           ></custom-picture>
         </div>
         <div className={ProjectHeroStyle.ad_projectHero_container_text}>
-          <h1><span>{title}</span></h1>
+          <h1 style={{width: "150%", textAlign: "center"}}><span>{title}</span></h1>
           <p><span>{date}</span></p>
         </div>
       </div>

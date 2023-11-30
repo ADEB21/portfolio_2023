@@ -54,6 +54,12 @@ import GongjuOutCoverBase from "../images/projects/gongju/outCover/gongju-outCov
 import GongjuOutCoverRetinaWebp from "../images/projects/gongju/outCover/gongju-outCover-retina.webp";
 import GongjuOutCoverBaseWebp from "../images/projects/gongju/outCover/gongju-outCover-base.webp";
 import GongjuOutCoverLazy from "../images/projects/gongju/outCover/gongju-outCover-lazy.jpg";
+
+import RdoOutCoverRetina from "../images/projects/rdo/outCover/rdo-outCover-retina.jpg";
+import RdoOutCoverBase from "../images/projects/rdo/outCover/rdo-outCover-base.jpg";
+import RdoOutCoverRetinaWebp from "../images/projects/rdo/outCover/rdo-outCover-retina.webp";
+import RdoOutCoverBaseWebp from "../images/projects/rdo/outCover/rdo-outCover-base.webp";
+import RdoOutCoverLazy from "../images/projects/rdo/outCover/rdo-outCover-lazy.jpg";
 /**
  * InCover
  */
@@ -155,6 +161,17 @@ import GongjuInCoverMobileBase from "../images/projects/gongju/inCover/gongju-in
 import GongjuInCoverMobileRetinaWebp from "../images/projects/gongju/inCover/gongju-inCover-mobile-retina.webp";
 import GongjuInCoverMobileBaseWebp from "../images/projects/gongju/inCover/gongju-inCover-mobile-base.webp";
 import GongjuInCoverMobileLazy from "../images/projects/gongju/inCover/gongju-inCover-mobile-lazy.jpg";
+
+import RdoInCoverDesktopRetina from "../images/projects/rdo/inCover/rdo-inCover-desktop-retina.jpg";
+import RdoInCoverDesktopBase from "../images/projects/rdo/inCover/rdo-inCover-desktop-base.jpg";
+import RdoInCoverDesktopRetinaWebp from "../images/projects/rdo/inCover/rdo-inCover-desktop-retina.webp";
+import RdoInCoverDesktopBaseWebp from "../images/projects/rdo/inCover/rdo-inCover-desktop-base.webp";
+import RdoInCoverDesktopLazy from "../images/projects/rdo/inCover/rdo-inCover-desktop-lazy.jpg";
+import RdoInCoverMobileRetina from "../images/projects/rdo/inCover/rdo-inCover-mobile-retina.jpg";
+import RdoInCoverMobileBase from "../images/projects/rdo/inCover/rdo-inCover-mobile-base.jpg";
+import RdoInCoverMobileRetinaWebp from "../images/projects/rdo/inCover/rdo-inCover-mobile-retina.webp";
+import RdoInCoverMobileBaseWebp from "../images/projects/rdo/inCover/rdo-inCover-mobile-base.webp";
+import RdoInCoverMobileLazy from "../images/projects/rdo/inCover/rdo-inCover-mobile-lazy.jpg";
 /**
  * Last
  */
@@ -257,10 +274,20 @@ import GongjuLastMobileRetinaWebp from "../images/projects/gongju/last/gongju-la
 import GongjuLastMobileBaseWebp from "../images/projects/gongju/last/gongju-last-mobile-base.webp";
 import GongjuLastMobileLazy from "../images/projects/gongju/last/gongju-last-mobile-retina.jpg";
 
+import RdoLastDesktopRetina from "../images/projects/rdo/last/rdo-last-desktop-retina.jpg";
+import RdoLastDesktopBase from "../images/projects/rdo/last/rdo-last-desktop-base.jpg";
+import RdoLastDesktopRetinaWebp from "../images/projects/rdo/last/rdo-last-desktop-retina.webp";
+import RdoLastDesktopBaseWebp from "../images/projects/rdo/last/rdo-last-desktop-base.webp";
+import RdoLastDesktopLazy from "../images/projects/rdo/last/rdo-last-desktop-lazy.jpg";
+import RdoLastMobileRetina from "../images/projects/rdo/last/rdo-last-mobile-retina.jpg";
+import RdoLastMobileBase from "../images/projects/rdo/last/rdo-last-mobile-base.jpg";
+import RdoLastMobileRetinaWebp from "../images/projects/rdo/last/rdo-last-mobile-retina.webp";
+import RdoLastMobileBaseWebp from "../images/projects/rdo/last/rdo-last-mobile-base.webp";
+import RdoLastMobileLazy from "../images/projects/rdo/last/rdo-last-mobile-retina.jpg";
+
 /**
  * Nine
  */
-
 //Experience
 import ExperienceMarquee01DesktopRetina from "../images/projects/experience/marquee/01/01-marquee-dekstop-retina.jpg";
 import ExperienceMarquee01DesktopBase from "../images/projects/experience/marquee/01/01-marquee-dekstop-base.jpg";
@@ -1160,6 +1187,106 @@ import GongjuMarquee09MobileBase from "../images/projects/gongju/marquee/09/09-m
 import GongjuMarquee09MobileRetinaWebp from "../images/projects/gongju/marquee/09/09-marquee-mobile-retina.webp";
 import GongjuMarquee09MobileBaseWebp from "../images/projects/gongju/marquee/09/09-marquee-mobile-base.webp";
 import GongjuMarquee09MobileLazy from "../images/projects/gongju/marquee/09/09-marquee-mobile-lazy.jpg";
+
+// RDO
+import RdoMarquee01DesktopRetina from "../images/projects/rdo/marquee/01/01-marquee-desktop-retina.jpg";
+import RdoMarquee01DesktopBase from "../images/projects/rdo/marquee/01/01-marquee-desktop-base.jpg";
+import RdoMarquee01DesktopRetinaWebp from "../images/projects/rdo/marquee/01/01-marquee-desktop-retina.webp";
+import RdoMarquee01DesktopBaseWebp from "../images/projects/rdo/marquee/01/01-marquee-desktop-base.webp";
+import RdoMarquee01DesktopLazy from "../images/projects/rdo/marquee/01/01-marquee-desktop-lazy.jpg";
+import RdoMarquee01MobileRetina from "../images/projects/rdo/marquee/01/01-marquee-mobile-retina.jpg";
+import RdoMarquee01MobileBase from "../images/projects/rdo/marquee/01/01-marquee-mobile-base.jpg";
+import RdoMarquee01MobileRetinaWebp from "../images/projects/rdo/marquee/01/01-marquee-mobile-retina.webp";
+import RdoMarquee01MobileBaseWebp from "../images/projects/rdo/marquee/01/01-marquee-mobile-base.webp";
+import RdoMarquee01MobileLazy from "../images/projects/rdo/marquee/01/01-marquee-mobile-lazy.jpg";
+
+import RdoMarquee02DesktopRetina from "../images/projects/rdo/marquee/02/02-marquee-desktop-retina.jpg";
+import RdoMarquee02DesktopBase from "../images/projects/rdo/marquee/02/02-marquee-desktop-base.jpg";
+import RdoMarquee02DesktopRetinaWebp from "../images/projects/rdo/marquee/02/02-marquee-desktop-retina.webp";
+import RdoMarquee02DesktopBaseWebp from "../images/projects/rdo/marquee/02/02-marquee-desktop-base.webp";
+import RdoMarquee02DesktopLazy from "../images/projects/rdo/marquee/02/02-marquee-desktop-lazy.jpg";
+import RdoMarquee02MobileRetina from "../images/projects/rdo/marquee/02/02-marquee-mobile-retina.jpg";
+import RdoMarquee02MobileBase from "../images/projects/rdo/marquee/02/02-marquee-mobile-base.jpg";
+import RdoMarquee02MobileRetinaWebp from "../images/projects/rdo/marquee/02/02-marquee-mobile-retina.webp";
+import RdoMarquee02MobileBaseWebp from "../images/projects/rdo/marquee/02/02-marquee-mobile-base.webp";
+import RdoMarquee02MobileLazy from "../images/projects/rdo/marquee/02/02-marquee-mobile-lazy.jpg";
+
+import RdoMarquee03DesktopRetina from "../images/projects/rdo/marquee/03/03-marquee-desktop-retina.jpg";
+import RdoMarquee03DesktopBase from "../images/projects/rdo/marquee/03/03-marquee-desktop-base.jpg";
+import RdoMarquee03DesktopRetinaWebp from "../images/projects/rdo/marquee/03/03-marquee-desktop-retina.webp";
+import RdoMarquee03DesktopBaseWebp from "../images/projects/rdo/marquee/03/03-marquee-desktop-base.webp";
+import RdoMarquee03DesktopLazy from "../images/projects/rdo/marquee/03/03-marquee-desktop-lazy.jpg";
+import RdoMarquee03MobileRetina from "../images/projects/rdo/marquee/03/03-marquee-mobile-retina.jpg";
+import RdoMarquee03MobileBase from "../images/projects/rdo/marquee/03/03-marquee-mobile-base.jpg";
+import RdoMarquee03MobileRetinaWebp from "../images/projects/rdo/marquee/03/03-marquee-mobile-retina.webp";
+import RdoMarquee03MobileBaseWebp from "../images/projects/rdo/marquee/03/03-marquee-mobile-base.webp";
+import RdoMarquee03MobileLazy from "../images/projects/rdo/marquee/03/03-marquee-mobile-lazy.jpg";
+
+import RdoMarquee04DesktopRetina from "../images/projects/rdo/marquee/04/04-marquee-desktop-retina.jpg";
+import RdoMarquee04DesktopBase from "../images/projects/rdo/marquee/04/04-marquee-desktop-base.jpg";
+import RdoMarquee04DesktopRetinaWebp from "../images/projects/rdo/marquee/04/04-marquee-desktop-retina.webp";
+import RdoMarquee04DesktopBaseWebp from "../images/projects/rdo/marquee/04/04-marquee-desktop-base.webp";
+import RdoMarquee04DesktopLazy from "../images/projects/rdo/marquee/04/04-marquee-desktop-lazy.jpg";
+import RdoMarquee04MobileRetina from "../images/projects/rdo/marquee/04/04-marquee-mobile-retina.jpg";
+import RdoMarquee04MobileBase from "../images/projects/rdo/marquee/04/04-marquee-mobile-base.jpg";
+import RdoMarquee04MobileRetinaWebp from "../images/projects/rdo/marquee/04/04-marquee-mobile-retina.webp";
+import RdoMarquee04MobileBaseWebp from "../images/projects/rdo/marquee/04/04-marquee-mobile-base.webp";
+import RdoMarquee04MobileLazy from "../images/projects/rdo/marquee/04/04-marquee-mobile-lazy.jpg";
+
+import RdoMarquee05DesktopRetina from "../images/projects/rdo/marquee/05/05-marquee-desktop-retina.jpg";
+import RdoMarquee05DesktopBase from "../images/projects/rdo/marquee/05/05-marquee-desktop-base.jpg";
+import RdoMarquee05DesktopRetinaWebp from "../images/projects/rdo/marquee/05/05-marquee-desktop-retina.webp";
+import RdoMarquee05DesktopBaseWebp from "../images/projects/rdo/marquee/05/05-marquee-desktop-base.webp";
+import RdoMarquee05DesktopLazy from "../images/projects/rdo/marquee/05/05-marquee-desktop-lazy.jpg";
+import RdoMarquee05MobileRetina from "../images/projects/rdo/marquee/05/05-marquee-mobile-retina.jpg";
+import RdoMarquee05MobileBase from "../images/projects/rdo/marquee/05/05-marquee-mobile-base.jpg";
+import RdoMarquee05MobileRetinaWebp from "../images/projects/rdo/marquee/05/05-marquee-mobile-retina.webp";
+import RdoMarquee05MobileBaseWebp from "../images/projects/rdo/marquee/05/05-marquee-mobile-base.webp";
+import RdoMarquee05MobileLazy from "../images/projects/rdo/marquee/05/05-marquee-mobile-lazy.jpg";
+
+import RdoMarquee06DesktopRetina from "../images/projects/rdo/marquee/06/06-marquee-desktop-retina.jpg";
+import RdoMarquee06DesktopBase from "../images/projects/rdo/marquee/06/06-marquee-desktop-base.jpg";
+import RdoMarquee06DesktopRetinaWebp from "../images/projects/rdo/marquee/06/06-marquee-desktop-retina.webp";
+import RdoMarquee06DesktopBaseWebp from "../images/projects/rdo/marquee/06/06-marquee-desktop-base.webp";
+import RdoMarquee06DesktopLazy from "../images/projects/rdo/marquee/06/06-marquee-desktop-lazy.jpg";
+import RdoMarquee06MobileRetina from "../images/projects/rdo/marquee/06/06-marquee-mobile-retina.jpg";
+import RdoMarquee06MobileBase from "../images/projects/rdo/marquee/06/06-marquee-mobile-base.jpg";
+import RdoMarquee06MobileRetinaWebp from "../images/projects/rdo/marquee/06/06-marquee-mobile-retina.webp";
+import RdoMarquee06MobileBaseWebp from "../images/projects/rdo/marquee/06/06-marquee-mobile-base.webp";
+import RdoMarquee06MobileLazy from "../images/projects/rdo/marquee/06/06-marquee-mobile-lazy.jpg";
+
+import RdoMarquee07DesktopRetina from "../images/projects/rdo/marquee/07/07-marquee-desktop-retina.jpg";
+import RdoMarquee07DesktopBase from "../images/projects/rdo/marquee/07/07-marquee-desktop-base.jpg";
+import RdoMarquee07DesktopRetinaWebp from "../images/projects/rdo/marquee/07/07-marquee-desktop-retina.webp";
+import RdoMarquee07DesktopBaseWebp from "../images/projects/rdo/marquee/07/07-marquee-desktop-base.webp";
+import RdoMarquee07DesktopLazy from "../images/projects/rdo/marquee/07/07-marquee-desktop-lazy.jpg";
+import RdoMarquee07MobileRetina from "../images/projects/rdo/marquee/07/07-marquee-mobile-retina.jpg";
+import RdoMarquee07MobileBase from "../images/projects/rdo/marquee/07/07-marquee-mobile-base.jpg";
+import RdoMarquee07MobileRetinaWebp from "../images/projects/rdo/marquee/07/07-marquee-mobile-retina.webp";
+import RdoMarquee07MobileBaseWebp from "../images/projects/rdo/marquee/07/07-marquee-mobile-base.webp";
+import RdoMarquee07MobileLazy from "../images/projects/rdo/marquee/07/07-marquee-mobile-lazy.jpg";
+
+import RdoMarquee08DesktopRetina from "../images/projects/rdo/marquee/08/08-marquee-desktop-retina.jpg";
+import RdoMarquee08DesktopBase from "../images/projects/rdo/marquee/08/08-marquee-desktop-base.jpg";
+import RdoMarquee08DesktopRetinaWebp from "../images/projects/rdo/marquee/08/08-marquee-desktop-retina.webp";
+import RdoMarquee08DesktopBaseWebp from "../images/projects/rdo/marquee/08/08-marquee-desktop-base.webp";
+import RdoMarquee08DesktopLazy from "../images/projects/rdo/marquee/08/08-marquee-desktop-lazy.jpg";
+import RdoMarquee08MobileRetina from "../images/projects/rdo/marquee/08/08-marquee-mobile-retina.jpg";
+import RdoMarquee08MobileBase from "../images/projects/rdo/marquee/08/08-marquee-mobile-base.jpg";
+import RdoMarquee08MobileRetinaWebp from "../images/projects/rdo/marquee/08/08-marquee-mobile-retina.webp";
+import RdoMarquee08MobileBaseWebp from "../images/projects/rdo/marquee/08/08-marquee-mobile-base.webp";
+import RdoMarquee08MobileLazy from "../images/projects/rdo/marquee/08/08-marquee-mobile-lazy.jpg";
+
+import RdoMarquee09DesktopRetina from "../images/projects/rdo/marquee/09/09-marquee-desktop-retina.jpg";
+import RdoMarquee09DesktopBase from "../images/projects/rdo/marquee/09/09-marquee-desktop-base.jpg";
+import RdoMarquee09DesktopRetinaWebp from "../images/projects/rdo/marquee/09/09-marquee-desktop-retina.webp";
+import RdoMarquee09DesktopBaseWebp from "../images/projects/rdo/marquee/09/09-marquee-desktop-base.webp";
+import RdoMarquee09DesktopLazy from "../images/projects/rdo/marquee/09/09-marquee-desktop-lazy.jpg";
+import RdoMarquee09MobileRetina from "../images/projects/rdo/marquee/09/09-marquee-mobile-retina.jpg";
+import RdoMarquee09MobileBase from "../images/projects/rdo/marquee/09/09-marquee-mobile-base.jpg";
+import RdoMarquee09MobileRetinaWebp from "../images/projects/rdo/marquee/09/09-marquee-mobile-retina.webp";
+import RdoMarquee09MobileBaseWebp from "../images/projects/rdo/marquee/09/09-marquee-mobile-base.webp";
+import RdoMarquee09MobileLazy from "../images/projects/rdo/marquee/09/09-marquee-mobile-lazy.jpg";
 
 export default {
   projects: [
@@ -3365,7 +3492,7 @@ export default {
         },
       ],
       process:
-      "Le site de Heliopolis a été développé en utilisant plusieurs technologies avancées telles que Svelte, SvelteKit, Vite, Gsap et en suivant la méthodologie de l'Atomic Design. Ces technologies ont permis  de créer une expérience utilisateur dynamique, une gestion efficace du contenu et une structure  modulaire pour faciliter la maintenance et l'évolutivité du site.",
+        "Le site de Heliopolis a été développé en utilisant plusieurs technologies avancées telles que Svelte, SvelteKit, Vite, Gsap et en suivant la méthodologie de l'Atomic Design. Ces technologies ont permis  de créer une expérience utilisateur dynamique, une gestion efficace du contenu et une structure  modulaire pour faciliter la maintenance et l'évolutivité du site.",
       colorStory: {
         paragraph:
           "L'utilisation du noir et du blanc crée un contraste visuel fort et percutant, ce qui peut aider à attirer l'attention des visiteurs et à rendre le contenu plus lisible. Le noir et le blanc offrent également une esthétique minimaliste et moderne, ce qui peut renforcer l'image professionnelle et épurée de Heliopolis. Le noir est souvent associé à la sophistication, à l'autorité et à l'élégance, ce qui peut renforcer l'image de Heliopolis en tant qu'acteur sérieux et compétent dans le domaine de la souveraineté alimentaire. Le rouge, quant à lui, est souvent associé à la passion, à l'énergie et à l'urgence. En l'intégrant dans la palette de couleurs, il peut transmettre le dynamisme et l'engagement de Heliopolis dans la réalisation de projets complexes et audacieux.",
@@ -3996,5 +4123,267 @@ export default {
     //   process:
     //     "Ce web-component spécifique pour les images utilise les responsive images pour s'assurer que les images s'adaptent de manière optimale à différents appareils et tailles d'écran. Cela garantit une expérience visuelle cohérente et optimisée pour les utilisateurs, quel que soit le dispositif utilisé. En plus des responsive images, ce web-component intègre également le lazy loading. Cette technique permet de différer le chargement des images jusqu'à ce qu'elles soient réellement nécessaires, ce qui améliore considérablement les performances de chargement de la page. Les images sont chargées progressivement à mesure que l'utilisateur fait défiler la page, réduisant ainsi le temps de chargement initial et améliorant l'expérience utilisateur globale. Enfin, ce web-component propose également une animation de parallaxe intégrée pour les images. La parallaxe crée une illusion de profondeur et de mouvement en superposant différents éléments visuels à des vitesses différentes lors du défilement de la page. Cela ajoute une dimension immersive et visuellement attrayante aux images, captivant ainsi l'attention des utilisateurs et rendant l'expérience plus engageante.",
     // },
+    {
+      title: "Rdo x Kauri",
+      slug: "rdo-kauri",
+      date: "2023",
+      outCover: {
+        picture: {
+          images: {
+            mobile: {
+              jpeg: [RdoOutCoverBase, RdoOutCoverRetina],
+              webp: [RdoOutCoverBaseWebp, RdoOutCoverRetinaWebp],
+            },
+            desktop: {
+              jpeg: [RdoOutCoverBase, RdoOutCoverRetina],
+              webp: [RdoOutCoverBaseWebp, RdoOutCoverRetinaWebp],
+            },
+          },
+          lazy: {
+            desktop: RdoOutCoverLazy,
+            mobile: RdoOutCoverLazy,
+          },
+          alternativeText: "Image de couverture du projet",
+        },
+      },
+      inCover: {
+        picture: {
+          images: {
+            mobile: {
+              jpeg: [RdoInCoverMobileBase, RdoInCoverMobileRetina],
+              webp: [RdoInCoverMobileBaseWebp, RdoInCoverMobileRetinaWebp],
+            },
+            desktop: {
+              jpeg: [RdoInCoverDesktopBase, RdoInCoverDesktopRetina],
+              webp: [RdoInCoverDesktopBaseWebp, RdoInCoverDesktopRetinaWebp],
+            },
+          },
+          lazy: {
+            desktop: RdoInCoverDesktopLazy,
+            mobile: RdoInCoverMobileLazy,
+          },
+          alternativeText: "Image de couverture du projet",
+        },
+      },
+      projectDescription: {
+        title: "RDO & Kauri : Deux Sites Unifiés",
+        goal: "Le projet de refonte du site web des architectes Anne Rose Bouyer et Rachel de Oliveira vise à revitaliser leur présence en ligne en créant une plateforme moderne et fonctionnelle. L'objectif principal est de fournir aux visiteurs une expérience utilisateur améliorée en mettant en œuvre une conception visuelle attrayante et une navigation intuitive. La contrainte majeure de ce projet réside dans la nécessité de maintenir une cohérence visuelle tout en différenciant les profils d'Anne Rose Bouyer et Rachel de Oliveira. Ainsi, malgré le partage d'une structure commune, le site intégrera des éléments distinctifs tels que des noms, logos et couleurs spécifiques pour chaque architecte",
+      },
+      marqueeImages: [
+        {
+          images: {
+            mobile: {
+              jpeg: [RdoMarquee01MobileBase, RdoMarquee01MobileRetina],
+              webp: [RdoMarquee01MobileBaseWebp, RdoMarquee01MobileRetinaWebp],
+            },
+            desktop: {
+              jpeg: [RdoMarquee01DesktopBase, RdoMarquee01DesktopRetina],
+              webp: [
+                RdoMarquee01DesktopBaseWebp,
+                RdoMarquee01DesktopRetinaWebp,
+              ],
+            },
+          },
+          lazy: {
+            desktop: RdoMarquee01DesktopLazy,
+            mobile: RdoMarquee01MobileLazy,
+          },
+          alternativeText: "Image de couverture du projet",
+        },
+        {
+          images: {
+            mobile: {
+              jpeg: [RdoMarquee02MobileBase, RdoMarquee02MobileRetina],
+              webp: [RdoMarquee02MobileBaseWebp, RdoMarquee02MobileRetinaWebp],
+            },
+            desktop: {
+              jpeg: [RdoMarquee02DesktopBase, RdoMarquee02DesktopRetina],
+              webp: [
+                RdoMarquee02DesktopBaseWebp,
+                RdoMarquee02DesktopRetinaWebp,
+              ],
+            },
+          },
+          lazy: {
+            desktop: RdoMarquee02DesktopLazy,
+            mobile: RdoMarquee02MobileLazy,
+          },
+          alternativeText: "Image de couverture du projet",
+        },
+        {
+          images: {
+            mobile: {
+              jpeg: [RdoMarquee03MobileBase, RdoMarquee03MobileRetina],
+              webp: [RdoMarquee03MobileBaseWebp, RdoMarquee03MobileRetinaWebp],
+            },
+            desktop: {
+              jpeg: [RdoMarquee03DesktopBase, RdoMarquee03DesktopRetina],
+              webp: [
+                RdoMarquee03DesktopBaseWebp,
+                RdoMarquee03DesktopRetinaWebp,
+              ],
+            },
+          },
+          lazy: {
+            desktop: RdoMarquee03DesktopLazy,
+            mobile: RdoMarquee03MobileLazy,
+          },
+          alternativeText: "Image de couverture du projet",
+        },
+        {
+          images: {
+            mobile: {
+              jpeg: [RdoMarquee04MobileBase, RdoMarquee04MobileRetina],
+              webp: [RdoMarquee04MobileBaseWebp, RdoMarquee04MobileRetinaWebp],
+            },
+            desktop: {
+              jpeg: [RdoMarquee04DesktopBase, RdoMarquee04DesktopRetina],
+              webp: [
+                RdoMarquee04DesktopBaseWebp,
+                RdoMarquee04DesktopRetinaWebp,
+              ],
+            },
+          },
+          lazy: {
+            desktop: RdoMarquee04DesktopLazy,
+            mobile: RdoMarquee04MobileLazy,
+          },
+          alternativeText: "Image de couverture du projet",
+        },
+        {
+          images: {
+            mobile: {
+              jpeg: [RdoMarquee05MobileBase, RdoMarquee05MobileRetina],
+              webp: [RdoMarquee05MobileBaseWebp, RdoMarquee05MobileRetinaWebp],
+            },
+            desktop: {
+              jpeg: [RdoMarquee05DesktopBase, RdoMarquee05DesktopRetina],
+              webp: [
+                RdoMarquee05DesktopBaseWebp,
+                RdoMarquee05DesktopRetinaWebp,
+              ],
+            },
+          },
+          lazy: {
+            desktop: RdoMarquee05DesktopLazy,
+            mobile: RdoMarquee05MobileLazy,
+          },
+          alternativeText: "Image de couverture du projet",
+        },
+        {
+          images: {
+            mobile: {
+              jpeg: [RdoMarquee06MobileBase, RdoMarquee06MobileRetina],
+              webp: [RdoMarquee06MobileBaseWebp, RdoMarquee06MobileRetinaWebp],
+            },
+            desktop: {
+              jpeg: [RdoMarquee06DesktopBase, RdoMarquee06DesktopRetina],
+              webp: [
+                RdoMarquee06DesktopBaseWebp,
+                RdoMarquee06DesktopRetinaWebp,
+              ],
+            },
+          },
+          lazy: {
+            desktop: RdoMarquee06DesktopLazy,
+            mobile: RdoMarquee06MobileLazy,
+          },
+          alternativeText: "Image de couverture du projet",
+        },
+        {
+          images: {
+            mobile: {
+              jpeg: [RdoMarquee07MobileBase, RdoMarquee07MobileRetina],
+              webp: [RdoMarquee07MobileBaseWebp, RdoMarquee07MobileRetinaWebp],
+            },
+            desktop: {
+              jpeg: [RdoMarquee07DesktopBase, RdoMarquee07DesktopRetina],
+              webp: [
+                RdoMarquee07DesktopBaseWebp,
+                RdoMarquee07DesktopRetinaWebp,
+              ],
+            },
+          },
+          lazy: {
+            desktop: RdoMarquee07DesktopLazy,
+            mobile: RdoMarquee07MobileLazy,
+          },
+          alternativeText: "Image de couverture du projet",
+        },
+        {
+          images: {
+            mobile: {
+              jpeg: [RdoMarquee08MobileBase, RdoMarquee08MobileRetina],
+              webp: [RdoMarquee08MobileBaseWebp, RdoMarquee08MobileRetinaWebp],
+            },
+            desktop: {
+              jpeg: [RdoMarquee08DesktopBase, RdoMarquee08DesktopRetina],
+              webp: [
+                RdoMarquee08DesktopBaseWebp,
+                RdoMarquee08DesktopRetinaWebp,
+              ],
+            },
+          },
+          lazy: {
+            desktop: RdoMarquee08DesktopLazy,
+            mobile: RdoMarquee08MobileLazy,
+          },
+          alternativeText: "Image de couverture du projet",
+        },
+        {
+          images: {
+            mobile: {
+              jpeg: [RdoMarquee09MobileBase, RdoMarquee09MobileRetina],
+              webp: [RdoMarquee09MobileBaseWebp, RdoMarquee09MobileRetinaWebp],
+            },
+            desktop: {
+              jpeg: [RdoMarquee09DesktopBase, RdoMarquee09DesktopRetina],
+              webp: [
+                RdoMarquee09DesktopBaseWebp,
+                RdoMarquee09DesktopRetinaWebp,
+              ],
+            },
+          },
+          lazy: {
+            desktop: RdoMarquee09DesktopLazy,
+            mobile: RdoMarquee09MobileLazy,
+          },
+          alternativeText: "Image de couverture du projet",
+        },
+      ],
+      process:
+        "Le site de RDO et Kauri a été élaboré en utilisant plusieurs technologies avancées, notamment Astro, React, Vite, Gsap, et avec la gestion de contenu assurée par Sanity en backend, suivant la méthodologie du design atomique. Ces choix technologiques ont permis de créer une expérience utilisateur dynamique, une gestion de contenu efficace, et une structure modulaire favorisant la maintenance et l'évolutivité du site.",
+      colorStory: {
+        paragraph:
+          "Le choix des couleurs pour le site de RDO et Kauri a été méticuleusement pensé pour refléter l'esthétique distinctive de chaque architecte tout en créant une harmonie visuelle globale. Le rouge, représenté pour RDO, est choisi pour sa tonalité chaleureuse et subtile, évitant une saturation excessive pour maintenir une élégance raffinée. Cette teinte apporte une passion discrète à l'esthétique de RDO. En contraste, le vert représentant Kauri est choisi pour sa fraîcheur et sa vitalité, évoquant la nature et l'énergie. ",
+        colors: [
+          "#E1F30A",
+          "#EC1C0F",
+          "#F6F6FB",
+          "#656566",
+          "#323233",
+          "#050505",
+        ],
+      },
+      lastImage: {
+        picture: {
+          images: {
+            mobile: {
+              jpeg: [RdoLastMobileBase, RdoLastMobileRetina],
+              webp: [RdoLastMobileBaseWebp, RdoLastMobileRetinaWebp],
+            },
+            desktop: {
+              jpeg: [RdoLastDesktopBase, RdoLastDesktopRetina],
+              webp: [RdoLastDesktopBaseWebp, RdoLastDesktopRetinaWebp],
+            },
+          },
+          lazy: {
+            desktop: RdoLastDesktopLazy,
+            mobile: RdoLastMobileLazy,
+          },
+          alternativeText: "UI",
+        },
+      },
+    },
   ],
 };
